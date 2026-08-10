@@ -1,0 +1,416 @@
+[
+  {
+    "id": "TP53",
+    "uniprot_id": "P04637",
+    "protein_name": "Cellular tumor antigen p53",
+    "protein_sequence": "MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD",
+    "disease_context": "TP53 is the most frequently mutated gene in human cancers, with loss-of-function mutations occurring in over 50% of all tumor types. It acts as a master transcriptional regulator of the cellular stress response, activating DNA repair, cell cycle arrest, and apoptosis \u2014 its inactivation permits uncontrolled tumor proliferation and genome instability.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "TP53 is a tumor suppressor requiring reactivation rather than inhibition; most cancer-associated mutations are missense changes that need allele-specific correction. The protein is largely intrinsically disordered outside its DNA-binding domain and lacks a well-defined small-molecule binding pocket in the wild-type form, making conventional drug discovery exceptionally difficult.",
+    "known_drugs": [
+      {
+        "name": "Eprenetapopt (APR-246)",
+        "mechanism": "Restores wild-type conformation to mutant p53 by covalently modifying cysteines in the DNA-binding domain",
+        "approved_year": 2021
+      },
+      {
+        "name": "Rezatapopt (PC14586)",
+        "mechanism": "Selective small-molecule corrector of p53 Y220C mutation that binds a druggable surface cavity and stabilizes the native fold",
+        "approved_year": 2024
+      },
+      {
+        "name": "Nutlin-3a",
+        "mechanism": "MDM2 antagonist that stabilizes p53 by blocking MDM2-mediated degradation; used as a chemical probe in research",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.5,
+    "pdb_id": "2OCJ",
+    "active_site_residues": [
+      175,
+      176,
+      179,
+      220,
+      245,
+      248,
+      249,
+      273,
+      282
+    ]
+  },
+  {
+    "id": "BRCA1",
+    "uniprot_id": "P38398",
+    "protein_name": "Breast cancer type 1 susceptibility protein",
+    "protein_sequence": "MDLSALRVEEVQNVINAMQKILECPICLELIKEPVSTKCDHIFCKFCMLKLLNQKKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLDTGLEYANSYNFAKKENNSPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVQLSNLGTVRTLRTKQRIQPQKTSVYIELGSDSSEDTVNKATYCSVGDQELLQITPQGTRDEISLDSAKKAACEFSETDVTNTEHHQPSNNDLNTTEKRAAERHPEKYQGSSVSNLHVEPCGTNTHASSLQHENSSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNRWAGSKETCNDRRTPSTEKKVDLNADPLCERKEWNKQKLPCSENPRDTEDVPWITLNSSIQKVNEWFSRSDELLGSDDSHDGESESNAKVADVLDVLNEVDEYSGSSEKIDLLASDPHEALICKSERVHSKSVESNIEDKIFGKTYRKKASLPNLSHVTENLIIGAFVTEPQIIQERPLTNKLKRKRRPTSGLHPEDFIKKADLAVQKTPEMINQGTNQTEQNGQVMNITNSGHENKTKGDSIQNEKNPNPIESLEKESAFKTKAEPISSSISNMELELNIHNSKAPKKNRLRRKSSTRHIHALELVVSRNLSPPNCTELQIDSCSSSEEIKKKKYNQMPVRHSRNLQLMEGKEPATGAKKSNKPNEQTSKRHDSDTFPELKLTNAPGSFTKCSNTSELKEFVNPSLPREEKEEKLETVKVSNNAEDPKDLMLSGERVLQTERSVESSSISLVPGTDYGTQESISLLEVSTLGKAKTEPNKCVSQCAAFENPKGLIHGCSKDNRNDTEGFKYPLGHEVNHSRETSIEMEESELDAQYLQNTFKVSKRQSFAPFSNPGNAEEECATFSAHSGSLKKQSPKVTFECEQKEENQGKNESNIKPVQTVNITAGFPVVGQKDKPVDNAKCSIKGGSRFCLSSQFRGNETGLITPNKHGLLQNPYRIPPLFPIKSFVKTKCKKNLLEENFEEHSMSPEREMGNENIPSTVSTISRNNIRENVFKEASSSNINEVGSSTNEVGSSINEIGSSDENIQAELGRNRGPKLNAMLRLGVLQPEVYKQSLPGSNCKHPEIKKQEYEEVVQTVNTDFSPYLISDNLEQPMGSSHASQVCSETPDDLLDDGEIKEDTSFAENDIKESSAVFSKSVQKGELSRSPSPFTHTHLAQGYRRGAKKLESSEENLSSEDEELPCFQHLLFGKVNNIPSQSTRHSTVATECLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHLSEETKCSASLFSSQCSELEDLTANTNTQDPFLIGSSKQMRHQSESQGVGLSDKELVSDDEERGTGLEENNQEEQSMDSNLGEAASGCESETSVSEDCSGLSSQSDILTTQQRDTMQHNLIKLQQEMAELEAVLEQHGSQPSNSYPSIISDSSALEDLRNPEQSTSEKAVLTSQKSSEYPISQNPEGLSADKFEVSADSSTSKNKEPGVERSSPSKCPSLDDRWYMHSCSGSLQNRNYPSQEELIKVVDVEEQQLEESGPHDLTETSYLPRQDLEGTPYLESGISLFSDDPESDPSEDRAPESARVGNIPSSTSALKVPQLKVAESAQSPAAAHTTDTAGYNAMEESVSREKPELTASTERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLTNLITEETTHVVMKTDAEFVCERTLKYFLGIAGGKWVVSYFWVTQSIKERKMLNEHDFEVRGDVVNGRNHQGPKRARESQDRKIFRGLEICCYGPFTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIVVVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQIPHSHY",
+    "disease_context": "BRCA1 germline mutations confer a 50-85% lifetime risk of breast cancer and 15-40% risk of ovarian cancer; somatic BRCA1 inactivation also occurs in sporadic tumors. Loss of BRCA1-mediated homologous recombination creates a synthetic lethality dependency on alternative DNA repair pathways exploitable with PARP inhibitors.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "BRCA1 is a large (1863 aa) multi-domain scaffold protein functioning as a tumor suppressor; direct pharmacological reactivation of lost BRCA1 function is not feasible with small molecules. Therapeutic strategies instead exploit the resulting synthetic lethality (PARP inhibition), making classical structure-based drug design against BRCA1 itself extremely challenging.",
+    "known_drugs": [
+      {
+        "name": "Olaparib",
+        "mechanism": "PARP1/2 inhibitor that exploits BRCA1-deficient homologous recombination deficiency via synthetic lethality",
+        "approved_year": 2014
+      },
+      {
+        "name": "Rucaparib",
+        "mechanism": "PARP1/2/3 inhibitor for BRCA-mutated ovarian cancer via synthetic lethality",
+        "approved_year": 2016
+      },
+      {
+        "name": "Niraparib",
+        "mechanism": "PARP1/2 inhibitor with broader activity against HRD-positive tumors including BRCA1-mutated cancers",
+        "approved_year": 2017
+      },
+      {
+        "name": "Talazoparib",
+        "mechanism": "Potent PARP1/2 inhibitor with PARP-trapping activity for BRCA1/2-mutated breast cancer",
+        "approved_year": 2018
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": "1JM7",
+    "active_site_residues": [
+      1640,
+      1655,
+      1699,
+      1700,
+      1702,
+      1775,
+      1779,
+      1812,
+      1835
+    ]
+  },
+  {
+    "id": "EGFR",
+    "uniprot_id": "P00533",
+    "protein_name": "Epidermal growth factor receptor",
+    "protein_sequence": "MRPSGTAGAALLALLAALCPASRALEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSIATGMVGALLLLLVVALGIGLFMRRRHIVRKRTLRRLLQERELVEPLTPSGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMDDVVDADEYLIPQQGFFSSPSTSRTPLLSSLSATSNNSTVACIDRNGLQSCPIKEDSFLQRYSSDPTGALTEDSIDDTFLPVPEYINQSVPKRPAGSVQNPVYHNQPLNPAPSRDPHYQDPHSTAVGNPEYLNTVQPTCVNSTFDSPAHWAQKGSHQISLDNPDYQQDFFPKEAKPNGIFKGSTAENAEYLRVAPQSSEFIGA",
+    "disease_context": "EGFR is overexpressed or mutated in many epithelial cancers including non-small cell lung cancer (NSCLC), colorectal cancer, and head and neck squamous cell carcinoma. Activating mutations in exons 18-21 (especially exon 19 deletions and L858R) drive constitutive kinase activity and are the primary therapeutic targets in EGFR-mutated NSCLC.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "EGFR has a well-characterized ATP-binding pocket amenable to kinase inhibitor design, with multiple approved drugs; however, resistance through secondary mutations (T790M gatekeeper, C797S) and bypass pathway activation requires continuous innovation for successive-generation inhibitors.",
+    "known_drugs": [
+      {
+        "name": "Gefitinib",
+        "mechanism": "First-generation reversible EGFR TKI targeting exon 19 deletions and L858R mutation in NSCLC",
+        "approved_year": 2003
+      },
+      {
+        "name": "Erlotinib",
+        "mechanism": "First-generation reversible EGFR TKI approved for NSCLC and pancreatic cancer",
+        "approved_year": 2004
+      },
+      {
+        "name": "Afatinib",
+        "mechanism": "Second-generation irreversible pan-ErbB inhibitor (EGFR, HER2, HER4) for EGFR-mutated NSCLC",
+        "approved_year": 2013
+      },
+      {
+        "name": "Osimertinib",
+        "mechanism": "Third-generation irreversible EGFR inhibitor selective for T790M-resistant and sensitizing mutations, sparing wild-type EGFR",
+        "approved_year": 2015
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "1IVO",
+    "active_site_residues": [
+      696,
+      719,
+      745,
+      762,
+      790,
+      820,
+      835,
+      855,
+      858
+    ]
+  },
+  {
+    "id": "ERBB2",
+    "uniprot_id": "P04626",
+    "protein_name": "Receptor tyrosine-protein kinase erbB-2 (HER2/ERBB2)",
+    "protein_sequence": "MELAALCRWGLLLALLPPGAASTQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGCPAEQRASPLTSIISAVVGILLVVVLGVVFGILIKRRQQKIRKYTMRRLLQETELVEPLTPSGAMPNQAQMRILKETELRKVKVLGSGAFGTVYKGIWIPDGENVKIPVAIKVLRENTSPKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQLMPYGCLLDHVRENRGRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDIDETEYHADGGKVPIKWMALESILRRRFTHQSDVWSYGVTVWELMTFGAKPYDGIPAREIPDLLEKGERLPQPPICTIDVYMIMVKCWMIDSECRPRFRELVSEFSRMARDPQRFVVIQNEDLGPASPLDSTFYRSLLEDDDMGDLVDAEEYLVPQQGFFCPDPAPGAGGMVHHRHRSSSTRSGGGDLTLGLEPSEEEAPRSPLAPSEGAGSDVFDGDLGMGAAKGLQSLPTHDPSPLQRYSEDPTVPLPSETDGYVAPLTCSPQPEYVNQPDVRPQPPSPREGPLPAARPAGATLERPKTLSPGKNGVVKDVFAFGGAVENPEYLTPQGGAAPQPHPPPAFSPAFDNLYYWDQDPPERGAPPSTFKGTPTAENPEYLGLDVPV",
+    "disease_context": "HER2 (ERBB2) is amplified or overexpressed in approximately 20% of breast cancers and in subsets of gastric, lung, and colorectal cancers. HER2-positive breast cancer was historically associated with poor prognosis, but HER2-targeted therapies including antibodies, TKIs, and antibody-drug conjugates have dramatically improved patient outcomes.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "HER2 has a validated and druggable kinase domain and extracellular domains; however, trastuzumab resistance emerges readily, complex HER2-HER3 heterodimer biology limits single-agent approaches, and the development of antibody-drug conjugates requires combining protein engineering with medicinal chemistry expertise.",
+    "known_drugs": [
+      {
+        "name": "Trastuzumab",
+        "mechanism": "Monoclonal antibody targeting HER2 extracellular domain IV, inhibiting HER2 signaling and mediating ADCC",
+        "approved_year": 1998
+      },
+      {
+        "name": "Lapatinib",
+        "mechanism": "Dual reversible TKI of EGFR and HER2 intracellular kinase domains for HER2-positive breast cancer",
+        "approved_year": 2007
+      },
+      {
+        "name": "Pertuzumab",
+        "mechanism": "Monoclonal antibody targeting HER2 extracellular domain II, blocking HER2-HER3 dimerization",
+        "approved_year": 2012
+      },
+      {
+        "name": "Trastuzumab emtansine (T-DM1)",
+        "mechanism": "HER2-targeted antibody-drug conjugate delivering microtubule inhibitor DM1 to HER2-positive cells",
+        "approved_year": 2013
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "3PP0",
+    "active_site_residues": [
+      726,
+      753,
+      768,
+      770,
+      855,
+      863,
+      878
+    ]
+  },
+  {
+    "id": "KRAS",
+    "uniprot_id": "P01116",
+    "protein_name": "GTPase KRas (Kirsten rat sarcoma viral proto-oncogene product)",
+    "protein_sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM",
+    "disease_context": "KRAS is the most commonly mutated oncogene in human cancer, with activating mutations present in ~90% of pancreatic adenocarcinomas, 30-40% of colorectal cancers, and 15-20% of lung adenocarcinomas. Mutant KRAS locks the protein in a constitutively GTP-bound active state, driving continuous RAS-MAPK and PI3K-AKT signaling and uncontrolled cell proliferation.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "KRAS was historically labeled 'undruggable' due to its picomolar affinity for GTP, the absence of deep allosteric pockets beyond the switch regions, and a smooth guanine-nucleotide binding surface. Only recently have covalent inhibitors selectively targeting the G12C neoallele been approved; the other prevalent KRAS mutations (G12D, G12V, G13D) still lack effective direct small-molecule inhibitors.",
+    "known_drugs": [
+      {
+        "name": "Sotorasib (AMG-510)",
+        "mechanism": "Covalent irreversible inhibitor selective for KRAS G12C, trapping KRAS in the GDP-bound inactive state via switch-II pocket",
+        "approved_year": 2021
+      },
+      {
+        "name": "Adagrasib (MRTX849)",
+        "mechanism": "Covalent irreversible KRAS G12C inhibitor with extended half-life, broad tissue distribution, and CNS penetration",
+        "approved_year": 2022
+      },
+      {
+        "name": "Divarasib (GDC-6036)",
+        "mechanism": "Next-generation covalent KRAS G12C inhibitor with improved potency and favorable combination profile",
+        "approved_year": 2024
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.5,
+    "pdb_id": "4OBE",
+    "active_site_residues": [
+      10,
+      12,
+      13,
+      32,
+      35,
+      60,
+      61,
+      116,
+      117,
+      119
+    ]
+  },
+  {
+    "id": "BCL2",
+    "uniprot_id": "P10415",
+    "protein_name": "Apoptosis regulator Bcl-2",
+    "protein_sequence": "MAHAGRTGYDNREIVMKYIHYKLSQRGYEWDAGDVGAAPPGAAPAPGIFSSQPGHTPHPAASRDPVARTSPLQTPAAPGAAAGPALSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGPSMRPLFDFSWLSLKTLLSLALVGACITLGAYLGHK",
+    "disease_context": "BCL2 is the founding member of the anti-apoptotic BCL2 family; its overexpression, driven by the t(14;18) translocation in follicular lymphoma and by other mechanisms in CLL and diffuse large B-cell lymphoma, enables tumor cells to evade programmed cell death and resist conventional chemotherapy.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "BCL2 has a well-defined hydrophobic BH3-binding groove that is targetable by small molecules; venetoclax validates this approach at clinical scale. Key challenges include selectivity among anti-apoptotic family members (BCL-XL, MCL-1) to avoid thrombocytopenia, and acquired resistance through MCL-1 upregulation or BCL2 BH3-groove mutations.",
+    "known_drugs": [
+      {
+        "name": "Venetoclax (ABT-199)",
+        "mechanism": "Highly selective BH3 mimetic occupying the BCL2 hydrophobic BH3-binding groove, displacing pro-apoptotic proteins to trigger mitochondrial apoptosis",
+        "approved_year": 2016
+      },
+      {
+        "name": "Navitoclax (ABT-263)",
+        "mechanism": "Dual BCL2/BCL-XL BH3 mimetic with potent pro-apoptotic activity; dose-limiting thrombocytopenia from BCL-XL inhibition limits use as monotherapy",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "2W3L",
+    "active_site_residues": [
+      97,
+      98,
+      101,
+      104,
+      105,
+      108,
+      111,
+      112,
+      136,
+      143
+    ]
+  },
+  {
+    "id": "CDK4",
+    "uniprot_id": "P11802",
+    "protein_name": "Cyclin-dependent kinase 4",
+    "protein_sequence": "MATSRYEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNGGGGGGGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSRTDREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLARIYSYQMALTPVVVTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKDEGNPE",
+    "disease_context": "CDK4 forms an active kinase complex with cyclin D1 to phosphorylate the retinoblastoma protein (RB1), releasing E2F transcription factors and driving cells from G1 into S phase. CDK4 amplification and cyclin D1 overexpression are frequent events in HR+/HER2- breast cancer, liposarcoma, and other solid tumors, validating CDK4/6 as proliferation targets.",
+    "difficulty_tier": 1,
+    "difficulty_rationale": "CDK4 has a canonical bilobal kinase fold with a well-characterized ATP-binding pocket; multiple selective CDK4/6 inhibitors are approved and widely used clinically, demonstrating clear target validity. The structural pharmacology is thoroughly understood, making structure-based optimization relatively straightforward.",
+    "known_drugs": [
+      {
+        "name": "Palbociclib (PD-0332991)",
+        "mechanism": "Selective CDK4/6 inhibitor preventing RB1 phosphorylation and G1/S transition in HR+/HER2- breast cancer",
+        "approved_year": 2015
+      },
+      {
+        "name": "Ribociclib (LEE011)",
+        "mechanism": "Selective CDK4/6 inhibitor with demonstrated overall survival benefit in premenopausal HR+/HER2- metastatic breast cancer",
+        "approved_year": 2017
+      },
+      {
+        "name": "Abemaciclib (LY2835219)",
+        "mechanism": "Selective CDK4/6 inhibitor with continuous dosing schedule, single-agent activity, and approval in early-stage HR+ breast cancer",
+        "approved_year": 2017
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.0,
+    "pdb_id": "2W9Z",
+    "active_site_residues": [
+      13,
+      14,
+      17,
+      99,
+      101,
+      102,
+      144,
+      157,
+      158
+    ]
+  },
+  {
+    "id": "KDR",
+    "uniprot_id": "P35968",
+    "protein_name": "Vascular endothelial growth factor receptor 2 (VEGFR2/KDR/FLK1)",
+    "protein_sequence": "MQSKVLLAVALWLCVETRAASVGLPSVSLDLPRLSIQKDILTIKANTTLQITCRGQRDLDWLWPNNQSGSEQRVEVTECSDGLFCKTLTIPKVIGNDTGAYKCFYRETDLASVIYVYVQDYRSPFIASVSDQHGVVYITENKNKTVVIPCLGSISNLNVSLCARYPEKRFVPDGNRISWDSKKGFTIPSYMISYAGMVFCEAKINDESYQSIMYIVVVVGYRIYDVVLSPSHGIELSVGEKLVLNCTARTELNVGIDFNWEYPSSKHQHKKLVNRDLKTQSGSEMKKFLSTLTIDGVTRSDQGLYTCAASSGLMTKKNSTFVRVHEKPFVAFGSGMESLVEATVGERVRIPAKYLGYPPPEIKWYKNGIPLESNHTIKAGHVLTIMEVSERDTGNYTVILTNPISKEKQSHVVSLVVYVPPQIGEKSLISPVDSYQYGTTQTLTCTVYAIPPPHHIHWYWQLEEECANEPSQAVSVTNPYPCEEWRSVEDFQGGNKIEVNKNQFALIEGKNKTVSTLVIQAANVSALYKCEAVNKVGRGERVISFHVTRGPEITLQPDMQPTEQESVSLWCTADRSTFENLTWYKLGPQPLPIHVGELPTPVCKNLDTLWKLNATMFSNSTNDILIMELKNASLQDQGDYVCLAQDRKTKKRHCVVRQLTVLERVAPTITGNLENQTTSIGESIEVSCTASGNPPPQIMWFKDNETLVEDSGIVLKDGNRNLTIRRVRKEDEGLYTCQACSVLGCAKVEAFFIIEGAQEKTNLEIIILVGTAVIAMFFWLLLVIILRTVKRANGGELKTGYLSIVMDPDELPLDEHCERLPYDASKWEFPRDRLKLGKPLGRGAFGQVIEADAFGIDKTATCRTVAVKMLKEGATHSEHRALMSELKILIHIGHHLNVVNLLGACTKPGGPLMVIVEFCKFGNLSTYLRSKRNEFVPYKTKGARFRQGKDYVGAIPVDLKRRLDSITSSQSSASSGFVEEKSLSDVEEEEAPEDLYKDFLTLEHLICYSFQVAKGMEFLASRKCIHRDLAARNILLSEKNVVKICDFGLARDIYKDPDYVRKGDARLPLKWMAPETIFDRVYTIQSDVWSFGVLLWEIFSLGASPYPGVKIDEEFCRRLKEGTRMRAPDYTTPEMYQTMLDCWHGEPSQRPTFSELVEHLGNLLQANAQQDGKDYIVLPISETLSMEEDSGLSLPTSPVSCMEEEEVCDPKFHYDNTAGISQYLQNSKRKSRPVSVKTFEDIPLEEPEVKVIPDDNQTDSGMVLASEELKTLEDRTKLSPSFGGMVPSKSRESVASEGSNQTSGYQSGYHSDDTDTTVYSSEEAELLKLIEIGVQTGSTAQILQPDSGTTLSSPPV",
+    "disease_context": "VEGFR2 (KDR) is the primary signaling receptor for VEGF-A and the dominant mediator of tumor angiogenesis. Tumor cells exploit VEGF/VEGFR2 signaling to stimulate the formation of new blood vessels required for tumor growth beyond ~2 mm, making antiangiogenic VEGFR2 inhibition a cornerstone of treatment for many solid tumors including RCC, HCC, NSCLC, and colorectal cancer.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "VEGFR2 has a well-characterized RTK structure with multiple approved inhibitors; however, achieving selectivity among VEGFR, PDGFR, and Kit family kinases while avoiding dose-limiting vascular toxicities (hypertension, hand-foot syndrome), and managing rapid resistance through alternative proangiogenic pathway engagement significantly raises the therapeutic challenge.",
+    "known_drugs": [
+      {
+        "name": "Sorafenib",
+        "mechanism": "Multi-kinase inhibitor targeting VEGFR2/3, PDGFR-beta, and Raf kinases; first approved antiangiogenic for HCC and RCC",
+        "approved_year": 2005
+      },
+      {
+        "name": "Sunitinib",
+        "mechanism": "Multi-targeted RTK inhibitor of VEGFR1-3, PDGFR, KIT, and FLT3; approved for RCC, GIST, and pNET",
+        "approved_year": 2006
+      },
+      {
+        "name": "Pazopanib",
+        "mechanism": "Selective inhibitor of VEGFR1-3, PDGFR-alpha/beta, and KIT for advanced RCC and soft tissue sarcoma",
+        "approved_year": 2009
+      },
+      {
+        "name": "Axitinib",
+        "mechanism": "Potent and selective second-generation VEGFR1-3 inhibitor for advanced RCC",
+        "approved_year": 2012
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "3VHE",
+    "active_site_residues": [
+      868,
+      882,
+      885,
+      916,
+      919,
+      1046,
+      1047,
+      1070
+    ]
+  },
+  {
+    "id": "CD274",
+    "uniprot_id": "Q9NZQ7",
+    "protein_name": "Programmed cell death 1 ligand 1 (PD-L1/CD274/B7-H1)",
+    "protein_sequence": "MRIFAVFIFMTYWHLLNAFTVTVPKDLYVVEYGSNMTIECKFPVEKQLDLAALIVYWEMEDKNIIQFVHGEEDLKVQHSSYRQRARLLKDQLSLGNAALQITDVKLQDAGVYRCMISYGGADYKRITVKVNAPYNKINQRILVVDPVTSEHELTCQAEGYPKAEVIWTSSDHQVLSGKTTTTNSKREEKLFNVTSTLRINTTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNERTHLVILGAILLCLGVALTFIFRLRKGRMMDVKKCGIQDTNSKKQSDTHLEET",
+    "disease_context": "PD-L1 is expressed on tumor cells and tumor-infiltrating immune cells where it binds PD-1 on T cells to suppress anti-tumor immune responses. PD-L1 overexpression, often driven by IFN-gamma signaling in the tumor microenvironment or by oncogenic signaling (e.g., EGFR mutation), is a major mechanism by which tumors evade immune destruction across many cancer types.",
+    "difficulty_tier": 1,
+    "difficulty_rationale": "The PD-L1/PD-1 interaction interface is well-characterized structurally, multiple anti-PD-L1 antibody blockade agents are approved with clear clinical validation, and the biology is well-understood. Small-molecule disruption of PD-L1 dimerization and PD-1 binding represents an emerging approach with robust structural data and growing literature support.",
+    "known_drugs": [
+      {
+        "name": "Atezolizumab",
+        "mechanism": "Anti-PD-L1 monoclonal antibody that blocks PD-L1 interaction with both PD-1 and B7.1 to restore T-cell anti-tumor immunity",
+        "approved_year": 2016
+      },
+      {
+        "name": "Durvalumab",
+        "mechanism": "Anti-PD-L1 monoclonal antibody approved for unresectable NSCLC following chemoradiation and extensive-stage small cell lung cancer",
+        "approved_year": 2017
+      },
+      {
+        "name": "Avelumab",
+        "mechanism": "Anti-PD-L1 monoclonal antibody with retained Fc effector function for Merkel cell carcinoma and urothelial carcinoma",
+        "approved_year": 2017
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.5,
+    "pdb_id": "5J89",
+    "active_site_residues": [
+      54,
+      56,
+      58,
+      63,
+      113,
+      115,
+      116,
+      123,
+      125
+    ]
+  },
+  {
+    "id": "MDM2",
+    "uniprot_id": "Q00987",
+    "protein_name": "E3 ubiquitin-protein ligase Mdm2 (HDM2)",
+    "protein_sequence": "MCNTNMSVPTDGAVTTSQIPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVVVNQQESSDSGTSVSENRCHLEGGSDQKDLVQELQEEKPSSSHLVSRPSTSSRRRAISETEENSDELSGERQRKRHKSDSISLSFDESLALCVIREICCERSSSSESTGTPSNPDLDAGVSEHSGDWLDQDSVSDQFSVEFEVESLDSEDYSLSEEGQELSDEDDEVYQVTVYQAGESDTDSFEEDPEISLADYWKCTSCNEMNPPLPSHCNRCWALRENWLPEDKGKDKGEISEKAKLENSTQAEEGFDVPDCKKTIVNDSRESCVEENDDKITQASQSQESEDYSQPSTSSSIIYSSQEDVKEFEREETQDKEESVESSLPLNAIEPCVICQGRPKNGCIVHGKTGHLMACFTCAKKLKKRNKPCPVCRQPIQMIVLTYFP",
+    "disease_context": "MDM2 is the principal negative regulator of p53; it promotes p53 ubiquitination and proteasomal degradation and directly inhibits p53 transcriptional activity. MDM2 gene amplification occurs in approximately 10% of all cancers (and up to 20% of liposarcomas) and is mutually exclusive with TP53 mutation, making MDM2 a prime therapeutic target in p53 wild-type tumors.",
+    "difficulty_tier": 1,
+    "difficulty_rationale": "MDM2 possesses a well-characterized deep hydrophobic cleft that accommodates the p53 transactivation domain alpha-helix (Phe19, Trp23, Leu26); this pocket is highly druggable and has yielded multiple potent clinical-stage inhibitors. Extensive structural and SAR data make rational design tractable; the main challenge is therapeutic index (MDM2 inhibition activates p53-mediated toxicity in normal tissues).",
+    "known_drugs": [
+      {
+        "name": "Idasanutlin (RG7388)",
+        "mechanism": "Potent selective MDM2 antagonist displacing p53 from MDM2 to reactivate p53-mediated apoptosis in p53 wild-type AML",
+        "approved_year": null
+      },
+      {
+        "name": "Milademetan (DS-3032b)",
+        "mechanism": "Oral MDM2 inhibitor with anti-tumor activity in p53 wild-type hematologic malignancies and liposarcoma",
+        "approved_year": null
+      },
+      {
+        "name": "Navtemadlin (AMG-232)",
+        "mechanism": "Highly potent piperidine-derived MDM2 inhibitor with picomolar affinity, in clinical development for AML and other p53 wild-type cancers",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "1RV1",
+    "active_site_residues": [
+      54,
+      57,
+      61,
+      62,
+      67,
+      72,
+      96,
+      99,
+      100
+    ]
+  }
+]
