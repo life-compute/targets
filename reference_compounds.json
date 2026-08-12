@@ -121,6 +121,78 @@
       "approval_status": "phase 3 trials",
       "pubchem_cid": 53358942,
       "reference_pmid": "PMID:25609628"
+    },
+    {
+      "name": "Ivosidenib",
+      "target_id": "IDH1",
+      "uniprot_id": "O75874",
+      "smiles": "C1CC1C2=C(C=NC=C2)N3CCN(C3=O)C4=CC(=NC(=N4)C(F)(F)F)Cl",
+      "mechanism": "IDH1 R132 mutant inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 66576893
+    },
+    {
+      "name": "Midostaurin",
+      "target_id": "FLT3",
+      "uniprot_id": "P36888",
+      "smiles": "C[C@@]12[C@@H]([C@@H](C[C@@H](O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=O)C(=O)N6C)C)OC(=O)N5C",
+      "mechanism": "Multi-kinase/FLT3 inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 9829523
+    },
+    {
+      "name": "Olaparib",
+      "target_id": "PARP1",
+      "uniprot_id": "P09874",
+      "smiles": "C1CC1C(=O)N2CCN(CC2)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
+      "mechanism": "PARP1/2 inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 23725625
+    },
+    {
+      "name": "Ruxolitinib",
+      "target_id": "JAK2",
+      "uniprot_id": "O60674",
+      "smiles": "C1CCC(C1)[C@@H](CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3",
+      "mechanism": "JAK1/2 inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 25126798
+    },
+    {
+      "name": "Fulvestrant",
+      "target_id": "ESR1",
+      "uniprot_id": "P03372",
+      "smiles": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)[C@@H](CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(F)(F)F",
+      "mechanism": "Selective estrogen receptor degrader (SERD)",
+      "approval_status": "approved",
+      "pubchem_cid": 104741
+    },
+    {
+      "name": "Vorinostat",
+      "target_id": "HDAC1",
+      "uniprot_id": "Q13547",
+      "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+      "mechanism": "Pan-HDAC class I/II inhibitor (hydroxamate)",
+      "approval_status": "approved",
+      "pubchem_cid": 5311272
+    },
+    {
+      "name": "Romidepsin",
+      "target_id": "HDAC2",
+      "uniprot_id": "Q92769",
+      "smiles": "CC(=O)N[C@@H]1C(=O)N2CCC[C@@H]2C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CC(C)C)C(=O)O[C@@H](C(C)C)/C=C/C(=O)[C@H]1O",
+      "mechanism": "Cyclic depsipeptide HDAC class I inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 5352062
+    },
+    {
+      "name": "Imatinib",
+      "target_id": "ABL1",
+      "uniprot_id": "P00519",
+      "smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+      "mechanism": "BCR-ABL1 ATP-competitive tyrosine kinase inhibitor",
+      "approval_status": "approved",
+      "pubchem_cid": 5291
     }
   ]
 }

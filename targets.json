@@ -402,5 +402,348 @@
       72,
       75
     ]
+  },
+  {
+    "id": "IDH1",
+    "uniprot_id": "O75874",
+    "protein_name": "Isocitrate dehydrogenase [NADP] cytoplasmic",
+    "protein_sequence": "MSKKISGGSVVEMQGDEMTRIIWELIKEKLIFPYVELDLHSYDLGIENRDATNDQVTKDAAEAIKKHNVGVKCATITPDEKRVEEFKLKQMWKSPNGTIRNILGGTVFREAIICKNIPRLVSGWVKPIIIGRHAYGDQYRATDFVVPGPGKVEITYTPSDGTQKVTYLVHNFEEGGGVAMGMYNQDKSIEDFAHSSFQMALSKGWPLYLSTKNTILKKYDGRFKDIFQEIYDKQYKSQFEAQKIWYEHRLIDDMVAQAMKSEGGFIWACKNYDGDVQSDSVAQGYGSLGMMTSVLVCPDGKTVEAEAAHGTVTRHYRMYQKGQETSTNPIASIFAWTRGLAHRAKLDNNKELAFFANALEEVSIETIEAGFMTKDLAACIKGLPNVQRSDYLNTFEFMDKLGENLKIKLAQAKL",
+    "disease_context": "IDH1 is mutated (R132H/C/G/L/S) in 80% of low-grade gliomas and secondary glioblastomas, and 15-20% of AML cases. Mutant IDH1 produces 2-hydroxyglutarate, an oncometabolite that blocks cell differentiation and drives epigenetic dysregulation.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Allosteric binding pocket in mutant IDH1 is well-defined but requires selectivity over wild-type IDH1 and IDH2. High-affinity binding with precise hydrogen bond geometry to R132H required.",
+    "known_drugs": [
+      {
+        "name": "Ivosidenib (AG-120)",
+        "mechanism": "Mutant IDH1 R132 inhibitor, allosteric",
+        "approved_year": 2018
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "5L96",
+    "active_site_residues": [
+      100,
+      119,
+      120,
+      132,
+      153,
+      271,
+      307
+    ]
+  },
+  {
+    "id": "FLT3",
+    "uniprot_id": "P36888",
+    "protein_name": "Receptor-type tyrosine-protein kinase FLT3",
+    "protein_sequence": "MPALARDGGQLPLLVVFSAMIFGTITNQDLPVIKCVLINHKNNDSSVGKSSSYPMVSESPEDLGCALRPQSSGTVYEAAAVEVDVSASITLQVLVDAPGNISCLWVFKHSSLNCQPHFDLQNRGVVSMVILKMTETQAGEYLLFIQSEATNYTILFTVSIRNTLLYTLRRPYFRKMENQDALVCISESVPEPIVEWVLCDSQGESCKEESPAVVKKEEKVLHELFGTDIRCCARNELGRECTRLFTIDLNQTPQTTLPQLFLKVGEPLWIRCKAVHVNHGFGLTWELENKALEEGNYFEMSTYSTNRTMIRILFAFVSSVARNDTGYYTCSSSKHPSQSALVTIVEKGFINATNSSEDYEIDQYEEFCFSVRFKAYPQIRCTWTFSRKSFPCEQKGLDNGYSISKFCNHKHQPGEYIFHAENDDAQFTKMFTLNIRRKPQVLAEASASQASCFSDGYPLPSWTWKKCSDKSPNCTEEITEGVWNRKANRKVFGQWVSSSTLNMSEAIKGFLVKCCAYNSLGTSCETILLNSPGPFPFIQDNISFYATIGVCLLFIVVLTLLICHKYKKQFRYESQLQMVQVTGSSDNEYFYVDFREYEYDLKWEFPRENLEFGKVLGSGAFGKVMNATAYGISKTGVSIQVAVKMLKEKADSSEREALMSELKMMTQLGSHENIVNLLGACTLSGPIYLIFEYCCYGDLLNYLRSKREKFHRTWTEIFKEHNFSFYPTFQSHPNSSMPGSREVQIHPDSDQISGLHGNSFHSEDEIEYENQKRLEEEEDLNVLTFEDLLCFAYQVAKGMEFLEFKSCVHRDLAARNVLVTHGKVVKICDFGLARDIMSDSNYVVRGNARLPVKWMAPESLFEGIYTIKSDVWSYGILLWEIFSLGVNPYPGIPVDANFYKLIQNGFKMDQPFYATEEIYIIMQSCWAFDSRKRPSFPNLTSFLGCQLADAEEAMYQNVDGRVSECPHTYQNRRPFSREMDLGLLSPQAQVEDS",
+    "disease_context": "FLT3 is mutated in ~30% of AML cases (ITD mutations in 25% and TKD mutations in 7%). FLT3-ITD confers poor prognosis with high relapse rates. FLT3 drives leukemic cell proliferation and survival through constitutive activation.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Must overcome resistance mutations (D835Y/H/N, F691L) that emerge under inhibitor pressure. ITD-specific conformational changes complicate structure-based design. Selectivity over KIT and PDGFR required.",
+    "known_drugs": [
+      {
+        "name": "Midostaurin",
+        "mechanism": "Multi-kinase FLT3 inhibitor (first-generation)",
+        "approved_year": 2017
+      },
+      {
+        "name": "Gilteritinib",
+        "mechanism": "FLT3/AXL inhibitor (second-generation, ITD+TKD)",
+        "approved_year": 2018
+      },
+      {
+        "name": "Quizartinib",
+        "mechanism": "FLT3-ITD selective inhibitor",
+        "approved_year": 2023
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.5,
+    "pdb_id": "1RJB",
+    "active_site_residues": [
+      627,
+      631,
+      676,
+      691,
+      835,
+      836,
+      842
+    ]
+  },
+  {
+    "id": "SMAD4",
+    "uniprot_id": "Q13485",
+    "protein_name": "Mothers against decapentaplegic homolog 4",
+    "protein_sequence": "MDNMSITNTPTSNDACLSIVHSLMCHRQGGESETFAKRAIESLVKKLKEKKDELDSLITAITTNGAHPSKCVTIQRTLDGRLQVAGRKGFPHVIYARLWRWPDLHKNELKHVKYCQYAFDLKCDSVCVNPYHYERVVSPGIDLSGLTLQSNAPSSMMVKDEYVHDFEGQPSLSTEGHSIQTIQHPPSNRASTETYSTPALLAPSESNATSTANFPNIPVASTSQPASILGGSHSEGLLQIASGPQPGQQQNGFTGQPATYHHNSTTTWTGSRTAPYTPNLPHHQNGHLQHHPPMPPHPGHYWPVHNELAFQPPISNHPAPEYWCSIAYFEMDVQVGETFKVPSSCPIVTVDGYVDPSGGDRFCLGQLSNVHRTEAIERARLHIGKGVQLECKGEGDVWVRCLSDHAVFVQSYYLDREAGRAPGDAVHKIYPSAYIKVFDLRQCHRQMQQQAATAQAAAAAQAAAVAGNIPGPGSVGGIAPAISLSAAAGIGVDDLRRLCILRMSFVKGWGPDYPRQSIKETPCWIEIHLHRALQLLDEVLHTMPIADPQPLD",
+    "disease_context": "SMAD4 is lost in 55% of pancreatic ductal adenocarcinomas (among the most lethal cancers with <12% 5-year survival) and 15% of colorectal cancers. SMAD4 loss abolishes TGF-\u03b2 tumor suppression, enabling invasion and metastasis.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Tumor suppressor \u2014 loss-of-function mutations require restoration strategies rather than inhibition. No approved inhibitor exists. PPI surface targeting the MH2 domain is structurally challenging.",
+    "known_drugs": [
+      {
+        "name": "None approved",
+        "mechanism": "No approved small-molecule inhibitor \u2014 tumor suppressor restoration under investigation",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.5,
+    "pdb_id": "1MR1",
+    "active_site_residues": [
+      351,
+      360,
+      406,
+      456,
+      512,
+      534,
+      539
+    ]
+  },
+  {
+    "id": "APC",
+    "uniprot_id": "P25054",
+    "protein_name": "Adenomatous polyposis coli protein",
+    "protein_sequence": "MAAASYDQLLKQVEALKMENSNLRQELEDNSNHLTKLETEASNMKEVLKQLQGSIEDEAMASSGQIDLLERLKELNLDSSNFPGVKLRSKMSLRSYGSREGSVSSRSGECSPVPMGSFPRRGFVNGSRESTGYLEELEKERSLLLADLDKEEKEKDWYYAQLQNLTKRIDSLPLTENFSLQTDMTRRQLEYEARQIRVAMEEQLGTCQDMEKRAQRRIARIQQIEKDILRIRQLLQSQATEAERSSQNKHETGSHDAERQNEGQGVGEINMATSGNGQGSTTRMDHETASVLSSSSTHSAPRRLTSHLGTKVEMVYSLLSMLGTHDKDDMSRTLLAMSSSQDSCISMRQSGCLPLLIQLLHGNDKDSVLLGNSRGSKEARARASAALHNIIHSQPDDKRGRREIRVLHLLEQIRAYCETCWEWQEAHEPGMDQDKNPMPAPVEHQICPAVCVLMKLSFDEEHRHAMNELGGLQAIAELLQVDCEMYGLTNDHYSITLRRYAGMALTNLTFGDVANKATLCSMKGCMRALVAQLKSESEDLQQVIASVLRNLSWRADVNSKKTLREVGSVKALMECALEVKKESTLKSVLSALWNLSAHCTENKADICAVDGALAFLVGTLTYRSQTNTLAIIESGGGILRNVSSLIATNEDHRQILRENNCLQTLLQHLKSHSLTIVSNACGTLWNLSARNPKDQEALWDMGAVSMLKNLIHSKHKMIAMGSAAALRNLMANRPAKYKDANIMSPGSSLPSLHVRKQKALEAELDAQHLSETFDNIDNLSPKASHRSKQRHKQSLYGDYVFDTNRHDDNRSDNFNTGNMTVLSPYLNTTVLPSSSSSRGSLDSSRSEKDRSLERERGIGLGNYHPATENPGTSSKRGLQISTTAAQIAKVMEEVSAIHTSQEDRSSGSTTELHCVTDERNALRRSSAAHTHSNTYNFTKSENSNRTCSMPYAKLEYKRSSNDSLNSVSSSDGYGKRGQMKPSIESYSEDDESKFCSYGQYPADLAHKIHSANHMDDNDGELDTPINYSLKYSDEQLNSGRQSPSQNERWARPKHIIEDEIKQSEQRQSRNQSTTYPVYTESTDDKHLKFQPHFGQQECVSPYRSRGANGSETNRVGSNHGINQNVSQSLCQEDDYEDDKPTNYSERYSEEEQHEEEERPTNYSIKYNEEKRHVDQPIDYSLKYATDIPSSQKQSFSFSKSSSGQSSKTEHMSSSSENTSTPSSNAKRQNQLHPSSAQSRSGQPQKAATCKVSSINQETIQTYCVEDTPICFSRCSSLSSLSSAEDEIGCNQTTQEADSANTLQIAEIKEKIGTRSAEDPVSEVPAVSQHPRTKSSRLQGSSLSSESARHKAVEFSSGAKSPSKSGAQTPKSPPEHYVQETPLMFSRCTSVSSLDSFESRSIASSVQSEPCSGMVSGIISPSDLPDSPGQTMPPSRSKTPPPPPQTAQTKREVPKNKAPTAEKRESGPKQAAVNAAVQRVQVLPDADTLLHFATESTPDGFSCSSSLSALSLDEPFIQKDVELRIMPPVQENDNGNETESEQPKESNENQEKEAEKTIDSEKDLLDDSDDDDIEILEECIISAMPTKSSRKAKKPAQTASKLPPPVARKPSQLPVYKLLPSQNRLQPQKHVSFTPGDDMPRVYCVEGTPINFSTATSLSDLTIESPPNELAAGEGVRGGAQSGEFEKRDTIPTEGRSTDEAQGGKTSSVTIPELDDNKAEEGDILAECINSAMPKGKSHKPFRVKKIMDQVQQASASSSAPNKNQLDGKKKKPTSPVKPIPQNTEYRTRVRKNADSKNNLNAERVFSDNKDSKKQNLKNNSKVFNDKLPNNEDRVRGSFAFDSPHHYTPIEGTPYCFSRNDSLSSLDFDDDDVDLSREKAELRKAKENKESEAKVTSHTELTSNQQSANKTQAIAKQPINRGQPKPILQKQSTFPQSSKDIPDRGAATDEKLQNFAIENTPVCFSHNSSLSSLSDIDQENNNKENEPIKETEPPDSQGEPSKPQASGYAPKSFHVEDTPVCFSRNSSLSSLSIDSEDDLLQECISSAMPKKKKPSRLKGDNEKHSPRNMGGILGEDLTLDLKDIQRPDSEHGLSPDSENFDWKAIQEGANSIVSSLHQAAAAACLSRQASSDSDSILSLKSGISLGSPFHLTPDQEEKPFTSNKGPRILKPGEKSTLETKKIESESKGIKGGKKVYKSLITGKVRSNSEISGQMKQPLQANMPSISRGRTMIHIPGVRNSSSSTSPVSKKGPPLKTPASKSPSEGQTATTSPRGAKPSVKSELSPVARQTSQIGGSSKAPSRSGSRDSTPSRPAQQPLSRPIQSPGRNSISPGRNGISPPNKLSQLPRTSSPSTASTKSSGSGKMSYTSPGRQMSQQNLTKQTGLSKNASSIPRSESASKGLNQMNNGNGANKKVELSRMSSTKSSGSESDRSERPVLVRQSTFIKEAPSPTLRRKLEESASFESLSPSSRPASPTRSQAQTPVLSPSLPDMSLSTHSSVQAGGWRKLPPNLSPTIEYNDGRPAKRHDIARSHSESPSRLPINRSGTWKREHSKHSSSLPRVSTWRRTGSSSSILSASSESSEKAKSEDEKHVNSISGTKQSKENQVSAKGTWRKIKENEFSPTNSTSQTVSSGATNGAESKTLIYQMAPAVSKTEDVWVRIEDCPINNPRSGRSPTGNTPPVIDSVSEKANPNIKDSKDNQAKQNVGNGSVPMRTVGLENRLNSFIQVDAPDQKGTEIKPGQNNPVPVSETNESSIVERTPFSSSSSSKHSSPSGTVAARVTPFNYNPSPRKSSADSTSARPSQIPTPVNNNTKKRDSKTDSTESSGTQSPKRHSGSYLVTSV",
+    "disease_context": "APC is the most commonly mutated gene in colorectal cancer (80% of sporadic cases) and familial adenomatous polyposis (FAP). APC loss constitutively activates WNT/\u03b2-catenin signalling, driving uncontrolled proliferation. APC mutations are early, founder events in colon carcinogenesis.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Very large multi-domain scaffold protein (2843 aa); tumor suppressor requiring restoration not inhibition. No small molecule binding pocket confirmed by crystallography. WNT pathway modulation via indirect targets is the current approach.",
+    "known_drugs": [
+      {
+        "name": "None approved",
+        "mechanism": "No approved small-molecule inhibitor \u2014 tumor suppressor restoration under investigation",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": "1DEB",
+    "active_site_residues": [
+      1020,
+      1035,
+      1505,
+      1600,
+      2072,
+      2646
+    ]
+  },
+  {
+    "id": "PARP1",
+    "uniprot_id": "P09874",
+    "protein_name": "Poly [ADP-ribose] polymerase 1",
+    "protein_sequence": "MAESSDKLYRVEYAKSGRASCKKCSESIPKDSLRMAIMVQSPMFDGKVPHWYHFSCFWKVGHSIRHPDVEVDGFSELRWDDQQKVKKTAEAGGVTGKGQDGIGSKAEKTLGDFAAEYAKSNRSTCKGCMEKIEKGQVRLSKKMVDPEKPQLGMIDRWYHPGCFVKNREELGFRPEYSASQLKGFSLLATEDKEALKKQLPGVKSEGKRKGDEVDGVDEVAKKKSKKEKDKDSKLEKALKAQNDLIWNIKDELKKVCSTNDLKELLIFNKQQVPSGESAILDRVADGMVFGALLPCEECSGQLVFKSDAYYCTGDVTAWTKCMVKTQTPNRKEWVTPKEFREISYLKKLKVKKQDRIFPPETSASVAATPPPSTASAPAAVNSSASADKPLSNMKILTLGKLSRNKDEVKAMIEKLGGKLTGTANKASLCISTKKEVEKMNKKMEEVKEANIRVVSEDFLQDVSASTKSLQELFLAHILSPWGAEVKAEPVEVVAPRGKSGAALSKKSKGQVKEEGINKSEKRMKLTLKGGAAVDPDSGLEHSAHVLEKGGKVFSATLGLVDIVKGTNSYYKLQLLEDDKENRYWIFRSWGRVGTVIGSNKLEQMPSKEDAIEHFMKLYEEKTGNAWHSKNFTKYPKKFYPLEIDYGQDEEAVKKLTVNPGTKSKLPKPVQDLIKMIFDVESMKKAMVEYEIDLQKMPLGKLSKRQIQAAYSILSEVQQAVSQGSSDSQILDLSNRFYTLIPHDFGMKKPPLLNNADSVQAKVEMLDNLLDIEVAYSLLRGGSDDSSKDPIDVNYEKLKTDIKVVDRDSEEAEIIRKYVKNTHATTHNAYDLEVIDIFKIEREGECQRYKPFKQLHNRRLLWHGSRTTNFAGILSQGLRIAPPEAPVTGYMFGKGIYFADMVSKSANYCHTSQGDPIGLILLGEVALGNMYELKHASHISKLPKGKHSVKGLGKTTPDPSANISLDGVDVPLGTGISSGVNDTSLLYNEYIVYDIAQVNLKYLLKLKFNFKTSLW",
+    "disease_context": "PARP1 is a master regulator of DNA damage repair. Inhibition is synthetically lethal in BRCA1/2-deficient tumors (ovarian, breast, pancreatic, prostate cancers). PARP trapping \u2014 where the inhibitor locks PARP onto damaged DNA \u2014 is the key cytotoxic mechanism.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "Well-characterized NAD+-binding catalytic domain with multiple approved inhibitors. Differentiation requires PARP trapping potency and selectivity over PARP2. Resistance via PARP1 mutations (D770N, P882S) emerging in clinic.",
+    "known_drugs": [
+      {
+        "name": "Olaparib",
+        "mechanism": "PARP1/2 inhibitor; NAD+ mimetic with trapping",
+        "approved_year": 2014
+      },
+      {
+        "name": "Rucaparib",
+        "mechanism": "PARP1/2/3 inhibitor",
+        "approved_year": 2016
+      },
+      {
+        "name": "Niraparib",
+        "mechanism": "PARP1/2 inhibitor; BRCA-independent activity",
+        "approved_year": 2017
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "4ZZZ",
+    "active_site_residues": [
+      762,
+      763,
+      878,
+      888,
+      902,
+      906
+    ]
+  },
+  {
+    "id": "JAK2",
+    "uniprot_id": "O60674",
+    "protein_name": "Tyrosine-protein kinase JAK2",
+    "protein_sequence": "MGMACLTMTEMEGTSTSSIYQNGDISGNANSMKQIDPVLQVYLYHSLGKSEADYLTFPSGEYVAEEICIAASKACGITPVYHNMFALMSETERIWYPPNHVFHIDESTRHNVLYRIRFYFPRWYCSGSNRAYRHGISRGAEAPLLDDFVMSYLFAQWRHDFVHGWIKVPVTHETQEECLGMAVLDMMRIAKENDQTPLAIYNSISYKTFLPKCIRAKIQDYHILTRKRIRYRFRRFIQQFSQCKATARNLKLKYLINLETLQSAFYTEKFEVKEPGSGPSGEEIFATIIITGNGGIQWSRGKHKESETLTEQDLQLYCDFPNIIDVSIKQANQEGSNESRVVTIHKQDGKNLEIELSSLREALSFVSLIDGYYRLTADAHHYLCKEVAPPAVLENIQSNCHGPISMDFAISKLKKAGNQTGLYVLRCSPKDFNKYFLTFAVERENVIEYKHCLITKNENEEYNLSGTKKNFSSLKDLLNCYQMETVRSDNIIFQFTKCCPPKPKDKSNLLVFRTNGVSDVPTSPTLQRPTHMNQMVFHKIRNEDLIFNESLGQGTFTKIFKGVRREVGDYGQLHETEVLLKVLDKAHRNYSESFFEAASMMSKLSHKHLVLNYGVCVCGDENILVQEFVKFGSLDTYLKKNKNCINILWKLEVAKQLAWAMHFLEENTLIHGNVCAKNILLIREEDRKTGNPPFIKLSDPGISITVLPKDILQERIPWVPPECIENPKNLNLATDKWSFGTTLWEICSGGDKPLSALDSQRKLQFYEDRHQLPAPKWAELANLINNCMDYEPDFRPSFRAIIRDLNSLFTPDYELLTENDMLPNMRIGALGFSGAFEDRDPTQFEERHLKFLQQLGKGNFGSVEMCRYDPLQDNTGEVVAVKKLQHSTEEHLRDFEREIEILKSLQHDNIVKYKGVCYSAGRRNLKLIMEYLPYGSLRDYLQKHKERIDHIKLLQYTSQICKGMEYLGTKRYIHRDLATRNILVENENRVKIGDFGLTKVLPQDKEYYKVKEPGESPIFWYAPESLTESKFSVASDVWSFGVVLYELFTYIEKSKSPPAEFMRMIGNDKQGQMIVFHLIELLKNNGRLPRPDGCPDEIYMIMTECWNNNVNQRPSFRDLALRVDQIRDNMAG",
+    "disease_context": "JAK2 V617F mutation is found in >95% of polycythemia vera and 50-60% of essential thrombocythemia and myelofibrosis cases. JAK2 signaling through STAT3/5 drives cytokine-independent proliferation of hematopoietic progenitors.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "ATP-competitive kinase with pseudo-kinase JH2 domain. V617F gain-of-function mutation in JH2 relieves autoinhibition. Selectivity over JAK1/3 is important to minimize immunosuppression. Type II inhibitors targeting the DFG-out conformation show promise.",
+    "known_drugs": [
+      {
+        "name": "Ruxolitinib",
+        "mechanism": "JAK1/JAK2 inhibitor",
+        "approved_year": 2011
+      },
+      {
+        "name": "Fedratinib",
+        "mechanism": "JAK2-selective inhibitor",
+        "approved_year": 2019
+      },
+      {
+        "name": "Pacritinib",
+        "mechanism": "JAK2/FLT3/IRAK1 inhibitor",
+        "approved_year": 2022
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "2B7A",
+    "active_site_residues": [
+      855,
+      857,
+      868,
+      934,
+      936,
+      939,
+      941
+    ]
+  },
+  {
+    "id": "ESR1",
+    "uniprot_id": "P03372",
+    "protein_name": "Estrogen receptor alpha",
+    "protein_sequence": "MTMTLHTKASGMALLHQIQGNELEPLNRPQLKIPLERPLGEVYLDSSKPAVYNYPEGAAYEFNAAAAANAQVYGQTGLPYGPGSEAAAFGSNGLGGFPPLNSVSPSPLMLLHPPPQLSPFLQPHGQQVPYYLENEPSGYTVREAGPPAFYRPNSDNRRQGGRERLASTNDKGSMAMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQRDDGEGRGEVGSAGDMRAANLWPSPLMIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRLHAPTSRGGASVEETDQSHLATAGSTSSHSLQKYYITGEAEGFPATV",
+    "disease_context": "ESR1 drives ~70% of breast cancers (ER-positive). Endocrine therapy is first-line treatment, but ESR1 ligand-binding domain mutations (Y537S, D538G) emerge in 30-40% of metastatic cases, conferring resistance to aromatase inhibitors and tamoxifen.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "Well-characterized ligand-binding domain with multiple co-crystal structures. Challenge: designing molecules that degrade rather than merely inhibit ER (PROTAC or SERD approach), and overcoming resistance mutations Y537S and D538G.",
+    "known_drugs": [
+      {
+        "name": "Fulvestrant",
+        "mechanism": "Selective estrogen receptor degrader (SERD)",
+        "approved_year": 2002
+      },
+      {
+        "name": "Tamoxifen",
+        "mechanism": "Selective estrogen receptor modulator (SERM)",
+        "approved_year": 1977
+      },
+      {
+        "name": "Elacestrant",
+        "mechanism": "Oral SERD; active against ESR1 mutations",
+        "approved_year": 2023
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "1ERE",
+    "active_site_residues": [
+      347,
+      351,
+      394,
+      404,
+      421,
+      424,
+      525,
+      537,
+      538
+    ]
+  },
+  {
+    "id": "HDAC1",
+    "uniprot_id": "Q13547",
+    "protein_name": "Histone deacetylase 1",
+    "protein_sequence": "MAQTQGTRRKVCYYYDGDVGNYYYGQGHPMKPHRIRMTHNLLLNYGLYRKMEIYRPHKANAEEMTKYHSDDYIKFLRSIRPDNMSEYSKQMQRFNVGEDCPVFDGLFEFCQLSTGGSVASAVKLNKQQTDIAVNWAGGLHHAKKSEASGFCYVNDIVLAILELLKYHQRVLYIDIDIHHGDGVEEAFYTTDRVMTVSFHKYGEYFPGTGDLRDIGAGKGKYYAVNYPLRDGIDDESYEAIFKPVMSKVMEMFQPSAVVLQCGSDSLSGDRLGCFNLTIKGHAKCVEFVKSFNLPMLMLGGGGYTIRNVARCWTYETAVALDTEIPNELPYNDYFEYFGPDFKLHISPSNMTNQNTNEYLEKIKQRLFENLRMLPHAPGVQMQAIPEDAIPEESGDEDEDDPDKRISICSSDKRIACEEEFSDSEEEGEGGRKNSSNFKKAKRVKTEDEKEKDPEEKKEVTEEEKTKEEKPEAKGVKEEVKLA",
+    "disease_context": "HDAC1 is overexpressed in multiple cancer types (lung, colon, gastric, breast, prostate). HDAC1 in the NuRD and Sin3A co-repressor complexes silences tumor suppressor genes via histone deacetylation. HDAC1 inhibition restores p21, p27, and BAX expression, inducing cell cycle arrest and apoptosis.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "Zinc-dependent enzyme with canonical catalytic tunnel. Class-selective inhibitors (HDAC1/2 vs HDAC3/6/8) require precise metal-chelating warhead geometry. Resistance via compensatory HDAC2 upregulation. Isoform selectivity reduces cardiac toxicity.",
+    "known_drugs": [
+      {
+        "name": "Vorinostat (SAHA)",
+        "mechanism": "Pan-HDAC class I/II inhibitor",
+        "approved_year": 2006
+      },
+      {
+        "name": "Entinostat",
+        "mechanism": "Class I HDAC1/HDAC2 selective inhibitor",
+        "approved_year": null
+      },
+      {
+        "name": "Mocetinostat",
+        "mechanism": "Class I/IV HDAC inhibitor",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "4BKX",
+    "active_site_residues": [
+      145,
+      146,
+      269,
+      270,
+      306,
+      341
+    ]
+  },
+  {
+    "id": "HDAC2",
+    "uniprot_id": "Q92769",
+    "protein_name": "Histone deacetylase 2",
+    "protein_sequence": "MAYSQGGGKKKVCYYYDGDIGNYYYGQGHPMKPHRIRMTHNLLLNYGLYRKMEIYRPHKATAEEMTKYHSDEYIKFLRSIRPDNMSEYSKQMQRFNVGEDCPVFDGLFEFCQLSTGGSVAGAVKLNRQQTDMAVNWAGGLHHAKKSEASGFCYVNDIVLAILELLKYHQRVLYIDIDIHHGDGVEEAFYTTDRVMTVSFHKYGEYFPGTGDLRDIGAGKGKYYAVNFPMRDGIDDESYGQIFKPIISKVMEMYQPSAVVLQCGADSLSGDRLGCFNLTVKGHAKCVEVVKTFNLPLLMLGGGGYTIRNVARCWTYETAVALDCEIPNELPYNDYFEYFGPDFKLHISPSNMTNQNTPEYMEKIKQRLFENLRMLPHAPGVQMQAIPEDAVHEDSGDEDGEDPDKRISIRASDKRIACDEEFSDSEDEGEGGRRNVADHKKGAKKARIEEDKKETEDKKTDVKEEDKSKDNSGEKTDTKGTKSEQLSNP",
+    "disease_context": "HDAC2 is overexpressed in colorectal, gastric, and cervical cancers. HDAC2 selective inhibition shows particular promise in Alzheimer's disease (memory improvement in preclinical models) and cancers with HDAC2 amplification. HDAC2 is 87% identical to HDAC1, making isoform-selective targeting a major challenge.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "Near-identical active site to HDAC1 (87% sequence identity). Selective inhibition requires exploitation of subtle surface differences near the catalytic tunnel rim. Combination with PD-1 inhibitors shows synergy in solid tumors.",
+    "known_drugs": [
+      {
+        "name": "Romidepsin",
+        "mechanism": "Bicyclic depsipeptide; class I HDAC inhibitor",
+        "approved_year": 2009
+      },
+      {
+        "name": "Belinostat",
+        "mechanism": "Pan-HDAC hydroxamate inhibitor",
+        "approved_year": 2014
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "4LXZ",
+    "active_site_residues": [
+      145,
+      146,
+      269,
+      270,
+      306,
+      341
+    ]
+  },
+  {
+    "id": "ABL1",
+    "uniprot_id": "P00519",
+    "protein_name": "Tyrosine-protein kinase ABL1",
+    "protein_sequence": "MLEICLKLVGCKSKKGLSSSSSCYLEEALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNHNGEWCEAQTKNGQGWVPSNYITPVNSLEKHSWYHGPVSRNAAEYLLSSGINGSFLVRESESSPGQRSISLRYEGRVYHYRINTASDGKLYVSSESRFNTLAELVHHHSTVADGLITTLHYPAPKRNKPTVYGVSPNYDKWEMERTDITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWNPSDRPSFAEIHQAFETMFQESSISDEVEKELGKQGVRGAVSTLLQAPELPTKTRTSRRAAEHRDTTDVPEMPHSKGQGESDPLDHEPAVSPLLPRKERGPPEGGLNEDERLLPKDKKTNLFSALIKKKKKTAPTPPKRSSSFREMDGQPERRGAGEEEGRDISNGALAFTPLDTADPAKSPKPSNGAGVPNGALRESGGSGFRSPHLWKKSSTLTSSRLATGEEEGGGSSSKRFLRSCSASCVPHGAKDTEWRSVTLPRDLQSTGRQFDSSTFGGHKSEKPALPRKRAGENRSDQVTRGTVTPPPRLVKKNEEAADEVFKDIMESSPGSSPPNLTPKPLRRQVTVAPASGLPHKEEAGKGSALGTPAAAEPVTPTSKAGSGAPGGTSKGPAEESRVRRHKHSSESPGRDKGKLSRLKPAPPPPPAASAGKAGGKPSQSPSQEAAGEAVLGAKTKATSLVDAVNSDAAKPSQPGEGLKKPVLPATPKPQSAKPSGTPISPAPVPSTLPSASSALAGDQPSSTAFIPLISTRVSLRKTRQPPERIASGAITKGVVLDSTEALCLAISRNSEQMASHSAVLEAGKNLYTFCVSYVDSIQQMRNKFAFREAINKLENNLRELQICPATAGSGPAATQDFSKLLSSVKEISDIVQR",
+    "disease_context": "BCR-ABL1 fusion (Philadelphia chromosome) drives >95% of chronic myeloid leukemia (CML) and 25-30% of adult B-ALL. Imatinib (Gleevec) was the first molecularly targeted cancer drug and transformed CML from a fatal disease to a manageable chronic condition with >90% 10-year survival. ABL1 remains the blueprint for kinase inhibitor drug discovery.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "Multiple resistance mutations (T315I gatekeeper, E255K/V, Y253H) require pan-resistant inhibitors. Third-generation inhibitors (ponatinib, asciminib) target the myristoyl pocket allosterically. STAMP mechanism (allosteric + ATP competitive) is state-of-the-art.",
+    "known_drugs": [
+      {
+        "name": "Imatinib (Gleevec)",
+        "mechanism": "BCR-ABL1 ATP-competitive inhibitor (type II)",
+        "approved_year": 2001
+      },
+      {
+        "name": "Dasatinib",
+        "mechanism": "BCR-ABL1/Src kinase inhibitor (type I)",
+        "approved_year": 2006
+      },
+      {
+        "name": "Asciminib",
+        "mechanism": "STAMP inhibitor; targets ABL1 myristoyl pocket",
+        "approved_year": 2021
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.5,
+    "pdb_id": "2HYY",
+    "active_site_residues": [
+      253,
+      255,
+      315,
+      317,
+      380,
+      381,
+      382
+    ]
   }
 ]
