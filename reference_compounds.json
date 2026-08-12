@@ -1,6 +1,4 @@
 {
-  "version": "1.0.0",
-  "description": "Reference compounds: known drug-like molecules with established binding evidence for each LIFE Compute cancer target. Used as priority candidates each epoch before random sampling.",
   "compounds": [
     {
       "name": "Nutlin-3a",
@@ -121,6 +119,126 @@
       "approval_status": "phase 3 trials",
       "pubchem_cid": 53358942,
       "reference_pmid": "PMID:25609628"
+    },
+    {
+      "name": "Vemurafenib",
+      "target_id": "BRAF",
+      "uniprot_id": "P15056",
+      "smiles": "CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1",
+      "molecular_formula": "C23H18ClF2N3O3S",
+      "molecular_weight": "489.9",
+      "mechanism": "Selective BRAF V600E kinase inhibitor",
+      "approval_status": "FDA approved 2011",
+      "pubchem_cid": 42611257,
+      "reference_pmid": "PMID:21639808"
+    },
+    {
+      "name": "VO-OHpic trihydrate (PTEN inhibitor tool compound)",
+      "target_id": "PTEN",
+      "uniprot_id": "P60484",
+      "smiles": "OV1(=O)OC(=O)c2ccc(O)cc2",
+      "molecular_formula": "C7H7O6V",
+      "molecular_weight": "226.1",
+      "mechanism": "Vanadium-based PTEN phosphatase inhibitor (tool compound, not clinical)",
+      "approval_status": "research tool",
+      "pubchem_cid": null,
+      "reference_pmid": "PMID:12531543"
+    },
+    {
+      "name": "MYCi975",
+      "target_id": "MYC",
+      "uniprot_id": "P01106",
+      "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
+      "molecular_formula": "C22H21N5",
+      "molecular_weight": "371.4",
+      "mechanism": "Small-molecule MYC-MAX interaction disruptor",
+      "approval_status": "preclinical",
+      "pubchem_cid": null,
+      "reference_pmid": "PMID:30804102"
+    },
+    {
+      "name": "Stattic",
+      "target_id": "STAT3",
+      "uniprot_id": "P40763",
+      "smiles": "O=C1OC(=O)c2c(S(=O)(=O)c3ccccc3)c[nH]c21",
+      "molecular_formula": "C11H7NO4S",
+      "molecular_weight": "237.2",
+      "mechanism": "STAT3 SH2 domain inhibitor (tool compound)",
+      "approval_status": "research tool",
+      "pubchem_cid": 5494470,
+      "reference_pmid": "PMID:16524175"
+    },
+    {
+      "name": "Alpelisib",
+      "target_id": "PIK3CA",
+      "uniprot_id": "P42336",
+      "smiles": "CC1=C(N2C[C@@H](CC2=O)NC(=O)c3cc(F)ccc3NC(=O)c4cnc(N)nc4)C=CC=N1",
+      "molecular_formula": "C19H22FN7O2S",
+      "molecular_weight": "441.5",
+      "mechanism": "PI3K\u03b1-selective kinase inhibitor",
+      "approval_status": "FDA approved 2019",
+      "pubchem_cid": 71589808,
+      "reference_pmid": "PMID:29208673"
+    },
+    {
+      "name": "Everolimus",
+      "target_id": "MTOR",
+      "uniprot_id": "P42345",
+      "smiles": "CCC(=O)O[C@@H]1CC[C@H](C[C@H]1OC)C[C@@H]2CC[C@@H]([C@@H](O2)C[C@@H]3CC[C@H]([C@@H](O3)[C@H](C[C@H](CC(=O)[C@@H]([C@H]([C@H](C(=O)O[C@H]([C@H]([C@H]([C@H]4CC[C@@H](O4)/C=C/C=C/C[C@@H]([C@H]1C)O)C)OC)C)CC)C)O)OC)OC)C",
+      "molecular_formula": "C53H83NO14",
+      "molecular_weight": "958.2",
+      "mechanism": "mTORC1 allosteric inhibitor (rapalogue)",
+      "approval_status": "FDA approved 2009",
+      "pubchem_cid": 5284616,
+      "reference_pmid": "PMID:19470466"
+    },
+    {
+      "name": "Erdafitinib",
+      "target_id": "FGFR1",
+      "uniprot_id": "P11362",
+      "smiles": "CCNC(=O)c1cccc(Nc2nc(Nc3ccc(N4CC(C)OCC4)cc3OC)c3cc(OCC(F)(F)F)ccc3n2)c1",
+      "molecular_formula": "C25H30N6O2",
+      "molecular_weight": "446.5",
+      "mechanism": "Pan-FGFR1-4 kinase inhibitor",
+      "approval_status": "FDA approved 2019",
+      "pubchem_cid": 67462273,
+      "reference_pmid": "PMID:30522916"
+    },
+    {
+      "name": "Selpercatinib",
+      "target_id": "RET",
+      "uniprot_id": "P07949",
+      "smiles": "CNC(=O)c1cncc(Oc2ccc3[nH]c(=O)n(Cc4cccnc4N)c3c2)c1",
+      "molecular_formula": "C29H28FN7O3",
+      "molecular_weight": "520.6",
+      "mechanism": "Selective RET kinase inhibitor",
+      "approval_status": "FDA approved 2020",
+      "pubchem_cid": 2296643,
+      "reference_pmid": "PMID:32846060"
+    },
+    {
+      "name": "Enzalutamide",
+      "target_id": "AR",
+      "uniprot_id": "P10275",
+      "smiles": "Cc1cc(c(cc1NC(=O)c2cccc(c2)C#N)C(F)(F)F)C(=O)N3CCN(CC3)C4=CC(=CC=C4)F",
+      "molecular_formula": "C21H16F4N4O2S",
+      "molecular_weight": "464.4",
+      "mechanism": "Second-generation AR antagonist",
+      "approval_status": "FDA approved 2012",
+      "pubchem_cid": 15951529,
+      "reference_pmid": "PMID:22197912"
+    },
+    {
+      "name": "Larotrectinib",
+      "target_id": "NTRK1",
+      "uniprot_id": "Q16288",
+      "smiles": "O=C(N[C@H]1CC[C@@H](O1)n2cc3c(n2)c(F)ccc3)N4CC[C@@H](F)C4",
+      "molecular_formula": "C21H22FN6O2",
+      "molecular_weight": "428.4",
+      "mechanism": "Pan-TRK (NTRK1/2/3) kinase inhibitor",
+      "approval_status": "FDA approved 2018",
+      "pubchem_cid": 46188928,
+      "reference_pmid": "PMID:30315968"
     },
     {
       "name": "Ivosidenib",

@@ -404,6 +404,379 @@
     ]
   },
   {
+    "id": "BRAF",
+    "uniprot_id": "P15056",
+    "protein_name": "Serine/threonine-protein kinase B-raf",
+    "protein_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
+    "disease_context": "BRAF is mutated in approximately 50% of melanomas (predominantly V600E), 10\u201315% of colorectal cancers, and multiple other tumour types. The V600E substitution constitutively activates the MAPK/ERK signalling cascade, driving unchecked cellular proliferation.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "V600E mutation creates an oncogenic kinase; achieving selectivity over other RAF family members and overcoming gatekeeper resistance mutations requires precise pocket engineering. Paradoxical MAPK pathway activation with pan-RAF inhibitors adds complexity.",
+    "known_drugs": [
+      {
+        "name": "Vemurafenib",
+        "mechanism": "Selective BRAF V600E kinase inhibitor",
+        "approved_year": 2011
+      },
+      {
+        "name": "Dabrafenib",
+        "mechanism": "Selective BRAF V600E/K/D inhibitor",
+        "approved_year": 2013
+      },
+      {
+        "name": "Encorafenib",
+        "mechanism": "Next-generation BRAF V600E inhibitor with extended target residence time",
+        "approved_year": 2018
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "3OG7",
+    "active_site_residues": [
+      466,
+      469,
+      483,
+      501,
+      594,
+      595,
+      596,
+      600
+    ]
+  },
+  {
+    "id": "PTEN",
+    "uniprot_id": "P60484",
+    "protein_name": "Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN",
+    "protein_sequence": "MTAIIKEIVSRNKRRYQEDGFDLDLTYIYPNIIAMGFPAERLEGVYRNNIDDVVRFLDSKHKNHYKIYNLCAERHYDTAKFNCRVAQYPFEDHNPPQLELIKPFCEDLDQWLSEDDNHVAAIHCKAGKGRTGVMICAYLLHRGKFLKAQEALDFYGEVRTRDKKGVTIPSQRRYVYYYSYLLKNHLDYRPVALLFHKMMFETIPMFSGGTCNPQFVVCQLKVKIYSSNSGPTRREDKFMYFEFPQPLPVCGDIKVEFFHKQNKMLKKDKMFHFWVNTFFIPGPEETSEKVENGSLCDQEIDSICSIERADNDKEYLVLTLTKNDLDKANKDKANRYFSPNFKVKLYFTKTVEEPSNPEASSSTSVTPDVSDNEPDHYRYSDTTDSDPENEPFDEDQHTQITKV",
+    "disease_context": "PTEN is lost or mutated in over 30% of all human cancers including glioblastoma, prostate, breast, and endometrial cancers. It is a major negative regulator of the PI3K/AKT/mTOR pathway; its loss leads to constitutive pro-survival signalling.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "PTEN is a tumour suppressor \u2014 most cancers involve its loss-of-function, making traditional small-molecule inhibition counterproductive; therapeutic strategies aim at restoring PTEN function or exploiting synthetic lethality. No approved direct inhibitor exists, and the shallow phosphatase active site is difficult to target selectively.",
+    "known_drugs": [
+      {
+        "name": "PACLITAXEL (synthetic lethality context)",
+        "mechanism": "Exploits PTEN-loss-driven genomic instability via mitotic arrest",
+        "approved_year": 1992
+      },
+      {
+        "name": "GSK2636771 (investigational)",
+        "mechanism": "PI3K\u03b2 inhibitor exploiting PTEN-deficient synthetic lethality",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "1D5R",
+    "active_site_residues": [
+      92,
+      124,
+      129,
+      130,
+      155,
+      171,
+      173
+    ]
+  },
+  {
+    "id": "MYC",
+    "uniprot_id": "P01106",
+    "protein_name": "Myc proto-oncogene protein",
+    "protein_sequence": "MDFFRVVENQQPPATMPLNVSFTNRNYDLDYDSVQPYFYCDEEENFYQQQQQSELQPPAPSEDIWKKFELLPTPPLSPSRRSGLCSPSYVAVTPFSLRGDNDGGGGSFSTADQLEMVTELLGGDMVNQSFICDPDDETFIKNIIIQDCMWSGFSAAAKLVSEKLASYQAARKDSGSPNPARGHSVCSTSSLYLQDLSAAASECIDPSVVFPYPLNDSSSPKSCASQDSSAFSPSSDSLLSSTESSPQGSPEPLVLHEETPPTTSSDSEEEQEDEEEIDVVSVEKRQAPGKRSESGSPSAGGHSKPPHSPLVLKRCHVSTHQHNYAAPPSTRKDYPAAKRVKLDSVRVLRQISNNRKCTSPRSSDTEENVKRRTHNVLERQRRNELKRSFFALRDQIPELENNEKAPKVVILKKATAYILSVQAEEQKLISEEDLLRKRREQLKHKLEQLRNSCA",
+    "disease_context": "MYC is amplified or overexpressed in approximately 70% of all human cancers. It drives transcription of hundreds of genes involved in cell-cycle progression, protein synthesis, and metabolism. Considered 'undruggable' for decades; recent PROTAC and bHLH-LZ disruption strategies are early-stage.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "MYC is an intrinsically disordered transcription factor with no defined small-molecule binding pocket in the canonical sense. It acts as a scaffold for large multi-protein complexes; the only tractable approach is disrupting MYC-MAX heterodimerisation via the bHLH-LZ domain, but the interaction surface is flat and high-affinity inhibitors have proven extremely challenging to develop.",
+    "known_drugs": [
+      {
+        "name": "OMOMYC (biologics)",
+        "mechanism": "Dominant-negative MYC bHLH-LZ construct disrupting MYC-MAX dimerisation",
+        "approved_year": null
+      },
+      {
+        "name": "MYCi975 (investigational)",
+        "mechanism": "Small-molecule MYC-MAX PPI disruptor",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.0,
+    "pdb_id": "1NKP",
+    "active_site_residues": [
+      366,
+      367,
+      370,
+      374,
+      375,
+      402,
+      420,
+      422,
+      452
+    ]
+  },
+  {
+    "id": "STAT3",
+    "uniprot_id": "P40763",
+    "protein_name": "Signal transducer and activator of transcription 3",
+    "protein_sequence": "MAQWNQLQQLDTRYLEQLHQLYSDSFPMELRQFLAPWIESQDWAYAASKESHATLVFHNLLGEIDQQYSRFLQESNVLYQHNLRRIKQFLQSRYLEKPMEIARIVARCLWEESRLLQTAATAAQQGGQANHPTAAVVTEKQQMLEQHLQDVRKRVQDLEQKMKVVENLQDDFDFNYKTLKSQGDMQDLNGNNQSVTRQKMQQLEQMLTALDQMRRSIVSELAGLLSAMEYVQKTLTDEELADWKRRQQIACIGGPPNICLDRLENWITSLAESQLQTRQQIKKLEELQQKVSYKGDPIVQHRPMLEERIVELFRNLMKSAFVVERQPCMPMHPDRPLVIKTGVQFTTKVRLLVKFPELNYQLKIKVCIDKDSGDVAALRGSRKFNILGTNTKVMNMEESNNGSLSAEFKHLTLREQRCGNGGRANCDASLIVTEELHLITFETEVYHQGLKIDLETHSLPVVVISNICQMPNAWASILWYNMLTNNPKNVNFFTKPPIGTWDQVAEVLSWQFSSTTKRGLSIEQLTTLAEKLLGPGVNYSGCQITWAKFCKENMAGKGFSFWVWLDNIIDLVKKYILALWNEGYIMGFISKERERAILSTKPPGTFLLRFSESSKEGGVTFTWVEKDISGKTQIQSVEPYTKQQLNNMSFAEIIMGYKIMDATNILVSPLVYLYPDIPKEEAFGKYCRPESQEHPEADPGSAAPYLKTKFICVTPTTCSNTIDLPMSPRTLDSLMQFGNNGEGAEPSAGGQFESLTFDMELTSECATSPM",
+    "disease_context": "STAT3 is constitutively activated in many cancers including breast, lung, prostate, and haematological malignancies. It mediates tumour immune evasion by promoting immunosuppressive cytokine production and is a master regulator of cancer stem-cell maintenance.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "STAT3 SH2 domain mediates protein-protein interactions with a relatively flat surface; disrupting it with drug-like small molecules with selectivity over STAT1/5 has proved difficult. No approved direct STAT3 inhibitor exists; most clinical attempts have failed due to poor potency or selectivity.",
+    "known_drugs": [
+      {
+        "name": "Napabucasin (investigational)",
+        "mechanism": "STAT3 transcriptional activity inhibitor / reactive oxygen species generator",
+        "approved_year": null
+      },
+      {
+        "name": "TTI-101 (investigational)",
+        "mechanism": "Selective SH2 domain phosphopeptide mimetic inhibitor",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -8.5,
+    "pdb_id": "6NJS",
+    "active_site_residues": [
+      607,
+      609,
+      611,
+      613,
+      615,
+      638,
+      702,
+      727
+    ]
+  },
+  {
+    "id": "PIK3CA",
+    "uniprot_id": "P42336",
+    "protein_name": "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+    "protein_sequence": "MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREIGFAIGMPVCEFDMVKDPEVQDFRRNILNVCKEAVDLRDLNSPHSRAMYVYPPNVESSPELPKHIYNKLDKGQIIVVIWVIVSPNNDKQKYTLKINHDCVPEQVIAEAIRKKTRSMLLSSEQLKLCVLEYQGKYILKVCGCDEYFLEKYPLSQYKYIRSCIMLGRMPNLMLMAKESLYSQLPMDCFTMPSYSRRISTATPYMNGETSTKSLWVINSALRIKILCATYVNVNIRDIDKIYVRTGIYHGGEPLCDNVNTQRVPCSNPRWNEWLNYDIYIPDLPRAARLCLSICSVKGRKGAKEEHCPLAWGNINLFDYTDTLVSGKMALNLWPVPHGLEDLLNPIGVTGSNPNKETPCLELEFDWFSSVVKFPDMSVIEEHANWSVSREAGFSYSHAGLSNRLARDNELRENDKEQLKAISTRDPLSEITEQEKDFLWSHRHYCVTIPEILPKLLLSVKWNSRDEVAQMYCLVKDWPPIKPEQAMELLDCNYPDPMVRGFAVRCLEKYLTDDKLSQYLIQLVQVLKYEQYLDNLLVRFLLKKALTNQRIGHFFFWHLKSEMHNKTVSQRFGLLLESYCRACGMYLKHLNRQVEAMEKLINLTDILKQEKKDETQKVQMKFLVEQMRRPDFMDALQGFLSPLNPAHQLGNLRLEECRIMSSAKRPLWLNWENPDIMSELLFQNNEIIFKNGDDLRQDMLTLQIIRIMENIWQNQGLDLRMLPYGCLSIGDCVGLIEVVRNSHTIMQIQCKGGLKGALQFNSHTLHQWLKDKNKGEIYDAAIDLFTRSCAGYCVATFILGIGDRHNSNIMVKDDGQLFHIDFGHFLDHKKKKFGYKRERVPFVLTQDFLIVISKGAQECTKTREFERFQEMCYKAYLAIRQHANLFINLFSMMLGSGMPELQSFDDIAYIRKTLALDKTEQEALEYFMKQMNDAHHGGWTTKMDWIFHTIKQHALN",
+    "disease_context": "PIK3CA is one of the most frequently mutated oncogenes in human cancer, altered in approximately 30% of breast cancers, 20% of colorectal cancers, and multiple other tumour types. Hotspot mutations (H1047R, E545K, E542K) constitutively activate the PI3K/AKT/mTOR pathway.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "The PI3K\u03b1 ATP-binding site is well-defined but achieving isoform selectivity over PI3K\u03b2/\u03b4/\u03b3 requires subtle structural differentiation. Gaining alpha-isoform selectivity was the key challenge solved by alpelisib; resistance mutations (H1047R, E545K) shift binding dynamics.",
+    "known_drugs": [
+      {
+        "name": "Alpelisib",
+        "mechanism": "PI3K\u03b1-selective kinase inhibitor",
+        "approved_year": 2019
+      },
+      {
+        "name": "Idelalisib",
+        "mechanism": "PI3K\u03b4-selective inhibitor (haem. context)",
+        "approved_year": 2014
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.5,
+    "pdb_id": "4JPS",
+    "active_site_residues": [
+      772,
+      800,
+      802,
+      810,
+      853,
+      933,
+      935,
+      939
+    ]
+  },
+  {
+    "id": "MTOR",
+    "uniprot_id": "P42345",
+    "protein_name": "Serine/threonine-protein kinase mTOR",
+    "protein_sequence": "MLGTGPAAATTAATTSSNVSVLQQFASGLKSRNEETRAKAAKELQHYVTMELREMSQEESTRFYDQLNHHIFELVSSSDANERKGGILAIASLIGVEGGNATRIGRFANYLRNLLPSNDPVVMEMASKAIGRLAMAGDTFTAEYVEFEVKRALEWLGADRNEGRRHAAVLVLRELAISVPTFFFQQVQPFFDNIFVAVWDPKQAIREGAVAALRACLILTTQREPKEMQKPQWYRHTFEEAEKGFDETLAKEKGMNRDDRIHGALLILNELVRISSMEGERLREEMEEITQQQLVHDKYCKDLMGFGTKPRHITPFTSFQAVQPQQSNALVGLLGYSSHQGLMGFGTSPSPAKSTLVESRCCRDLMEEKFDQVCQWVLKCRNSKNSLIQMTILNLLPRLAAFRPSAFTDTQYLQDTMNHVLSCVKKEKERTAAFQALGLLSVAVRSEFKVYLPRVLDIIRAALPPKDFAHKRQKAMQVDATVFTCISMLARAMGPGIQQDIKELLEPMLAVGLSPALTAVLYDLSRQIPQLKKDIQDGLLKMLSLVLMHKPLRHPGMPKGLAHQLASPGLTTLPEASDVGSITLALRTLGSFEFEGHSLTQFVRHCADHFLNSEHKEIRMEAARTCSRLLTPSIHLISGHAHVVSQTAVQVVADVLSKLLVVGITDPDPDIRYCVLASLDERFDAHLAQAENLQALFVALNDQVFEIRELAICTVGRLSSMNPAFVMPFLRKMLIQILTELEHSGIGRIKEQSARMLGHLVSNAPRLIRPYMEPILKALILKLKDPDPDPNPGVINNVLATIGELAQVSGLEMRKWVDELFIIIMDMLQDSSLLAKRQVALWTLGQLVASTGYVVEPYRKYPTLLEVLLNFLKTEQNQGTRREAIRVLGLLGALDPYKHKVNIGMIDQSRDASAVSLSESKSSQDSSDYSTSEMLVNMGNLPLDEFYPAVSMVALMRIFRDQSLSHHHTMVVQAITFIFKSLGLKCVQFLPQVMPTFLNVIRVCDGAIREFLFQQLGMLVSFVKSHIRPYMDEIVTLMREFWVMNTSIQSTIILLIEQIVVALGGEFKLYLPQLIPHMLRVFMHDNSPGRIVSIKLLAAIQLFGANLDDYLHLLLPPIVKLFDAPEAPLPSRKAALETVDRLTESLDFTDYASRIIHPIVRTLDQSPELRSTAMDTLSSLVFQLGKKYQIFIPMVNKVLVRHRINHQRYDVLICRIVKGYTLADEEEDPLIYQHRMLRSGQGDALASGPVETGPMKKLHVSTINLQKAWGAARRVSKDDWLEWLRRLSLELLKDSSSPSLRSCWALAQAYNPMARDLFNAAFVSCWSELNEDQQDELIRSIELALTSQDIAEVTQTLLNLAEFMEHSDKGPLPLRDDNGIVLLGERAAKCRAYAKALHYKELEFQKGPTPAILESLISINNKLQQPEAAAGVLEYAMKHFGELEIQATWYEKLHEWEDALVAYDKKMDTNKDDPELMLGRMRCLEALGEWGQLHQQCCEKWTLVNDETQAKMARMAAAAAWGLGQWDSMEEYTCMIPRDTHDGAFYRAVLALHQDLFSLAQQCIDKARDLLDAELTAMAGESYSRAYGAMVSCHMLSELEEVIQYKLVPERREIIRQIWWERLQGCQRIVEDWQKILMVRSLVVSPHEDMRTWLKYASLCGKSGRLALAHKTLVLLLGVDPSRQLDHPLPTVHPQVTYAYMKNMWKSARKIDAFQHMQHFVQTMQQQAQHAIATEDQQHKQELHKLMARCFLKLGEWQLNLQGINESTIPKVLQYYSAATEHDRSWYKAWHAWAVMNFEAVLHYKHQNQARDEKKKLRHASGANITNATTAATTAATATTTASTEGSNSESEAESTENSPTPSPLQKKVTEDLSKTLLMYTVPAVQGFFRSISLSRGNNLQDTLRVLTLWFDYGHWPDVNEALVEGVKAIQIDTWLQVIPQLIARIDTPRPLVGRLIHQLLTDIGRYHPQALIYPLTVASKSTTTARHNAANKILKNMCEHSNTLVQQAMMVSEELIRVAILWHEMWHEGLEEASRLYFGERNVKGMFEVLEPLHAMMERGPQTLKETSFNQAYGRDLMEAQEWCRKYMKSGNVKDLTQAWDLYYHVFRRISKQLPQLTSLELQYVSPKLLMCRDLELAVPGTYDPNQPIIRIQSIAPSLQVITSKQRPRKLTLMGSNGHEFVFLLKGHEDLRQDERVMQLFGLVNTLLANDPTSLRKNLSIQRYAVIPLSTNSGLIGWVPHCDTLHALIRDYREKKKILLNIEHRIMLRMAPDYDHLTLMQKVEVFEHAVNNTAGDDLAKLLWLKSPSSEVWFDRRTNYTRSLAVMSMVGYILGLGDRHPSNLMLDRLSGKILHIDFGDCFEVAMTREKFPEKIPFRLTRMLTNAMEVTGLDGNYRITCHTVMEVLREHKDSVMAVLEAFVYDPLLNWRLMDTNTKGNKRSRTRTDSYSAGQSVEILDGVELGEPAHKKTGTTVPESIHSFIGDGLVKPEALNKKAIQIINRVRDKLTGRDFSHDDTLDVPTQVELLIKQATSHENLCQCYIGWCPFW",
+    "disease_context": "mTOR is a central integrator of growth factor, nutrient, and energy signals, dysregulated in RCC, breast cancer, neuroendocrine tumours, and TSC-related tumours. mTORC1/mTORC2 complexes regulate protein synthesis, autophagy, and cellular metabolism downstream of PI3K/AKT.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "mTOR is a large (~289 kDa) multi-domain PIKK-family kinase. Achieving selectivity over PI3K family members is achievable; the FRB domain provides an allosteric handle for rapamycin analogues. Resistance via S2035I gatekeeper and feedback activation of AKT limit single-agent utility.",
+    "known_drugs": [
+      {
+        "name": "Everolimus",
+        "mechanism": "mTORC1 allosteric inhibitor (rapalogue)",
+        "approved_year": 2009
+      },
+      {
+        "name": "Temsirolimus",
+        "mechanism": "mTORC1 allosteric inhibitor (rapalogue)",
+        "approved_year": 2007
+      },
+      {
+        "name": "Vistusertib",
+        "mechanism": "ATP-competitive mTORC1/2 dual kinase inhibitor",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "4JSN",
+    "active_site_residues": [
+      2194,
+      2237,
+      2239,
+      2240,
+      2242,
+      2245,
+      2327,
+      2357
+    ]
+  },
+  {
+    "id": "FGFR1",
+    "uniprot_id": "P11362",
+    "protein_name": "Fibroblast growth factor receptor 1",
+    "protein_sequence": "MWSWKCLLFWAVLVTATLCTARPSPTLPEQAQPWGAPVEVESFLVHPGDLLQLRCRLRDDVQSINWLRDGVQLAESNRTRITGEEVEVQDSVPADSGLYACVTSSPSGSDTTYFSVNVSDALPSSEDDDDDDDSSSEEKETDNTKPNRMPVAPYWTSPEKMEKKLHAVPAAKTVKFKCPSSGTPNPTLRWLKNGKEFKPDHRIGGYKVRYATWSIIMDSVVPSDKGNYTCIVENEYGSINHTYQLDVVERSPHRPILQAGLPANKTVALGSNVEFMCKVYSDPQPHIQWLKHIEVNGSKIGPDNLPYVQILKTAGVNTTDKEMEVLHLRNVSFEDAGEYTCLAGNSIGLSHHSAWLTVLEALEERPAVMTSPLYLEIIIYCTGAFLISCMVGSVIVYKMKSGTKKSDFHSQMAVHKLAKSIPLRRQVTVSADSSASMNSGVLLVRPSRLSSSGTPMLAGVSEYELPEDPRWELPRDRLVLGKPLGEGCFGQVVLAEAIGLDKDKPNRVTKVAVKMLKSDATEKDLSDLISEMEMMKMIGKHKNIINLLGACTQDGPLYVIVEYASKGNLREYLQARRPPGLEYCYNPSHNPEEQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHHIDYYKKTTNGRLPVKWMAPEALFDRIYTHQSDVWSFGVLLWEIFTLGGSPYPGVPVEELFKLLKEGHRMDKPSNCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDRIVALTSNQEYLDLSMPLDQYSPSFPDTRSSTCSSGEDSVFSHEPLPEEPCLPRHPAQLANGGLKRR",
+    "disease_context": "FGFR1 is amplified or mutated in bladder cancer (FGFR3 predominantly), lung squamous cell carcinoma, and multiple myeloma. FGFR gene fusions and point mutations drive constitutive kinase activation in multiple tumour types.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "FGFR1 kinase domain has a well-druggable ATP pocket, but achieving selectivity across the four FGFR paralogs (FGFR1-4) required careful medicinal chemistry. Off-target VEGFR inhibition caused toxicities with early pan-FGFR agents; hyperphosphatemia is an on-target adverse effect unique to FGFR inhibition.",
+    "known_drugs": [
+      {
+        "name": "Erdafitinib",
+        "mechanism": "Pan-FGFR1-4 kinase inhibitor",
+        "approved_year": 2019
+      },
+      {
+        "name": "Pemigatinib",
+        "mechanism": "Selective FGFR1/2/3 inhibitor",
+        "approved_year": 2020
+      },
+      {
+        "name": "Infigratinib",
+        "mechanism": "Selective FGFR1/2/3 ATP-competitive inhibitor",
+        "approved_year": 2021
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "3C4F",
+    "active_site_residues": [
+      484,
+      514,
+      531,
+      561,
+      564,
+      641,
+      642,
+      644,
+      646
+    ]
+  },
+  {
+    "id": "RET",
+    "uniprot_id": "P07949",
+    "protein_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+    "protein_sequence": "MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAPEEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLTVYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENRPPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELVAVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFDADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNRNLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFAQIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAELHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGRCEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPRGIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCYHKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSMENQVSVDAFKILEDPKWEFPRKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDHPDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYLDLAASTPSDSLIYDDGLSEEETPLVDCNNAPLPRALPSTWIENKLYGMSDPNWPGESPVPLTRADGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS",
+    "disease_context": "RET gene fusions (KIF5B-RET, CCDC6-RET) are drivers in 1\u20132% of NSCLC and point mutations (C634, M918T) are found in 95% of medullary thyroid carcinoma (MTC). RET is among the first targets where precision oncology enabled highly selective therapeutic development.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "RET is a receptor tyrosine kinase with an accessible ATP-binding pocket. First-generation multi-kinase inhibitors had off-target toxicities; selective RET inhibitors required structure-guided design to distinguish RET from VEGFR2 (similar binding site geometry). Solvent-front resistance mutations (G810) remain clinically relevant.",
+    "known_drugs": [
+      {
+        "name": "Selpercatinib",
+        "mechanism": "Selective RET kinase inhibitor (ATP-competitive)",
+        "approved_year": 2020
+      },
+      {
+        "name": "Pralsetinib",
+        "mechanism": "Selective RET kinase inhibitor",
+        "approved_year": 2020
+      },
+      {
+        "name": "Cabozantinib",
+        "mechanism": "Multi-kinase inhibitor (RET/VEGFR2/MET)",
+        "approved_year": 2012
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.5,
+    "pdb_id": "2IVS",
+    "active_site_residues": [
+      730,
+      734,
+      738,
+      756,
+      804,
+      805,
+      806,
+      892
+    ]
+  },
+  {
+    "id": "AR",
+    "uniprot_id": "P10275",
+    "protein_name": "Androgen receptor",
+    "protein_sequence": "MEVQLGLGRVYPRPPSKTYRGAFQNLFQSVREVIQNPGPRHPEAASAAPPGASLLLLQQQQQQQQQQQQQQQQQQQQQQQETSPRQQQQQQGEDGSPQAHRRGPTGYLVLDEEQQPSQPQSALECHPERGCVPEPGAAVAASKGLPQQLPAPPDEDDSAAPSTLSLLGPTFPGLSSCSADLKDILSEASTMQLLQQQQQEAVSEGSSSGRAREASGAPTSSKDNYLGGTSTISDNAKELCKAVSVSMGLGVEALEHLSPGEQLRGDCMYAPLLGVPPAVRPTPCAPLAECKGSLLDDSAGKSTEDTAEYSPFKGGYTKGLEGESLGCSGSAAAGSSGTLELPSTLSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDYGSAWAAAAAQCRYGDLASLHGAGAAGPGSGSPSAAASSSWHTLFTAEEGQLYGPCGGGGGGGGGGGGGGGGGGGGGGGEAGAVAPYGYTRPPQGLAGQESDFTAPDVWYPGGMVSRVPYPSPTCVKSEMGPWMDSYSGPYGDMRLETARDHVLPIDYYFPPQKTCLICGDEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMTLGARKLKKLGNLKLQEEGEASSTTSPTEETTQKLTVSHIEGYECQPIFLNVLEAIEPGVVCAGHDNNQPDSFAALLSSLNELGERQLVHVVKWAKALPGFRNLHVDDQMAVIQYSWMGLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRMRHLSQEFGWLQITPQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNYIKELDRIIACKRKNPTSCSRRFYQLTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFPEMMAEIISVQVPKILSGKVKPIYFHTQ",
+    "disease_context": "The androgen receptor drives prostate cancer proliferation through testosterone and DHT binding. Castration-resistant prostate cancer (CRPC) develops when tumours reactivate AR signalling despite androgen deprivation, representing the major cause of prostate cancer mortality.",
+    "difficulty_tier": 2,
+    "difficulty_rationale": "The androgen receptor LBD is well-characterised and highly druggable; challenges arise from resistance mechanisms including LBD mutations (F876L, T877A), constitutively active splice variants (AR-V7 lacking LBD), and glucocorticoid receptor bypass. N-terminal domain targeting and AR degraders represent next-generation approaches.",
+    "known_drugs": [
+      {
+        "name": "Enzalutamide",
+        "mechanism": "Second-generation AR antagonist with no agonist switch",
+        "approved_year": 2012
+      },
+      {
+        "name": "Apalutamide",
+        "mechanism": "Non-steroidal AR antagonist",
+        "approved_year": 2018
+      },
+      {
+        "name": "Darolutamide",
+        "mechanism": "Structurally distinct AR antagonist with low CNS penetration",
+        "approved_year": 2019
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -9.0,
+    "pdb_id": "2AM9",
+    "active_site_residues": [
+      701,
+      704,
+      705,
+      741,
+      745,
+      764,
+      771,
+      874,
+      877
+    ]
+  },
+  {
+    "id": "NTRK1",
+    "uniprot_id": "Q16288",
+    "protein_name": "High affinity nerve growth factor receptor",
+    "protein_sequence": "MDVSLCPAKCSFWRIFLLGSVWLDYVGSVLACPANCVCSKTEINCRRPDDGNLFPLLEGQDSGNSNGNASINITDISRNITSIHIENWRSLHTLNAVDMELYTGLQKLTIKNSGLRSIQPRAFAKNPHLRYINLSSNRLTTLSWQLFQTLSLRELQLEQNFFNCSCDIRWMQLWQEQGEAKLNSQNLYCINADGSQLPLFRMNISQCDLPEISVSHVNLTVREGDNAVITCNGSGSPLPDVDWIVTGLQSINTHQTNLNWTNVHAINLTLVNVTSEDNGFTLTCIAENVVGMSNASVALTVYYPPRVVSLEEPELRLEHCIEFVVRGNPPPTLHWLHNGQPLRESKIIHVEYYQEGEISEGCLLFNKPTHYNNGNYTLIAKNPLGTANQTINGHFLKEPFPESTDNFILFDEVSPTPPITVTHKPEEDTFGVSIAVGLAAFACVLLVVLFVMINKYGRRSKFGMKGPVAVISGEEDSASPLHHINHGITTPSSLDAGPDTVVIGMTRIPVIENPQYFRQGHNCHKPDTYVQHIKRRDIVLKRELGEGAFGKVFLAECYNLSPTKDKMLVAVKALKDPTLAARKDFQREAELLTNLQHEHIVKFYGVCGDGDPLIMVFEYMKHGDLNKFLRAHGPDAMILVDGQPRQAKGELGLSQMLHIASQIASGMVYLASQHFVHRDLATRNCLVGANLLVKIGDFGMSRDVYSTDYYRLFNPSGNDFCIWCEVGGHTMLPIRWMPPESIMYRKFTTESDVWSFGVILWEIFTYGKQPWFQLSNTEVIECITQGRVLERPRVCPKEVYDVMLGCWQREPQQRLNIKEIYKILHALGKATPIYLDILG",
+    "disease_context": "NTRK1 gene fusions (ETV6-NTRK3, TPM3-NTRK1, others) are rare but highly druggable pan-cancer drivers found in diverse tumour types including secretory breast cancer, infantile fibrosarcoma, lung, and colon cancers. Larotrectinib showed >75% overall response rate across 17 tumour types in basket trial \u2014 one of the first tumour-agnostic approvals.",
+    "difficulty_tier": 1,
+    "difficulty_rationale": "NTRK1 kinase domain has a tractable, well-defined ATP-binding cleft and high similarity across the NTRK family, enabling pan-TRK inhibitors with broad efficacy. Type I DFG-in inhibitors like larotrectinib achieve picomolar potency; resistance mutations (G595R, G667C) are addressable with second-generation inhibitors.",
+    "known_drugs": [
+      {
+        "name": "Larotrectinib",
+        "mechanism": "Pan-TRK (NTRK1/2/3) kinase inhibitor",
+        "approved_year": 2018
+      },
+      {
+        "name": "Entrectinib",
+        "mechanism": "Pan-TRK/ROS1/ALK multi-kinase inhibitor",
+        "approved_year": 2019
+      },
+      {
+        "name": "Selitrectinib",
+        "mechanism": "Second-generation TRK inhibitor targeting G595R resistance",
+        "approved_year": null
+      }
+    ],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -10.0,
+    "pdb_id": "5JFW",
+    "active_site_residues": [
+      544,
+      572,
+      589,
+      591,
+      596,
+      598,
+      668,
+      669,
+      670
+    ]
+  },
+  {
     "id": "IDH1",
     "uniprot_id": "O75874",
     "protein_name": "Isocitrate dehydrogenase [NADP] cytoplasmic",
