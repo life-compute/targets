@@ -1,16 +1,28 @@
 {
   "_schema": "life-compute/hits v1",
-  "_description": "All confirmed LIFE Compute hits — molecules with validated Boltz2 affinity scores. Auto-updated by miner on confirmed $LIFE mint.",
+  "_description": "All confirmed LIFE Compute hits \u2014 molecules with validated Boltz2 affinity scores. Auto-updated by miner on confirmed $LIFE mint.",
   "_fields": {
-    "smiles":       "SMILES string of the candidate molecule",
-    "boltz_score":  "Validated ΔG affinity in kcal/mol (negative = binding; lower = stronger)",
-    "target_id":    "Gene symbol matching targets.json / targets_2000.json",
-    "uniprot_id":   "UniProt accession of the protein target",
+    "smiles": "SMILES string of the candidate molecule",
+    "boltz_score": "Validated \u0394G affinity in kcal/mol (negative = binding; lower = stronger)",
+    "target_id": "Gene symbol matching targets.json / targets_2000.json",
+    "uniprot_id": "UniProt accession of the protein target",
     "miner_wallet": "Base58 pubkey of the miner who submitted this hit",
-    "epoch":        "On-chain epoch number when the result was submitted",
-    "tx":           "Solana transaction signature of the mint_reward instruction",
-    "timestamp":    "ISO-8601 UTC timestamp when the hit was confirmed on-chain",
-    "life_earned":  "Raw $LIFE tokens minted (6 decimals, divide by 1e6 for display)"
+    "epoch": "On-chain epoch number when the result was submitted",
+    "tx": "Solana transaction signature of the mint_reward instruction",
+    "timestamp": "ISO-8601 UTC timestamp when the hit was confirmed on-chain",
+    "life_earned": "Raw $LIFE tokens minted (6 decimals, divide by 1e6 for display)"
   },
-  "hits": []
+  "hits": [
+    {
+      "smiles": "CC(C)OC1=C(C=CC(=C1)OC)C2=N[C@H]([C@H](N2C(=O)N3CCNC(=O)C3)C4=CC=C(C=C4)Cl)C5=CC=C(C=C5)Cl",
+      "boltz_score": -0.292,
+      "target_id": "TP53",
+      "uniprot_id": "P04637",
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "epoch": 20679,
+      "tx": "2D3UhnBPRbTdZLXpntWMAcvAXEpNNm8uZcCYbsvXSMLRTb6jxZjTkvAHHkTEEJP5fUhSgvNAyFMQ56wjUztSG4Tk",
+      "life_earned": 1000000,
+      "timestamp": "2026-08-14T16:38:54.002064+00:00"
+    }
+  ]
 }

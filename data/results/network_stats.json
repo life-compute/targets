@@ -1,16 +1,16 @@
 {
   "_schema": "life-compute/network_stats v1",
   "_description": "Global LIFE Compute network statistics. Updated on each confirmed hit.",
-  "total_miners":        0,
-  "total_validators":    0,
-  "molecules_screened":  0,
-  "confirmed_hits":      0,
-  "targets_solved":      0,
-  "life_minted_raw":     0,
-  "life_minted_display": "0.000000",
-  "targets_active":      2000,
-  "last_hit_at":         "",
-  "last_hit_target":     "",
-  "last_hit_score":      null,
-  "last_updated":        ""
+  "total_miners": 0,
+  "total_validators": 0,
+  "molecules_screened": 1,
+  "confirmed_hits": 1,
+  "targets_solved": 1,
+  "life_minted_raw": 1000000,
+  "life_minted_display": "1.000000",
+  "targets_active": 2000,
+  "last_hit_at": "2026-08-14T16:38:54.002064+00:00",
+  "last_hit_target": "TP53",
+  "last_hit_score": -0.292,
+  "last_updated": "2026-08-14T16:38:54.197056+00:00"
 }
