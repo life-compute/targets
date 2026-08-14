@@ -1,0 +1,16 @@
+{
+  "_schema": "life-compute/hits v1",
+  "_description": "All confirmed LIFE Compute hits — molecules with validated Boltz2 affinity scores. Auto-updated by miner on confirmed $LIFE mint.",
+  "_fields": {
+    "smiles":       "SMILES string of the candidate molecule",
+    "boltz_score":  "Validated ΔG affinity in kcal/mol (negative = binding; lower = stronger)",
+    "target_id":    "Gene symbol matching targets.json / targets_2000.json",
+    "uniprot_id":   "UniProt accession of the protein target",
+    "miner_wallet": "Base58 pubkey of the miner who submitted this hit",
+    "epoch":        "On-chain epoch number when the result was submitted",
+    "tx":           "Solana transaction signature of the mint_reward instruction",
+    "timestamp":    "ISO-8601 UTC timestamp when the hit was confirmed on-chain",
+    "life_earned":  "Raw $LIFE tokens minted (6 decimals, divide by 1e6 for display)"
+  },
+  "hits": []
+}

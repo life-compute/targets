@@ -1,0 +1,17 @@
+{
+  "_schema": "life-compute/leaderboard v1",
+  "_description": "Top 10 confirmed molecules per target, all time. Rebuilt from hits.json on each new confirmed hit.",
+  "_fields": {
+    "target_id":    "Gene symbol",
+    "uniprot_id":   "UniProt accession",
+    "rank":         "Rank within this target (1 = best score)",
+    "smiles":       "SMILES string",
+    "boltz_score":  "Validated ΔG in kcal/mol",
+    "miner_wallet": "Winning miner pubkey",
+    "epoch":        "On-chain epoch",
+    "tx":           "Solana tx of the confirmed mint",
+    "timestamp":    "ISO-8601 UTC"
+  },
+  "generated_at": "",
+  "targets": {}
+}

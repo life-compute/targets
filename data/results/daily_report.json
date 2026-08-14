@@ -1,0 +1,17 @@
+{
+  "_schema": "life-compute/daily_report v1",
+  "_description": "Best confirmed molecule per target per day (UTC). Rebuilt nightly from hits.json.",
+  "_fields": {
+    "date":          "UTC date (YYYY-MM-DD)",
+    "target_id":     "Gene symbol",
+    "uniprot_id":    "UniProt accession",
+    "best_smiles":   "SMILES of the best molecule on this date",
+    "best_score":    "Best Boltz2 ΔG on this date (kcal/mol)",
+    "miner_wallet":  "Wallet of the winning miner",
+    "tx":            "Solana tx of the confirmed mint",
+    "total_hits":    "Total confirmed hits for this target on this date"
+  },
+  "report_date": "",
+  "generated_at": "",
+  "entries": []
+}
