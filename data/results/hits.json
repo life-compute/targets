@@ -3444,6 +3444,17 @@
       "tx": "ge7Xf783b1Vh77PWR7bNhfpWuSQtRtdVVTjoWHh9xihMuJEUmavfj4aPyGKFm4ZeyEZU91TVTdFUagg295dmDAj",
       "life_earned": 81000000,
       "timestamp": "2026-08-17T11:15:56.916271+00:00"
+    },
+    {
+      "smiles": "CC(C)OC1=C(C=CC(=C1)OC)C2=N[C@H]([C@H](N2C(=O)N3CCNC(=O)C3)C4=CC=C(C=C4)Cl)C5=CC=C(C=C5)Cl",
+      "boltz_score": -0.292,
+      "target_id": "TP53",
+      "uniprot_id": "P04637",
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "epoch": 20682,
+      "tx": "674A4CFKkjextGLU91vGfv7qyX2PTX2a4VNNNss7u26M4uKaUNtHoUKjKQ6ssi1VXXa1ewALJZBWcMJLHun8vP1K",
+      "life_earned": 25000000,
+      "timestamp": "2026-08-17T11:21:59.131068+00:00"
     }
   ]
 }
