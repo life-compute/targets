@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-08-17T01:15:51.130834+00:00",
+  "generated_at": "2026-08-17T01:19:53.508220+00:00",
   "targets": {
     "TP53": [
       {
@@ -638,6 +638,16 @@
         "epoch": 20681,
         "tx": "2gRBqFbhi7RuviXZ2Gd4CTzwEPnNZneKjA2UkMsNJdLaRA6A91SWsKCH8ns9XvVLNK6wJAFTgXUZCJFxyvQSgiXo",
         "timestamp": "2026-08-16T22:44:00.040068+00:00"
+      },
+      {
+        "rank": 3,
+        "smiles": "CC1=C(C(=O)N(C2=NC(=NC=C12)NC3=NC=C(C=C3)N4CCNCC4)C5CCCC5)C(=O)C",
+        "boltz_score": -1.614,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P11802",
+        "epoch": 20682,
+        "tx": "osw3k2hQeQvnLjnamjDvntaazs6N48XgusoogpQvpZmVTw2CLuQeLcQprBLf5MH3C6D6drY48SXn81aokSdUtPE",
+        "timestamp": "2026-08-17T01:19:53.505180+00:00"
       }
     ],
     "HDAC1": [
