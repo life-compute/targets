@@ -12101,6 +12101,17 @@
       "tx": "4SMj22pmCYQL6sRo8NWx6GD16HVhGRY8DDDfZKbrN2GNKJLB7P98YVTp7HqRKV9htJYDPzwnWTCAFcbPsgqbY2hc",
       "life_earned": 25000000,
       "timestamp": "2026-08-23T23:28:18.340100+00:00"
+    },
+    {
+      "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
+      "boltz_score": -0.028,
+      "target_id": "MYC_mRNA",
+      "uniprot_id": "P01106",
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "epoch": 20688,
+      "tx": "5D2EWCYQ5rkDSCUKW7zmJoqPqc3TR9syH5PYTC8cGBSduWmUpQkaJjtsmzBHNGopauo4mU4uCc2ZjqhFukHvPAKu",
+      "life_earned": 30000000,
+      "timestamp": "2026-08-23T23:34:59.068017+00:00"
     }
   ]
 }
