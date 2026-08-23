@@ -245,7 +245,7 @@
     "uniprot_id": "P11802",
     "protein_name": "Cyclin-dependent kinase 4",
     "protein_sequence": "MATSRYEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNDQWTLREIQIMRELDSPNIVKLLDIVHTENKLYLVFEFLSQDLKKYMDSIPPEQLAREYIEKQIKQKDKVFLKQIEHTLNEKRILQAVNSALDYLHVNKITHRDIKSSNLFLNLKSDPQLARIADFGLARAFGVPVRTYTHEVVTLWYRSPEVLLGSARYSTPVDIWSIGTIFAELATSPPYFNDSVLQQLELALEHPYFITDTAENRQKLAENPCLPQTTASALATSPHLPQDPQLREQNQAKLYQQLQERERSRQ",
-    "disease_context": "CDK4 partners with cyclin D1 to phosphorylate RB1 and drive G1→S cell cycle progression. Amplified in ~15% of cancers (liposarcoma, breast, lung); constitutively active CDK4/6 enables uncontrolled proliferation.",
+    "disease_context": "CDK4 partners with cyclin D1 to phosphorylate RB1 and drive G1\u2192S cell cycle progression. Amplified in ~15% of cancers (liposarcoma, breast, lung); constitutively active CDK4/6 enables uncontrolled proliferation.",
     "difficulty_tier": 1,
     "difficulty_rationale": "Deep, well-defined ATP-binding pocket with good selectivity features. Multiple approved drugs demonstrate high tractability. Main challenge is selectivity over CDK6.",
     "known_drugs": [
@@ -408,7 +408,7 @@
     "uniprot_id": "P15056",
     "protein_name": "Serine/threonine-protein kinase B-raf",
     "protein_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
-    "disease_context": "BRAF is mutated in approximately 50% of melanomas (predominantly V600E), 10–15% of colorectal cancers, and multiple other tumour types. The V600E substitution constitutively activates the MAPK/ERK signalling cascade, driving unchecked cellular proliferation.",
+    "disease_context": "BRAF is mutated in approximately 50% of melanomas (predominantly V600E), 10\u201315% of colorectal cancers, and multiple other tumour types. The V600E substitution constitutively activates the MAPK/ERK signalling cascade, driving unchecked cellular proliferation.",
     "difficulty_tier": 3,
     "difficulty_rationale": "V600E mutation creates an oncogenic kinase; achieving selectivity over other RAF family members and overcoming gatekeeper resistance mutations requires precise pocket engineering. Paradoxical MAPK pathway activation with pan-RAF inhibitors adds complexity.",
     "known_drugs": [
@@ -449,7 +449,7 @@
     "protein_sequence": "MTAIIKEIVSRNKRRYQEDGFDLDLTYIYPNIIAMGFPAERLEGVYRNNIDDVVRFLDSKHKNHYKIYNLCAERHYDTAKFNCRVAQYPFEDHNPPQLELIKPFCEDLDQWLSEDDNHVAAIHCKAGKGRTGVMICAYLLHRGKFLKAQEALDFYGEVRTRDKKGVTIPSQRRYVYYYSYLLKNHLDYRPVALLFHKMMFETIPMFSGGTCNPQFVVCQLKVKIYSSNSGPTRREDKFMYFEFPQPLPVCGDIKVEFFHKQNKMLKKDKMFHFWVNTFFIPGPEETSEKVENGSLCDQEIDSICSIERADNDKEYLVLTLTKNDLDKANKDKANRYFSPNFKVKLYFTKTVEEPSNPEASSSTSVTPDVSDNEPDHYRYSDTTDSDPENEPFDEDQHTQITKV",
     "disease_context": "PTEN is lost or mutated in over 30% of all human cancers including glioblastoma, prostate, breast, and endometrial cancers. It is a major negative regulator of the PI3K/AKT/mTOR pathway; its loss leads to constitutive pro-survival signalling.",
     "difficulty_tier": 3,
-    "difficulty_rationale": "PTEN is a tumour suppressor — most cancers involve its loss-of-function, making traditional small-molecule inhibition counterproductive; therapeutic strategies aim at restoring PTEN function or exploiting synthetic lethality. No approved direct inhibitor exists, and the shallow phosphatase active site is difficult to target selectively.",
+    "difficulty_rationale": "PTEN is a tumour suppressor \u2014 most cancers involve its loss-of-function, making traditional small-molecule inhibition counterproductive; therapeutic strategies aim at restoring PTEN function or exploiting synthetic lethality. No approved direct inhibitor exists, and the shallow phosphatase active site is difficult to target selectively.",
     "known_drugs": [
       {
         "name": "PACLITAXEL (synthetic lethality context)",
@@ -458,7 +458,7 @@
       },
       {
         "name": "GSK2636771 (investigational)",
-        "mechanism": "PI3Kβ inhibitor exploiting PTEN-deficient synthetic lethality",
+        "mechanism": "PI3K\u03b2 inhibitor exploiting PTEN-deficient synthetic lethality",
         "approved_year": null
       }
     ],
@@ -551,16 +551,16 @@
     "protein_sequence": "MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREIGFAIGMPVCEFDMVKDPEVQDFRRNILNVCKEAVDLRDLNSPHSRAMYVYPPNVESSPELPKHIYNKLDKGQIIVVIWVIVSPNNDKQKYTLKINHDCVPEQVIAEAIRKKTRSMLLSSEQLKLCVLEYQGKYILKVCGCDEYFLEKYPLSQYKYIRSCIMLGRMPNLMLMAKESLYSQLPMDCFTMPSYSRRISTATPYMNGETSTKSLWVINSALRIKILCATYVNVNIRDIDKIYVRTGIYHGGEPLCDNVNTQRVPCSNPRWNEWLNYDIYIPDLPRAARLCLSICSVKGRKGAKEEHCPLAWGNINLFDYTDTLVSGKMALNLWPVPHGLEDLLNPIGVTGSNPNKETPCLELEFDWFSSVVKFPDMSVIEEHANWSVSREAGFSYSHAGLSNRLARDNELRENDKEQLKAISTRDPLSEITEQEKDFLWSHRHYCVTIPEILPKLLLSVKWNSRDEVAQMYCLVKDWPPIKPEQAMELLDCNYPDPMVRGFAVRCLEKYLTDDKLSQYLIQLVQVLKYEQYLDNLLVRFLLKKALTNQRIGHFFFWHLKSEMHNKTVSQRFGLLLESYCRACGMYLKHLNRQVEAMEKLINLTDILKQEKKDETQKVQMKFLVEQMRRPDFMDALQGFLSPLNPAHQLGNLRLEECRIMSSAKRPLWLNWENPDIMSELLFQNNEIIFKNGDDLRQDMLTLQIIRIMENIWQNQGLDLRMLPYGCLSIGDCVGLIEVVRNSHTIMQIQCKGGLKGALQFNSHTLHQWLKDKNKGEIYDAAIDLFTRSCAGYCVATFILGIGDRHNSNIMVKDDGQLFHIDFGHFLDHKKKKFGYKRERVPFVLTQDFLIVISKGAQECTKTREFERFQEMCYKAYLAIRQHANLFINLFSMMLGSGMPELQSFDDIAYIRKTLALDKTEQEALEYFMKQMNDAHHGGWTTKMDWIFHTIKQHALN",
     "disease_context": "PIK3CA is one of the most frequently mutated oncogenes in human cancer, altered in approximately 30% of breast cancers, 20% of colorectal cancers, and multiple other tumour types. Hotspot mutations (H1047R, E545K, E542K) constitutively activate the PI3K/AKT/mTOR pathway.",
     "difficulty_tier": 2,
-    "difficulty_rationale": "The PI3Kα ATP-binding site is well-defined but achieving isoform selectivity over PI3Kβ/δ/γ requires subtle structural differentiation. Gaining alpha-isoform selectivity was the key challenge solved by alpelisib; resistance mutations (H1047R, E545K) shift binding dynamics.",
+    "difficulty_rationale": "The PI3K\u03b1 ATP-binding site is well-defined but achieving isoform selectivity over PI3K\u03b2/\u03b4/\u03b3 requires subtle structural differentiation. Gaining alpha-isoform selectivity was the key challenge solved by alpelisib; resistance mutations (H1047R, E545K) shift binding dynamics.",
     "known_drugs": [
       {
         "name": "Alpelisib",
-        "mechanism": "PI3Kα-selective kinase inhibitor",
+        "mechanism": "PI3K\u03b1-selective kinase inhibitor",
         "approved_year": 2019
       },
       {
         "name": "Idelalisib",
-        "mechanism": "PI3Kδ-selective inhibitor (haem. context)",
+        "mechanism": "PI3K\u03b4-selective inhibitor (haem. context)",
         "approved_year": 2014
       }
     ],
@@ -662,7 +662,7 @@
     "uniprot_id": "P07949",
     "protein_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
     "protein_sequence": "MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAPEEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLTVYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENRPPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELVAVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFDADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNRNLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFAQIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAELHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGRCEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPRGIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCYHKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSMENQVSVDAFKILEDPKWEFPRKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDHPDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYLDLAASTPSDSLIYDDGLSEEETPLVDCNNAPLPRALPSTWIENKLYGMSDPNWPGESPVPLTRADGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS",
-    "disease_context": "RET gene fusions (KIF5B-RET, CCDC6-RET) are drivers in 1–2% of NSCLC and point mutations (C634, M918T) are found in 95% of medullary thyroid carcinoma (MTC). RET is among the first targets where precision oncology enabled highly selective therapeutic development.",
+    "disease_context": "RET gene fusions (KIF5B-RET, CCDC6-RET) are drivers in 1\u20132% of NSCLC and point mutations (C634, M918T) are found in 95% of medullary thyroid carcinoma (MTC). RET is among the first targets where precision oncology enabled highly selective therapeutic development.",
     "difficulty_tier": 2,
     "difficulty_rationale": "RET is a receptor tyrosine kinase with an accessible ATP-binding pocket. First-generation multi-kinase inhibitors had off-target toxicities; selective RET inhibitors required structure-guided design to distinguish RET from VEGFR2 (similar binding site geometry). Solvent-front resistance mutations (G810) remain clinically relevant.",
     "known_drugs": [
@@ -741,7 +741,7 @@
     "uniprot_id": "Q16288",
     "protein_name": "High affinity nerve growth factor receptor",
     "protein_sequence": "MDVSLCPAKCSFWRIFLLGSVWLDYVGSVLACPANCVCSKTEINCRRPDDGNLFPLLEGQDSGNSNGNASINITDISRNITSIHIENWRSLHTLNAVDMELYTGLQKLTIKNSGLRSIQPRAFAKNPHLRYINLSSNRLTTLSWQLFQTLSLRELQLEQNFFNCSCDIRWMQLWQEQGEAKLNSQNLYCINADGSQLPLFRMNISQCDLPEISVSHVNLTVREGDNAVITCNGSGSPLPDVDWIVTGLQSINTHQTNLNWTNVHAINLTLVNVTSEDNGFTLTCIAENVVGMSNASVALTVYYPPRVVSLEEPELRLEHCIEFVVRGNPPPTLHWLHNGQPLRESKIIHVEYYQEGEISEGCLLFNKPTHYNNGNYTLIAKNPLGTANQTINGHFLKEPFPESTDNFILFDEVSPTPPITVTHKPEEDTFGVSIAVGLAAFACVLLVVLFVMINKYGRRSKFGMKGPVAVISGEEDSASPLHHINHGITTPSSLDAGPDTVVIGMTRIPVIENPQYFRQGHNCHKPDTYVQHIKRRDIVLKRELGEGAFGKVFLAECYNLSPTKDKMLVAVKALKDPTLAARKDFQREAELLTNLQHEHIVKFYGVCGDGDPLIMVFEYMKHGDLNKFLRAHGPDAMILVDGQPRQAKGELGLSQMLHIASQIASGMVYLASQHFVHRDLATRNCLVGANLLVKIGDFGMSRDVYSTDYYRLFNPSGNDFCIWCEVGGHTMLPIRWMPPESIMYRKFTTESDVWSFGVILWEIFTYGKQPWFQLSNTEVIECITQGRVLERPRVCPKEVYDVMLGCWQREPQQRLNIKEIYKILHALGKATPIYLDILG",
-    "disease_context": "NTRK1 gene fusions (ETV6-NTRK3, TPM3-NTRK1, others) are rare but highly druggable pan-cancer drivers found in diverse tumour types including secretory breast cancer, infantile fibrosarcoma, lung, and colon cancers. Larotrectinib showed >75% overall response rate across 17 tumour types in basket trial — one of the first tumour-agnostic approvals.",
+    "disease_context": "NTRK1 gene fusions (ETV6-NTRK3, TPM3-NTRK1, others) are rare but highly druggable pan-cancer drivers found in diverse tumour types including secretory breast cancer, infantile fibrosarcoma, lung, and colon cancers. Larotrectinib showed >75% overall response rate across 17 tumour types in basket trial \u2014 one of the first tumour-agnostic approvals.",
     "difficulty_tier": 1,
     "difficulty_rationale": "NTRK1 kinase domain has a tractable, well-defined ATP-binding cleft and high similarity across the NTRK family, enabling pan-TRK inhibitors with broad efficacy. Type I DFG-in inhibitors like larotrectinib achieve picomolar potency; resistance mutations (G595R, G667C) are addressable with second-generation inhibitors.",
     "known_drugs": [
@@ -847,13 +847,13 @@
     "uniprot_id": "Q13485",
     "protein_name": "Mothers against decapentaplegic homolog 4",
     "protein_sequence": "MDNMSITNTPTSNDACLSIVHSLMCHRQGGESETFAKRAIESLVKKLKEKKDELDSLITAITTNGAHPSKCVTIQRTLDGRLQVAGRKGFPHVIYARLWRWPDLHKNELKHVKYCQYAFDLKCDSVCVNPYHYERVVSPGIDLSGLTLQSNAPSSMMVKDEYVHDFEGQPSLSTEGHSIQTIQHPPSNRASTETYSTPALLAPSESNATSTANFPNIPVASTSQPASILGGSHSEGLLQIASGPQPGQQQNGFTGQPATYHHNSTTTWTGSRTAPYTPNLPHHQNGHLQHHPPMPPHPGHYWPVHNELAFQPPISNHPAPEYWCSIAYFEMDVQVGETFKVPSSCPIVTVDGYVDPSGGDRFCLGQLSNVHRTEAIERARLHIGKGVQLECKGEGDVWVRCLSDHAVFVQSYYLDREAGRAPGDAVHKIYPSAYIKVFDLRQCHRQMQQQAATAQAAAAAQAAAVAGNIPGPGSVGGIAPAISLSAAAGIGVDDLRRLCILRMSFVKGWGPDYPRQSIKETPCWIEIHLHRALQLLDEVLHTMPIADPQPLD",
-    "disease_context": "SMAD4 is lost in 55% of pancreatic ductal adenocarcinomas (among the most lethal cancers with <12% 5-year survival) and 15% of colorectal cancers. SMAD4 loss abolishes TGF-β tumor suppression, enabling invasion and metastasis.",
+    "disease_context": "SMAD4 is lost in 55% of pancreatic ductal adenocarcinomas (among the most lethal cancers with <12% 5-year survival) and 15% of colorectal cancers. SMAD4 loss abolishes TGF-\u03b2 tumor suppression, enabling invasion and metastasis.",
     "difficulty_tier": 3,
-    "difficulty_rationale": "Tumor suppressor — loss-of-function mutations require restoration strategies rather than inhibition. No approved inhibitor exists. PPI surface targeting the MH2 domain is structurally challenging.",
+    "difficulty_rationale": "Tumor suppressor \u2014 loss-of-function mutations require restoration strategies rather than inhibition. No approved inhibitor exists. PPI surface targeting the MH2 domain is structurally challenging.",
     "known_drugs": [
       {
         "name": "None approved",
-        "mechanism": "No approved small-molecule inhibitor — tumor suppressor restoration under investigation",
+        "mechanism": "No approved small-molecule inhibitor \u2014 tumor suppressor restoration under investigation",
         "approved_year": null
       }
     ],
@@ -875,13 +875,13 @@
     "uniprot_id": "P25054",
     "protein_name": "Adenomatous polyposis coli protein",
     "protein_sequence": "MAAASYDQLLKQVEALKMENSNLRQELEDNSNHLTKLETEASNMKEVLKQLQGSIEDEAMASSGQIDLLERLKELNLDSSNFPGVKLRSKMSLRSYGSREGSVSSRSGECSPVPMGSFPRRGFVNGSRESTGYLEELEKERSLLLADLDKEEKEKDWYYAQLQNLTKRIDSLPLTENFSLQTDMTRRQLEYEARQIRVAMEEQLGTCQDMEKRAQRRIARIQQIEKDILRIRQLLQSQATEAERSSQNKHETGSHDAERQNEGQGVGEINMATSGNGQGSTTRMDHETASVLSSSSTHSAPRRLTSHLGTKVEMVYSLLSMLGTHDKDDMSRTLLAMSSSQDSCISMRQSGCLPLLIQLLHGNDKDSVLLGNSRGSKEARARASAALHNIIHSQPDDKRGRREIRVLHLLEQIRAYCETCWEWQEAHEPGMDQDKNPMPAPVEHQICPAVCVLMKLSFDEEHRHAMNELGGLQAIAELLQVDCEMYGLTNDHYSITLRRYAGMALTNLTFGDVANKATLCSMKGCMRALVAQLKSESEDLQQVIASVLRNLSWRADVNSKKTLREVGSVKALMECALEVKKESTLKSVLSALWNLSAHCTENKADICAVDGALAFLVGTLTYRSQTNTLAIIESGGGILRNVSSLIATNEDHRQILRENNCLQTLLQHLKSHSLTIVSNACGTLWNLSARNPKDQEALWDMGAVSMLKNLIHSKHKMIAMGSAAALRNLMANRPAKYKDANIMSPGSSLPSLHVRKQKALEAELDAQHLSETFDNIDNLSPKASHRSKQRHKQSLYGDYVFDTNRHDDNRSDNFNTGNMTVLSPYLNTTVLPSSSSSRGSLDSSRSEKDRSLERERGIGLGNYHPATENPGTSSKRGLQISTTAAQIAKVMEEVSAIHTSQEDRSSGSTTELHCVTDERNALRRSSAAHTHSNTYNFTKSENSNRTCSMPYAKLEYKRSSNDSLNSVSSSDGYGKRGQMKPSIESYSEDDESKFCSYGQYPADLAHKIHSANHMDDNDGELDTPINYSLKYSDEQLNSGRQSPSQNERWARPKHIIEDEIKQSEQRQSRNQSTTYPVYTESTDDKHLKFQPHFGQQECVSPYRSRGANGSETNRVGSNHGINQNVSQSLCQEDDYEDDKPTNYSERYSEEEQHEEEERPTNYSIKYNEEKRHVDQPIDYSLKYATDIPSSQKQSFSFSKSSSGQSSKTEHMSSSSENTSTPSSNAKRQNQLHPSSAQSRSGQPQKAATCKVSSINQETIQTYCVEDTPICFSRCSSLSSLSSAEDEIGCNQTTQEADSANTLQIAEIKEKIGTRSAEDPVSEVPAVSQHPRTKSSRLQGSSLSSESARHKAVEFSSGAKSPSKSGAQTPKSPPEHYVQETPLMFSRCTSVSSLDSFESRSIASSVQSEPCSGMVSGIISPSDLPDSPGQTMPPSRSKTPPPPPQTAQTKREVPKNKAPTAEKRESGPKQAAVNAAVQRVQVLPDADTLLHFATESTPDGFSCSSSLSALSLDEPFIQKDVELRIMPPVQENDNGNETESEQPKESNENQEKEAEKTIDSEKDLLDDSDDDDIEILEECIISAMPTKSSRKAKKPAQTASKLPPPVARKPSQLPVYKLLPSQNRLQPQKHVSFTPGDDMPRVYCVEGTPINFSTATSLSDLTIESPPNELAAGEGVRGGAQSGEFEKRDTIPTEGRSTDEAQGGKTSSVTIPELDDNKAEEGDILAECINSAMPKGKSHKPFRVKKIMDQVQQASASSSAPNKNQLDGKKKKPTSPVKPIPQNTEYRTRVRKNADSKNNLNAERVFSDNKDSKKQNLKNNSKVFNDKLPNNEDRVRGSFAFDSPHHYTPIEGTPYCFSRNDSLSSLDFDDDDVDLSREKAELRKAKENKESEAKVTSHTELTSNQQSANKTQAIAKQPINRGQPKPILQKQSTFPQSSKDIPDRGAATDEKLQNFAIENTPVCFSHNSSLSSLSDIDQENNNKENEPIKETEPPDSQGEPSKPQASGYAPKSFHVEDTPVCFSRNSSLSSLSIDSEDDLLQECISSAMPKKKKPSRLKGDNEKHSPRNMGGILGEDLTLDLKDIQRPDSEHGLSPDSENFDWKAIQEGANSIVSSLHQAAAAACLSRQASSDSDSILSLKSGISLGSPFHLTPDQEEKPFTSNKGPRILKPGEKSTLETKKIESESKGIKGGKKVYKSLITGKVRSNSEISGQMKQPLQANMPSISRGRTMIHIPGVRNSSSSTSPVSKKGPPLKTPASKSPSEGQTATTSPRGAKPSVKSELSPVARQTSQIGGSSKAPSRSGSRDSTPSRPAQQPLSRPIQSPGRNSISPGRNGISPPNKLSQLPRTSSPSTASTKSSGSGKMSYTSPGRQMSQQNLTKQTGLSKNASSIPRSESASKGLNQMNNGNGANKKVELSRMSSTKSSGSESDRSERPVLVRQSTFIKEAPSPTLRRKLEESASFESLSPSSRPASPTRSQAQTPVLSPSLPDMSLSTHSSVQAGGWRKLPPNLSPTIEYNDGRPAKRHDIARSHSESPSRLPINRSGTWKREHSKHSSSLPRVSTWRRTGSSSSILSASSESSEKAKSEDEKHVNSISGTKQSKENQVSAKGTWRKIKENEFSPTNSTSQTVSSGATNGAESKTLIYQMAPAVSKTEDVWVRIEDCPINNPRSGRSPTGNTPPVIDSVSEKANPNIKDSKDNQAKQNVGNGSVPMRTVGLENRLNSFIQVDAPDQKGTEIKPGQNNPVPVSETNESSIVERTPFSSSSSSKHSSPSGTVAARVTPFNYNPSPRKSSADSTSARPSQIPTPVNNNTKKRDSKTDSTESSGTQSPKRHSGSYLVTSV",
-    "disease_context": "APC is the most commonly mutated gene in colorectal cancer (80% of sporadic cases) and familial adenomatous polyposis (FAP). APC loss constitutively activates WNT/β-catenin signalling, driving uncontrolled proliferation. APC mutations are early, founder events in colon carcinogenesis.",
+    "disease_context": "APC is the most commonly mutated gene in colorectal cancer (80% of sporadic cases) and familial adenomatous polyposis (FAP). APC loss constitutively activates WNT/\u03b2-catenin signalling, driving uncontrolled proliferation. APC mutations are early, founder events in colon carcinogenesis.",
     "difficulty_tier": 3,
     "difficulty_rationale": "Very large multi-domain scaffold protein (2843 aa); tumor suppressor requiring restoration not inhibition. No small molecule binding pocket confirmed by crystallography. WNT pathway modulation via indirect targets is the current approach.",
     "known_drugs": [
       {
         "name": "None approved",
-        "mechanism": "No approved small-molecule inhibitor — tumor suppressor restoration under investigation",
+        "mechanism": "No approved small-molecule inhibitor \u2014 tumor suppressor restoration under investigation",
         "approved_year": null
       }
     ],
@@ -902,7 +902,7 @@
     "uniprot_id": "P09874",
     "protein_name": "Poly [ADP-ribose] polymerase 1",
     "protein_sequence": "MAESSDKLYRVEYAKSGRASCKKCSESIPKDSLRMAIMVQSPMFDGKVPHWYHFSCFWKVGHSIRHPDVEVDGFSELRWDDQQKVKKTAEAGGVTGKGQDGIGSKAEKTLGDFAAEYAKSNRSTCKGCMEKIEKGQVRLSKKMVDPEKPQLGMIDRWYHPGCFVKNREELGFRPEYSASQLKGFSLLATEDKEALKKQLPGVKSEGKRKGDEVDGVDEVAKKKSKKEKDKDSKLEKALKAQNDLIWNIKDELKKVCSTNDLKELLIFNKQQVPSGESAILDRVADGMVFGALLPCEECSGQLVFKSDAYYCTGDVTAWTKCMVKTQTPNRKEWVTPKEFREISYLKKLKVKKQDRIFPPETSASVAATPPPSTASAPAAVNSSASADKPLSNMKILTLGKLSRNKDEVKAMIEKLGGKLTGTANKASLCISTKKEVEKMNKKMEEVKEANIRVVSEDFLQDVSASTKSLQELFLAHILSPWGAEVKAEPVEVVAPRGKSGAALSKKSKGQVKEEGINKSEKRMKLTLKGGAAVDPDSGLEHSAHVLEKGGKVFSATLGLVDIVKGTNSYYKLQLLEDDKENRYWIFRSWGRVGTVIGSNKLEQMPSKEDAIEHFMKLYEEKTGNAWHSKNFTKYPKKFYPLEIDYGQDEEAVKKLTVNPGTKSKLPKPVQDLIKMIFDVESMKKAMVEYEIDLQKMPLGKLSKRQIQAAYSILSEVQQAVSQGSSDSQILDLSNRFYTLIPHDFGMKKPPLLNNADSVQAKVEMLDNLLDIEVAYSLLRGGSDDSSKDPIDVNYEKLKTDIKVVDRDSEEAEIIRKYVKNTHATTHNAYDLEVIDIFKIEREGECQRYKPFKQLHNRRLLWHGSRTTNFAGILSQGLRIAPPEAPVTGYMFGKGIYFADMVSKSANYCHTSQGDPIGLILLGEVALGNMYELKHASHISKLPKGKHSVKGLGKTTPDPSANISLDGVDVPLGTGISSGVNDTSLLYNEYIVYDIAQVNLKYLLKLKFNFKTSLW",
-    "disease_context": "PARP1 is a master regulator of DNA damage repair. Inhibition is synthetically lethal in BRCA1/2-deficient tumors (ovarian, breast, pancreatic, prostate cancers). PARP trapping — where the inhibitor locks PARP onto damaged DNA — is the key cytotoxic mechanism.",
+    "disease_context": "PARP1 is a master regulator of DNA damage repair. Inhibition is synthetically lethal in BRCA1/2-deficient tumors (ovarian, breast, pancreatic, prostate cancers). PARP trapping \u2014 where the inhibitor locks PARP onto damaged DNA \u2014 is the key cytotoxic mechanism.",
     "difficulty_tier": 2,
     "difficulty_rationale": "Well-characterized NAD+-binding catalytic domain with multiple approved inhibitors. Differentiation requires PARP trapping potency and selectivity over PARP2. Resistance via PARP1 mutations (D770N, P882S) emerging in clinic.",
     "known_drugs": [
@@ -1328,7 +1328,7 @@
     "target_type": "mRNA",
     "mrna_region": "5'UTR IRES (two IRES elements, A and B)",
     "rna_sequence": "AUGAACUGCUGUCUCUGCCCUGGUGACAGGGAAGAAAGCAGAAAUCCCAGAAACCGCAUGGA",
-    "disease_context": "VEGF-A mRNA contains two IRESes (IRES-A and IRES-B) that drive cap-independent translation under hypoxia—a hallmark of solid tumours. IRES-targeting compounds could suppress tumour angiogenesis selectively under hypoxic conditions where conventional anti-VEGF antibodies are less effective.",
+    "disease_context": "VEGF-A mRNA contains two IRESes (IRES-A and IRES-B) that drive cap-independent translation under hypoxia\u2014a hallmark of solid tumours. IRES-targeting compounds could suppress tumour angiogenesis selectively under hypoxic conditions where conventional anti-VEGF antibodies are less effective.",
     "difficulty_tier": 3,
     "difficulty_rationale": "VEGF IRES is among the best-characterised cancer mRNA IRESes; moderate structural data.",
     "known_binders": [
@@ -1347,12 +1347,12 @@
     "target_type": "mRNA",
     "mrna_region": "5'UTR IRES",
     "rna_sequence": "AUGCAUGUAGCUAGACUUACUUCAGCCGAUGGCCCGCGCCGGCGGCGGCGGCGGCGGCGGCG",
-    "disease_context": "HIF-1α protein is stabilised under tumour hypoxia and drives transcription of pro-survival and pro-angiogenic genes. HIF1A mRNA harbours an IRES active under hypoxic conditions, providing a cancer-selective RNA target.",
+    "disease_context": "HIF-1\u03b1 protein is stabilised under tumour hypoxia and drives transcription of pro-survival and pro-angiogenic genes. HIF1A mRNA harbours an IRES active under hypoxic conditions, providing a cancer-selective RNA target.",
     "difficulty_tier": 3,
     "difficulty_rationale": "HIF1A IRES has been characterised; some small-molecule screens published.",
     "known_binders": [
-      "Digoxin (indirect HIF-1α suppressor)",
-      "KC7F2 (HIF-1α translation inhibitor, preclinical)"
+      "Digoxin (indirect HIF-1\u03b1 suppressor)",
+      "KC7F2 (HIF-1\u03b1 translation inhibitor, preclinical)"
     ],
     "known_drugs": [],
     "scoring_metric": "binding_affinity_kcal_mol",
@@ -1407,7 +1407,7 @@
     "target_type": "mRNA",
     "mrna_region": "5'UTR translational control element",
     "rna_sequence": "AUGCCGCCCGCGCCGGCCCGGCGCCUGCCCCCGCCCGGGCCCGGCCCCGGCCCCCCGCCGCC",
-    "disease_context": "TGF-β1 suppresses anti-tumour immune responses and promotes epithelial-mesenchymal transition. Its mRNA 5'UTR contains a translational control element (TCE) that governs cap-dependent translation; blocking the TCE reduces TGF-β1 secretion by tumour-associated cells.",
+    "disease_context": "TGF-\u03b21 suppresses anti-tumour immune responses and promotes epithelial-mesenchymal transition. Its mRNA 5'UTR contains a translational control element (TCE) that governs cap-dependent translation; blocking the TCE reduces TGF-\u03b21 secretion by tumour-associated cells.",
     "difficulty_tier": 3,
     "difficulty_rationale": "TGFb1 mRNA TCE is structured but incompletely characterised at atomic resolution.",
     "known_binders": [],
@@ -1492,7 +1492,7 @@
     "target_type": "mRNA",
     "mrna_region": "5'UTR HIF-responsive element / IRES",
     "rna_sequence": "AUGUCUCCCAGCCCCCGCCCACCCGCCCCCGCCCCCUGCGGCCCCCGCCCCCGCGCCCCCGC",
-    "disease_context": "LDHA drives the Warburg effect by converting pyruvate to lactate, supporting aerobic glycolysis in cancer. LDHA mRNA is upregulated by HIF-1α. mRNA-level silencing reduces the metabolic advantage of cancer cells without affecting normal tissue LDHB.",
+    "disease_context": "LDHA drives the Warburg effect by converting pyruvate to lactate, supporting aerobic glycolysis in cancer. LDHA mRNA is upregulated by HIF-1\u03b1. mRNA-level silencing reduces the metabolic advantage of cancer cells without affecting normal tissue LDHB.",
     "difficulty_tier": 3,
     "difficulty_rationale": "Metabolic mRNA target; isoform selectivity (LDHA vs LDHB) is key challenge.",
     "known_binders": [],
@@ -1524,9 +1524,9 @@
     "uniprot_id": "P11166",
     "protein_name": "Solute carrier family 2, facilitated glucose transporter member 1 (mRNA target)",
     "target_type": "mRNA",
-    "mrna_region": "5'UTR HIF-1α-responsive stem-loop",
+    "mrna_region": "5'UTR HIF-1\u03b1-responsive stem-loop",
     "rna_sequence": "AUGCCGGCUCUGCUCGCCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGG",
-    "disease_context": "GLUT1 (SLC2A1) is the primary glucose transporter upregulated in cancer cells via HIF-1α. Blocking GLUT1 mRNA translation selectively in hypoxic tumour cells starves cancer of its preferred energy source.",
+    "disease_context": "GLUT1 (SLC2A1) is the primary glucose transporter upregulated in cancer cells via HIF-1\u03b1. Blocking GLUT1 mRNA translation selectively in hypoxic tumour cells starves cancer of its preferred energy source.",
     "difficulty_tier": 3,
     "difficulty_rationale": "HIF-responsive mRNA elements are partially characterised; isoform selectivity required.",
     "known_binders": [],
@@ -1649,7 +1649,7 @@
     "target_type": "mRNA",
     "mrna_region": "5'UTR stem-loop",
     "rna_sequence": "AUGCGGCCCGCGCCGGCCCGGCGCCGGCGCCCGGCGCCCGGCGCCCGGCGCCCGGCGCCCGG",
-    "disease_context": "ATM orchestrates the DNA damage response checkpoint. Blocking ATM mRNA translation abrogates the G2/M checkpoint, forcing cancer cells into premature mitosis after DNA damage—a radio/chemo-sensitisation strategy independent of kinase-domain ATM inhibitors.",
+    "disease_context": "ATM orchestrates the DNA damage response checkpoint. Blocking ATM mRNA translation abrogates the G2/M checkpoint, forcing cancer cells into premature mitosis after DNA damage\u2014a radio/chemo-sensitisation strategy independent of kinase-domain ATM inhibitors.",
     "difficulty_tier": 3,
     "difficulty_rationale": "Novel mRNA-level checkpoint abrogation; no RNA-binding compounds known for ATM.",
     "known_binders": [],
@@ -1658,5 +1658,224 @@
     "target_score_threshold": -7.0,
     "pdb_id": null,
     "active_site_residues": []
+  },
+  {
+    "id": "TP53_CRISPR",
+    "uniprot_id": "P04637",
+    "gene_name": "TP53",
+    "protein_name": "TP53 gRNA target (restore tumor suppressor via CRISPR editing)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3000,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Hotspot codons 175, 248, 249, 273 \u2014 restore WT function or knock out gain-of-function allele",
+    "cancer_indication": "colorectal, lung, breast, ovarian",
+    "known_drugs": [
+      {
+        "name": "APR-246 (eprenetapopt)",
+        "mechanism": "Small molecule that reactivates mutant p53 (not CRISPR)",
+        "approved_year": null
+      }
+    ]
+  },
+  {
+    "id": "KRAS_CRISPR",
+    "uniprot_id": "P01116",
+    "gene_name": "KRAS",
+    "protein_name": "KRAS gRNA target (knockout G12C/D/V oncogenic allele)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3001,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Codon 12 mutations G12C/G12D/G12V \u2014 allele-specific knockout or base editing",
+    "cancer_indication": "pancreatic, colorectal, lung",
+    "known_drugs": [
+      {
+        "name": "Sotorasib",
+        "mechanism": "KRASG12C covalent inhibitor",
+        "approved_year": 2021
+      },
+      {
+        "name": "Adagrasib",
+        "mechanism": "KRASG12C covalent inhibitor",
+        "approved_year": 2022
+      }
+    ]
+  },
+  {
+    "id": "BCL2_CRISPR",
+    "uniprot_id": "P10415",
+    "gene_name": "BCL2",
+    "protein_name": "BCL2 gRNA target (knockout anti-apoptotic driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3002,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "BH3 domain \u2014 restore apoptotic sensitivity in BCL2-overexpressing tumours",
+    "cancer_indication": "B-cell lymphoma, CLL",
+    "known_drugs": [
+      {
+        "name": "Venetoclax",
+        "mechanism": "BCL2 BH3-mimetic inhibitor",
+        "approved_year": 2016
+      }
+    ]
+  },
+  {
+    "id": "MYC_CRISPR",
+    "uniprot_id": "P01106",
+    "gene_name": "MYC",
+    "protein_name": "MYC gRNA target (knockout oncogene transcription driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3003,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "MYC transactivation domain (Mb1/Mb2) \u2014 direct knockout or enhancer disruption",
+    "cancer_indication": "Burkitt lymphoma, TNBC, neuroblastoma",
+    "known_drugs": []
+  },
+  {
+    "id": "EGFR_CRISPR",
+    "uniprot_id": "P00533",
+    "gene_name": "EGFR",
+    "protein_name": "EGFR gRNA target (knockout lung cancer driver mutations)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3004,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Exon 19 Del746-750 / exon 21 L858R \u2014 allele-specific editing to sensitise or eliminate resistance",
+    "cancer_indication": "non-small-cell lung cancer (NSCLC)",
+    "known_drugs": [
+      {
+        "name": "Osimertinib",
+        "mechanism": "Third-generation EGFR TKI",
+        "approved_year": 2015
+      },
+      {
+        "name": "Erlotinib",
+        "mechanism": "First-generation EGFR TKI",
+        "approved_year": 2004
+      }
+    ]
+  },
+  {
+    "id": "HER2_CRISPR",
+    "uniprot_id": "P04626",
+    "gene_name": "HER2",
+    "protein_name": "HER2 gRNA target (knockout breast/gastric cancer driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3005,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Exon 20 insertion hotspot / kinase domain \u2014 knockout or splice-site disruption",
+    "cancer_indication": "breast, gastric",
+    "known_drugs": [
+      {
+        "name": "Trastuzumab",
+        "mechanism": "HER2-targeted monoclonal antibody",
+        "approved_year": 1998
+      },
+      {
+        "name": "Tucatinib",
+        "mechanism": "HER2-selective TKI",
+        "approved_year": 2020
+      }
+    ]
+  },
+  {
+    "id": "BRCA1_CRISPR",
+    "uniprot_id": "P38398",
+    "gene_name": "BRCA1",
+    "protein_name": "BRCA1 gRNA target (restore DNA repair function)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3006,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "RING domain + exon 11 truncating mutations \u2014 correction via HDR or splice restoration",
+    "cancer_indication": "breast, ovarian",
+    "known_drugs": [
+      {
+        "name": "Olaparib",
+        "mechanism": "PARP inhibitor \u2014 synthetic lethal with BRCA1/2 loss",
+        "approved_year": 2014
+      }
+    ]
+  },
+  {
+    "id": "PDL1_CRISPR",
+    "uniprot_id": "Q9NZQ7",
+    "gene_name": "PDL1",
+    "protein_name": "PDL1 gRNA target (knockout immune checkpoint in tumour cells)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3007,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "IgV domain exon 2-3 \u2014 tumour-cell PDL1 knockout to restore T-cell cytotoxicity",
+    "cancer_indication": "NSCLC, melanoma, urothelial",
+    "known_drugs": [
+      {
+        "name": "Pembrolizumab",
+        "mechanism": "Anti-PD-1 antibody (blocks PD-1/PDL1 axis)",
+        "approved_year": 2014
+      },
+      {
+        "name": "Atezolizumab",
+        "mechanism": "Anti-PDL1 antibody",
+        "approved_year": 2016
+      }
+    ]
+  },
+  {
+    "id": "TERT_CRISPR",
+    "uniprot_id": "O14746",
+    "gene_name": "TERT",
+    "protein_name": "TERT gRNA target (knockout cancer immortality driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3008,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Promoter C228T/C250T hotspots + TEN domain \u2014 promoter editing or kinase domain disruption",
+    "cancer_indication": "glioblastoma, bladder, thyroid",
+    "known_drugs": [
+      {
+        "name": "Imetelstat",
+        "mechanism": "Telomerase RNA template antagonist",
+        "approved_year": 2024
+      }
+    ]
+  },
+  {
+    "id": "CDK4_CRISPR",
+    "uniprot_id": "P11802",
+    "gene_name": "CDK4",
+    "protein_name": "CDK4 gRNA target (knockout cell cycle driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3009,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "R24C/H hotspot + kinase domain \u2014 knockout to restore RB pathway control",
+    "cancer_indication": "liposarcoma, melanoma, glioblastoma",
+    "known_drugs": [
+      {
+        "name": "Palbociclib",
+        "mechanism": "CDK4/6 inhibitor",
+        "approved_year": 2015
+      },
+      {
+        "name": "Ribociclib",
+        "mechanism": "CDK4/6 inhibitor",
+        "approved_year": 2017
+      }
+    ]
   }
 ]
