@@ -13212,6 +13212,17 @@
       "tx": "288YtqtVMpFoNdynbviJkbPxPHJ1B2nmmBjGAoXNJNjYopNpneNFR3deiTfYgpc9vuG8GmuKWxkpcaJpRyYMyW3Y",
       "life_earned": 20000000,
       "timestamp": "2026-08-25T11:50:06.823928+00:00"
+    },
+    {
+      "smiles": "CC(C)(C)C[C@H]1[C@]([C@H]([C@@H](N1)C(=O)NC2=C(C=C(C=C2)C(=O)O)OC)C3=C(C(=CC=C3)Cl)F)(C#N)C4=C(C=C(C=C4)Cl)F",
+      "boltz_score": -3.036,
+      "target_id": "MDM2",
+      "uniprot_id": "Q00987",
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "epoch": 20690,
+      "tx": "4EQ24LM8b6ayPMt46c1MuU82XgJdgeBud2WMiX4qDu3f3e6GAkUU6inTcjmivzVNEsRUPHbgye3p1MSMCgmfY57d",
+      "life_earned": 25000000,
+      "timestamp": "2026-08-25T11:56:08.655446+00:00"
     }
   ]
 }
