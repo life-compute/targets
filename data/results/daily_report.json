@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-08-25",
-  "generated_at": "2026-08-25T00:34:47.300208+00:00",
+  "generated_at": "2026-08-25T01:17:22.876899+00:00",
   "entries": [
+    {
+      "date": "2026-08-25",
+      "target_id": "HDAC1",
+      "uniprot_id": "Q13547",
+      "best_smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+      "best_score": -4.499,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2mhmoyxe92KLV7ApqGjcpZVzcpaTTGtohkMcT5Q4Dftb2tVvuQY9KqbBKVwJqZNCEM1Lo3rcFrpxnkkCsM57wwmc",
+      "total_hits": 1
+    },
     {
       "date": "2026-08-25",
       "target_id": "BCL2",
