@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-08-31T23:32:59.590387+00:00",
+  "generated_at": "2026-08-31T23:37:39.496398+00:00",
   "targets": {
     "TP53": [
       {
@@ -1555,6 +1555,16 @@
       },
       {
         "rank": 2,
+        "smiles": "CNc1ccc(NCCNCCN(C)C)cc1",
+        "boltz_score": -8.2849,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q00987",
+        "epoch": 20696,
+        "tx": "38H6pgXACr8FV9U2gqdFFpRZg57qFgtZFXegzTKrZfn7qW46gEmQrfryuvkPGQNbFoedK86X6yz6WaDPFdaHnvgN",
+        "timestamp": "2026-08-31T23:37:39.367219+00:00"
+      },
+      {
+        "rank": 3,
         "smiles": "CN(C)c1ccc(C(=O)NC2CC2)cc1",
         "boltz_score": -8.2759,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1564,7 +1574,7 @@
         "timestamp": "2026-08-31T21:48:26.956507+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CNc1ccc(NC(=O)c2ccc(NC3CC3)cc2)cc1",
         "boltz_score": -8.2505,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
