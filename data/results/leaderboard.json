@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-08-31T16:46:30.736949+00:00",
+  "generated_at": "2026-08-31T16:48:41.738614+00:00",
   "targets": {
     "TP53": [
       {
@@ -936,6 +936,16 @@
       {
         "rank": 1,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
+        "boltz_score": -53.412,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01106",
+        "epoch": 20696,
+        "tx": "2yfNT3NYjmCthdJbqfemHpy57RQCeJbvwMe4sqvkNyGScjWMQzp44coVmHzEkc5ehv8uhwQCDfiPmkhHcjPwhzxr",
+        "timestamp": "2026-08-31T16:48:41.724391+00:00"
+      },
+      {
+        "rank": 2,
+        "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P01106",
@@ -944,7 +954,7 @@
         "timestamp": "2026-08-21T01:57:37.235258+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -954,7 +964,7 @@
         "timestamp": "2026-08-21T04:15:20.526361+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -964,7 +974,7 @@
         "timestamp": "2026-08-21T06:37:02.714160+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -974,7 +984,7 @@
         "timestamp": "2026-08-21T08:58:29.207527+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -984,7 +994,7 @@
         "timestamp": "2026-08-21T11:20:30.538488+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -994,7 +1004,7 @@
         "timestamp": "2026-08-21T12:30:08.839344+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1004,7 +1014,7 @@
         "timestamp": "2026-08-21T14:48:18.978121+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1014,7 +1024,7 @@
         "timestamp": "2026-08-21T17:10:08.634536+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -0.028,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1022,16 +1032,6 @@
         "epoch": 20686,
         "tx": "PLR4pVNncNhUsCjbZ7Bz27QredcDZ1XVyYJcGEacHGswb9ES2JJbZ6GoGBZauTYoRQ7AHGDkBSNXBKRjnzgQBD8",
         "timestamp": "2026-08-21T19:31:42.387024+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
-        "boltz_score": -0.028,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01106",
-        "epoch": 20686,
-        "tx": "2xk6KWGvg33KAg3cp1wuVXVW2UWNxxV9zTUETxxFfU52nDvKzZLs6mV6GaFKoBrghcQJHKXRyHDtbCXwxznzNemf",
-        "timestamp": "2026-08-21T21:53:18.499575+00:00"
       }
     ],
     "VEGF_mRNA": [
