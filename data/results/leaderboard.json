@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-01T05:25:44.840518+00:00",
+  "generated_at": "2026-09-01T05:28:10.187508+00:00",
   "targets": {
     "TP53": [
       {
@@ -1098,6 +1098,16 @@
       {
         "rank": 7,
         "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
+        "boltz_score": -6.9962,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P15692",
+        "epoch": 20697,
+        "tx": "21J3uNy7BoZQhpyhHpiZHUkouQGa4t7K4vSJgGPQ94yLoEaKsJpn13fJAWuPC6vGjTKSevPyE7ErxBBc31NVRokt",
+        "timestamp": "2026-09-01T05:28:10.102617+00:00"
+      },
+      {
+        "rank": 8,
+        "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
         "boltz_score": -0.625,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P15692",
@@ -1106,7 +1116,7 @@
         "timestamp": "2026-08-21T02:26:02.195335+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
         "boltz_score": -0.625,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1116,7 +1126,7 @@
         "timestamp": "2026-08-21T04:46:36.353684+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
         "boltz_score": -0.625,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1124,16 +1134,6 @@
         "epoch": 20686,
         "tx": "5WHsNdzz3JmvrnKZovv9S2s27LDxGJd4EUPZymxXWnftbSKSS8RgAPCWEBv51cS8R2R7PSc7FFm4Goiw348NWsTh",
         "timestamp": "2026-08-21T07:08:01.532732+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
-        "boltz_score": -0.625,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P15692",
-        "epoch": 20686,
-        "tx": "5qkZenDJiB53ch7NUsvjTYaHZE7i5JkCmwnjbdJNFeibJ2bDE2N1zdMD1tLrqiAYoGYGvDeUEaxxSXbbfutZdr88",
-        "timestamp": "2026-08-21T09:29:40.053418+00:00"
       }
     ],
     "KRAS_mRNA": [
