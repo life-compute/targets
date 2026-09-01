@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-01",
-  "generated_at": "2026-09-01T01:31:31.570926+00:00",
+  "generated_at": "2026-09-01T01:34:07.186867+00:00",
   "entries": [
+    {
+      "date": "2026-09-01",
+      "target_id": "CCND1_mRNA",
+      "uniprot_id": "P24385",
+      "best_smiles": "CNc1ccc(NCCNC(=O)c2cc3cc(NC(=O)c4cc5cc(NC6CC(=O)NC6=O)ccc5[nH]4)ccc3[nH]2)cc1",
+      "best_score": -8.3536,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5g94rs6yCyvXMVo47y1L5QYNAmvnzB2kTPbtockL6WhDN75GuGDbPcMQgSCDHQDj9QRaRmEcyxLePTDQVE166dCc",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-01",
       "target_id": "GLUT1_mRNA",
