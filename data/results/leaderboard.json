@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-01T11:11:58.579857+00:00",
+  "generated_at": "2026-09-01T11:15:24.735993+00:00",
   "targets": {
     "TP53": [
       {
@@ -1913,6 +1913,16 @@
       },
       {
         "rank": 7,
+        "smiles": "COc1cc2c(cc1OC)OC[C@H](C(C)=O)C2",
+        "boltz_score": -7.9644,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q9NZQ7",
+        "epoch": 20697,
+        "tx": "5t83csQXgfLoJuDJ2TLuWLQDy76QZ4x3J89KfievCASX5tQUaQb2PTUVWTrW2E21yCqTRZa2asfxYvP7oS3zdfm4",
+        "timestamp": "2026-09-01T11:15:24.720621+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CNc1ccc(NCCNC(=O)N2Cc3c(N)cccc3CC2=O)cc1",
         "boltz_score": -7.8774,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1922,7 +1932,7 @@
         "timestamp": "2026-08-31T20:14:39.911770+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNc1ccc(NC(=O)c2ccc(Nc3ccc(C(=O)Nc4ccc5[nH]c(C(=O)NC6CC6)cc5c4)cc3)cc2)cc1",
         "boltz_score": -7.8721,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1932,7 +1942,7 @@
         "timestamp": "2026-08-31T22:04:18.681101+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1cccc2c1CN(c1ccc3[nH]c(Nc4ccc(C(=O)NC(=O)C5CC5)cc4)cc3c1)C(=O)C2",
         "boltz_score": -7.869,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1940,16 +1950,6 @@
         "epoch": 20697,
         "tx": "GgGHsTY5PunuXMV67aiEiAufiWwyp81UXbSrkGtJ8NVMKjM9gRyPmaJfzkTWXGdGVeZ9YbD1fLASPtC8N8hEddZ",
         "timestamp": "2026-09-01T05:25:44.724386+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1noc(CN2CCC[C@H](CNS(C)(=O)=O)C2)n1",
-        "boltz_score": -7.6871,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q9NZQ7",
-        "epoch": 20697,
-        "tx": "5Rz6nYrZcCM4FUwHYHjeXqCChzCNxg4Dq4mZNZUSc2jviG8XrL4gUXmbpqdvaue6SJnBvWdqeEpS9x1WLQRVYsPg",
-        "timestamp": "2026-09-01T09:21:13.442094+00:00"
       }
     ],
     "MDM2_mRNA": [
