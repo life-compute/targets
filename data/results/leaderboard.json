@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-01T16:40:45.619833+00:00",
+  "generated_at": "2026-09-01T16:43:48.914611+00:00",
   "targets": {
     "TP53": [
       {
@@ -1403,6 +1403,16 @@
       },
       {
         "rank": 7,
+        "smiles": "COc1ccc(C(=O)O)cc1S(=O)(=O)Cl",
+        "boltz_score": -8.281,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P00533",
+        "epoch": 20697,
+        "tx": "8QMEKPnRHYcFeAk8eUqTegrgXg3QZYwZNsyiRMfZnkfc6g2AwGmtSLtMRFiJbXipmsaWPPauTfgRnz7xS3yvvyc",
+        "timestamp": "2026-09-01T16:43:48.899271+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "O=C(Nc1cc2cc(NC3CC3)ccc2[nH]1)c1ccc(C2CC2)cc1",
         "boltz_score": -8.2255,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1412,7 +1422,7 @@
         "timestamp": "2026-09-01T04:58:25.700284+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "COc1ccc(OC)c([C@@H]2CCCCCN2)c1",
         "boltz_score": -8.1862,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1422,7 +1432,7 @@
         "timestamp": "2026-09-01T08:51:37.210985+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CC(C)c1nc(Cn2cc(CCO)cn2)no1",
         "boltz_score": -8.1792,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1430,16 +1440,6 @@
         "epoch": 20697,
         "tx": "49ZTyS11VjJm1d1JEF8S1jjK8nUHJHuuyESp7CMCr36hp6gUowgT2LzgY1bscRE3TNZoU4sjitnbAj8iobV3gF9E",
         "timestamp": "2026-09-01T10:46:21.080494+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Nc1cccc2c1CN(c1cc3cc(C(=O)Nc4cc5cc(-c6ccc(C(=O)NC7CC7)cc6)ccc5[nH]4)ccc3[nH]1)C(=O)C2",
-        "boltz_score": -8.0689,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P00533",
-        "epoch": 20697,
-        "tx": "4j4nLc1QRpUuEePJ6HDixCVS2dERPeRMexiiLYev4G6Ss4MLGTH9uvtzXdXjMd9dE1uRnNFwHW7Uxn3qcfJvnSRU",
-        "timestamp": "2026-09-01T12:47:37.025862+00:00"
       }
     ],
     "HER2_mRNA": [
