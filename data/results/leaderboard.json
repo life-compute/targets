@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T02:38:27.846000+00:00",
+  "generated_at": "2026-09-02T02:43:33.365410+00:00",
   "targets": {
     "TP53": [
       {
@@ -2015,6 +2015,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CN(C)c1ccc(CCNC(=O)C[C@@H]2COCCN2)cc1",
+        "boltz_score": -8.3193,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q00987",
+        "epoch": 20698,
+        "tx": "27kt2qBkQCMPiaZb9q6kMYeUB1QqPUfzwit6bG5pXeLmAUmtaNvEvejgXCKGFg4LBjwEbMNndS4uzxw8URRN5q94",
+        "timestamp": "2026-09-02T02:43:33.212310+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CCc1cc(O)c(-c2ccccc2)c(O)n1",
         "boltz_score": -8.3087,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2024,7 +2034,7 @@
         "timestamp": "2026-09-01T20:50:02.388713+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNc1ccc(NCCNCCN(C)C)cc1",
         "boltz_score": -8.2849,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2034,7 +2044,7 @@
         "timestamp": "2026-08-31T23:37:39.367219+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Oc1n[nH]c(CNCc2nc3c(s2)CCCC3)n1",
         "boltz_score": -8.2774,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2042,16 +2052,6 @@
         "epoch": 20697,
         "tx": "aYQVdAZUR8sPkMzdsSs2y6thphMFoVSNV8DjDQGJwj6Sn42PTp8oGZV5zCfkiCqJHJWKqWEUxaynYntSdBghXiJ",
         "timestamp": "2026-09-01T10:58:48.405898+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CN(C)c1ccc(C(=O)NC2CC2)cc1",
-        "boltz_score": -8.2759,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q00987",
-        "epoch": 20696,
-        "tx": "3H8Nz2nY5k5awFzR9TTwoHCH8ajj2qCjoxGpBeatxUU15yvT7VTaizkr5e8mnzuSbt4KnwkNRUqF2akw7mdjVuhh",
-        "timestamp": "2026-08-31T21:48:26.956507+00:00"
       }
     ],
     "CDK4_mRNA": [
