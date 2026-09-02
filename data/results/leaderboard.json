@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T10:29:37.959319+00:00",
+  "generated_at": "2026-09-02T10:32:20.763067+00:00",
   "targets": {
     "TP53": [
       {
@@ -2117,6 +2117,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(NC(=O)C1CC1)c1ccc(-c2ccc3[nH]c(C4CC4)cc3c2)cc1",
+        "boltz_score": -8.2319,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P11802",
+        "epoch": 20698,
+        "tx": "3cAfnnf4oNoGU7BdQ7zuXm4KDGFj33vRsHeWPvqKkfnRJTyuNGUkQNTgooDXXKFre7ZRShzSG5BWxxqRjM6Z7QDB",
+        "timestamp": "2026-09-02T10:32:20.643096+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "O=C(N/N=C/c1cccc(C(F)(F)F)c1)c1cccnc1",
         "boltz_score": -8.2176,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2126,7 +2136,7 @@
         "timestamp": "2026-09-02T02:46:45.048137+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1ccc(NC2CC2)cc1)Nc1cc2cc(NC3CC3)ccc2[nH]1",
         "boltz_score": -8.1776,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2136,7 +2146,7 @@
         "timestamp": "2026-09-02T04:47:29.969842+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "COc1cc(-c2ccc(O)c(OC)c2)ccc1O",
         "boltz_score": -8.1514,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2144,16 +2154,6 @@
         "epoch": 20696,
         "tx": "2H14jHwuzhKk1sfTva5dYrCLfj12QLsh1MaWFLdvNhMBAhkauXvfPu1HbjNHY3vgxssnwLqjwrRW2CGZjkDoYSxH",
         "timestamp": "2026-08-31T20:01:59.060306+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CNc1ccc(NC(=O)NCCNCCNc2nccn2-c2ccc(Br)cc2)cc1",
-        "boltz_score": -8.1511,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P11802",
-        "epoch": 20696,
-        "tx": "cmxRC4AqAyQjpjbNS4mCc241EBrgaZKocVAcAbwmRSFoi4TbfwmUYtAJpPTukRdnuMtR1ZdAvaTHe8TSSpxfxSX",
-        "timestamp": "2026-08-31T21:51:27.636196+00:00"
       }
     ],
     "IL6_mRNA": [
