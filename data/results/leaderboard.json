@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T22:56:26.760121+00:00",
+  "generated_at": "2026-09-02T23:04:26.028683+00:00",
   "targets": {
     "TP53": [
       {
@@ -2627,6 +2627,16 @@
       },
       {
         "rank": 7,
+        "smiles": "C[C@@H]1O[C@H](C)Cc2c(C(=O)N3CCCCC3)n[nH]c21",
+        "boltz_score": -8.1366,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P14780",
+        "epoch": 20698,
+        "tx": "3rdvLQY3SSWpPxnT9yi1wVye3duqViP45WjjfeJ7yh4tFuFmTVcdu8NL5VyuHBwYGCxdPM43btrchRQccpUksf1N",
+        "timestamp": "2026-09-02T23:04:25.927808+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CNc1ccc(NCCNC2CC(=O)NC2=O)cc1",
         "boltz_score": -7.86,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2636,7 +2646,7 @@
         "timestamp": "2026-09-01T00:22:31.511590+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@H](CC#N)N[C@@H]1CCOc2ccccc21",
         "boltz_score": -7.8511,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2646,7 +2656,7 @@
         "timestamp": "2026-09-01T23:34:30.436698+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(Nc1cccnc1N1CCOCC1)[C@H]1C[C@H]1[N+](=O)[O-]",
         "boltz_score": -7.8443,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2654,16 +2664,6 @@
         "epoch": 20698,
         "tx": "3cdxHmtyrsX7KCPr98UGDbRwfpJjzs6CyVYXxso4VWCJa8PWTCEcuLrYUNBhFwVTfoNv74Kge4jkP8vpCUAtoLPX",
         "timestamp": "2026-09-02T13:17:12.936999+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(NC(=O)NC1CC1)NC(=O)C1CC1",
-        "boltz_score": -7.8432,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P14780",
-        "epoch": 20698,
-        "tx": "978XRJLyFxHXMJxxzHenV86v17H877FZpmLs3XVAAwXZSzkjP5R2YM8qw3QmAbf8iAo777g6xvQSzSFvT8NuBDY",
-        "timestamp": "2026-09-02T07:27:52.041914+00:00"
       }
     ],
     "PKM2_mRNA": [
