@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T09:23:49.317864+00:00",
+  "generated_at": "2026-09-02T09:29:10.325889+00:00",
   "targets": {
     "TP53": [
       {
@@ -3791,6 +3791,16 @@
     "LDHA_mRNA": [
       {
         "rank": 1,
+        "smiles": "O=C(CCCc1nc(O)c2ccccc2n1)Nc1nnn[nH]1",
+        "boltz_score": -7.7946,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P00338",
+        "epoch": 20698,
+        "tx": "4VRHQSx51VQCDQBJ7ZzVdxobdXSTKqS9FGnM6ZiPbGqT8YHGaephV6X8SrbrbAYjHVF2MKV9nkUNe3Q3YVdmsQw8",
+        "timestamp": "2026-09-02T09:29:10.307562+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "CNc1ccc(Nc2cc3cc(Nc4ccc5[nH]c(NC(=O)C6CC6)cc5c4)ccc3[nH]2)cc1",
         "boltz_score": -7.6693,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3800,7 +3810,7 @@
         "timestamp": "2026-09-01T09:58:14.275829+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "CN(C)CCNc1ccc(C(=O)NC2CC(=O)NC2=O)cc1",
         "boltz_score": -7.6668,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3810,7 +3820,7 @@
         "timestamp": "2026-09-01T02:18:08.668964+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "O=C1CC(NC(=O)c2ccc(-c3cc4cc(NC5CC(=O)NC5=O)ccc4[nH]3)cc2)C(=O)N1",
         "boltz_score": -7.5839,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3820,7 +3830,7 @@
         "timestamp": "2026-09-01T07:58:22.781817+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "Nc1cccc2c1CN(C(=O)NC(=O)c1cc3cc(Nc4cc5cc(NC(=O)C6CC6)ccc5[nH]4)ccc3[nH]1)C(=O)C2",
         "boltz_score": -7.5517,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3830,7 +3840,7 @@
         "timestamp": "2026-09-02T03:39:33.827015+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "CNc1ccc(NC(=O)c2cc3cc(Nc4ccc(Cl)cc4)ccc3[nH]2)cc1",
         "boltz_score": -7.3114,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3840,7 +3850,7 @@
         "timestamp": "2026-08-31T22:40:46.503693+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "CO[C@H]1COC2(CCN(C(=O)C3CC=CC3)CC2)C1",
         "boltz_score": -7.1469,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3850,7 +3860,7 @@
         "timestamp": "2026-09-01T06:03:37.694394+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "Nc1ncnc2c1CN(c1ccc(-c3cc4cc(Nc5cc6cc(NC(=O)C7CC7)ccc6[nH]5)ccc4[nH]3)cc1)C(=O)C2",
         "boltz_score": -7.1306,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3860,7 +3870,7 @@
         "timestamp": "2026-09-02T05:37:35.122323+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNc1ccc(Nc2cc3cc(Nc4ccc(NC(=O)N5Cc6c(N)ncnc6CC5=O)cc4)ccc3[nH]2)cc1",
         "boltz_score": -7.1256,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3870,7 +3880,7 @@
         "timestamp": "2026-09-01T04:06:58.158246+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1ncnc2c1CN(c1ccc(C(=O)Nc3ccc4[nH]c(C(=O)NC(=O)NC5CC(=O)NC5=O)cc4c3)cc1)C(=O)C2",
         "boltz_score": -7.0824,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3878,16 +3888,6 @@
         "epoch": 20697,
         "tx": "2MtEM4bYCbZxMXg6GGygCgj6g5H5jsJ6ztnXZfUGEUp3V4mcdqVE56tNuyb6xcUD5Z3hJoYbxNZdNN4rJmXjaG9H",
         "timestamp": "2026-09-01T11:54:52.779824+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CN(Cc1ncnn1C)Cc1nnnn1-c1ccccc1",
-        "boltz_score": -7.0461,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P00338",
-        "epoch": 20698,
-        "tx": "2qpMut3cUkQ7Dk8HYDZprurCe1cyRA22jYiKmzyXcv2ZiTwLvgvAmbTt1pMM8mhytMoVPTUuzzdr6PgKqeFvCgVf",
-        "timestamp": "2026-09-02T01:43:04.274725+00:00"
       }
     ]
   }
