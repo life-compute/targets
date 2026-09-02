@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-02",
-  "generated_at": "2026-09-02T00:14:40.417349+00:00",
+  "generated_at": "2026-09-02T00:18:00.486375+00:00",
   "entries": [
+    {
+      "date": "2026-09-02",
+      "target_id": "ATM_mRNA",
+      "uniprot_id": "Q13315",
+      "best_smiles": "O=C(Nc1nnc2n1CCCS2)c1ccccc1Cl",
+      "best_score": -8.4977,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2JGNE3Wwcr1opi6uaVphFa5osoBkL8zhu25n66xgaCpHrxkoDT2Lw3T8a2K6Sd8owJWRUXcV5mLtEZPsN8tKMXeF",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-02",
       "target_id": "TERT_mRNA",
