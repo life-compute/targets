@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T16:25:04.277613+00:00",
+  "generated_at": "2026-09-02T16:28:02.745363+00:00",
   "targets": {
     "TP53": [
       {
@@ -2057,6 +2057,16 @@
     "CDK4_mRNA": [
       {
         "rank": 1,
+        "smiles": "O=C(Cc1ccc2c(c1)CCC2)NCC(F)(F)F",
+        "boltz_score": -8.45,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P11802",
+        "epoch": 20698,
+        "tx": "2peDUQZvSmjwjTHqvb5GdGiTJi5vmXYHqP6AJb6weoiob7KQUs4g9EiZu2VC3cnqaABXBh8W9YBpMjCVTunXzEUn",
+        "timestamp": "2026-09-02T16:28:02.640593+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "O=C(Nc1cc2cc(NC(=O)C3CC3)ccc2[nH]1)NC1CC1",
         "boltz_score": -8.4348,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2066,7 +2076,7 @@
         "timestamp": "2026-09-01T03:18:34.078160+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "COCc1cc(NC(=O)NCC(F)F)ncn1",
         "boltz_score": -8.3563,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2076,7 +2086,7 @@
         "timestamp": "2026-09-02T14:27:23.576214+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "Cc1nc(O)ccc1B1OC(C)(C)C(C)(C)O1",
         "boltz_score": -8.3462,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2086,7 +2096,7 @@
         "timestamp": "2026-09-02T08:38:59.745598+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "Cc1cc(I)c([N+](=O)[O-])c(C)c1N",
         "boltz_score": -8.2735,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2096,7 +2106,7 @@
         "timestamp": "2026-09-01T18:54:19.220599+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "CCn1cc([C@H]2CC(=O)Nc3ccc4c[nH]nc4c32)cn1",
         "boltz_score": -8.2516,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2106,7 +2116,7 @@
         "timestamp": "2026-09-01T20:53:00.125012+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "Cc1cc(C)n(Cn2nc(C)cc2C)n1",
         "boltz_score": -8.2514,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2116,7 +2126,7 @@
         "timestamp": "2026-08-31T18:15:48.442054+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "Nc1ncnc2c1CN(c1cc3cc(C4CC4)ccc3[nH]1)C(=O)C2",
         "boltz_score": -8.2408,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2126,7 +2136,7 @@
         "timestamp": "2026-09-01T13:03:28.313586+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(NC(=O)C1CC1)c1ccc(-c2ccc3[nH]c(C4CC4)cc3c2)cc1",
         "boltz_score": -8.2319,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2136,7 +2146,7 @@
         "timestamp": "2026-09-02T10:32:20.643096+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(N/N=C/c1cccc(C(F)(F)F)c1)c1cccnc1",
         "boltz_score": -8.2176,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2144,16 +2154,6 @@
         "epoch": 20698,
         "tx": "5ckDr8R18Uz6Dw2xRKTNid2i4uJCHDTu5VWBtpSuN8wH76fPhnPzavmnc7LZanHJ1YaSbBW7NfMU2R8eqAXKXJg",
         "timestamp": "2026-09-02T02:46:45.048137+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(Nc1ccc(NC2CC2)cc1)Nc1cc2cc(NC3CC3)ccc2[nH]1",
-        "boltz_score": -8.1776,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P11802",
-        "epoch": 20698,
-        "tx": "5N2PqmrJDVRkiZhpgpm39cJnTp2UoH796o97JN1cMTUZwPeoXL6uPmUqQhTSYdxZbWuW8nUoAMozs6HKaRR6zjo3",
-        "timestamp": "2026-09-02T04:47:29.969842+00:00"
       }
     ],
     "IL6_mRNA": [
