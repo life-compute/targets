@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-02T09:36:55.329230+00:00",
+  "generated_at": "2026-09-02T09:44:12.945417+00:00",
   "targets": {
     "TP53": [
       {
@@ -2975,6 +2975,16 @@
     "FASN_mRNA": [
       {
         "rank": 1,
+        "smiles": "COc1ccccc1NC(=O)Cc1ccc2c(c1)OCCO2",
+        "boltz_score": -8.3315,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P49327",
+        "epoch": 20698,
+        "tx": "27jUWmhTXeYbYfB3msMcuafcrHTZHkMv19Yqa2bcwGWxqyzP9t8r1sTcWn8LNWh1bf8FtQUZwwXKsGceVWYWmMJK",
+        "timestamp": "2026-09-02T09:44:12.927057+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "CCC[C@@](C)(CO)NC(=O)c1ncccc1O",
         "boltz_score": -8.2379,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2984,7 +2994,7 @@
         "timestamp": "2026-09-02T01:59:13.639357+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "Nc1cccc2c1CN(C(=O)NC(=O)c1ccc(C3CC3)cc1)C(=O)C2",
         "boltz_score": -8.2088,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2994,7 +3004,7 @@
         "timestamp": "2026-09-01T16:09:10.479744+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CCCN(Cc1ccccc1)C(=O)C12CC1C2",
         "boltz_score": -8.1577,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3004,7 +3014,7 @@
         "timestamp": "2026-09-01T12:14:02.112310+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "O=C(C(F)F)N1CC[C@@H](c2ccc(Cl)cc2)C1",
         "boltz_score": -8.1523,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3014,7 +3024,7 @@
         "timestamp": "2026-09-01T20:04:02.450798+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "Nc1cccc2c1CN(C(=O)Nc1ccc3[nH]c(-c4ccc(C(=O)N5Cc6c(N)ncnc6CC5=O)cc4)cc3c1)C(=O)C2",
         "boltz_score": -8.1384,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3024,7 +3034,7 @@
         "timestamp": "2026-09-01T14:11:44.893265+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "COC(=O)[C@@H](Nc1ccc(CO)cc1)c1cccnc1",
         "boltz_score": -8.0594,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3034,7 +3044,7 @@
         "timestamp": "2026-09-01T18:06:42.160549+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "COc1cc(C2CC(=O)NC2=O)ccc1O",
         "boltz_score": -8.0415,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3044,7 +3054,7 @@
         "timestamp": "2026-08-31T21:04:53.332731+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(NC1CC1)c1ccc(C2CC2)cc1",
         "boltz_score": -8.0072,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3054,7 +3064,7 @@
         "timestamp": "2026-08-31T22:55:25.581196+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1ccc(CNc2cnccn2)s1",
         "boltz_score": -7.9794,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3062,16 +3072,6 @@
         "epoch": 20698,
         "tx": "3cMrs8DEwXVbMeD2NeaMgCnt1o7XA7meyMzcfFErVa9WDQ3QTrogzwHGYKrhm36pYmepB9ctyYGkbRc8gEA4nxfP",
         "timestamp": "2026-09-02T07:51:24.206791+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1cnc(NC(=O)[C@@H]2CC(=O)N(CCC(C)C)C2)s1",
-        "boltz_score": -7.9693,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P49327",
-        "epoch": 20698,
-        "tx": "3tfvK7oujdYfuqNcZg48BPWp3yXdKvuTKqJxLKLWRipdT869CEvgi3nC6fXKfdjDATwvNe95hC5pmqK1SCLTCNMF",
-        "timestamp": "2026-09-02T03:57:46.262004+00:00"
       }
     ],
     "TERT_mRNA": [
