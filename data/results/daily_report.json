@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-03",
-  "generated_at": "2026-09-03T05:22:57.901859+00:00",
+  "generated_at": "2026-09-03T05:30:28.000692+00:00",
   "entries": [
     {
       "date": "2026-09-03",
@@ -273,6 +273,16 @@
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "51FctuqFALTVzkhSCjB8orJ4Q6Bd7uEeseh62uXGpXQX5rw26QhmXb7ZYZCFcyPaGRrBUY7t5U1HQzHFC5pcGJhd",
       "total_hits": 2
+    },
+    {
+      "date": "2026-09-03",
+      "target_id": "HER2_mRNA",
+      "uniprot_id": "P04626",
+      "best_smiles": "COC(=O)c1cc(C)c(C(=O)O)c(C)c1",
+      "best_score": -7.2955,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5rBvQeSXgUzeH1ETADuwrkcGycdv6Bo8u3uhP5uhK2A2v6jSpW8vYk1BEw28bK9imvKbuvCXN1zKSjeKfzu5ioYi",
+      "total_hits": 1
     },
     {
       "date": "2026-09-03",
