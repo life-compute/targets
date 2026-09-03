@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-03T16:15:04.008735+00:00",
+  "generated_at": "2026-09-03T16:18:12.247705+00:00",
   "targets": {
     "TP53": [
       {
@@ -1607,6 +1607,16 @@
       },
       {
         "rank": 7,
+        "smiles": "COc1nc(Cl)c(C#N)c(C)c1Cl",
+        "boltz_score": -8.0635,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P15056",
+        "epoch": 20699,
+        "tx": "2a29j1K7LAJa7gzaqyw25J48h1HCKvbi9vFv7TqZHAPay62pZio7YRY8p6q52L6uXtGtghyrpUKjJe4JWj3LzkCm",
+        "timestamp": "2026-09-03T16:18:12.226248+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Nc1ncnc2c1CN(C(=O)c1ccc(NC(=O)c3ccc(-c4ccc5[nH]c(C6CC6)cc5c4)cc3)cc1)C(=O)C2",
         "boltz_score": -8.0329,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1616,7 +1626,7 @@
         "timestamp": "2026-09-01T06:58:49.546126+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C1CC(NC(=O)c2ccc3[nH]c(-c4cc5cc(Nc6ccc7[nH]c(C8CC8)cc7c6)ccc5[nH]4)cc3c2)C(=O)N1",
         "boltz_score": -7.9515,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1626,7 +1636,7 @@
         "timestamp": "2026-09-01T10:53:41.147000+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CCNC(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
         "boltz_score": -7.9483,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1634,16 +1644,6 @@
         "epoch": 20698,
         "tx": "5apSzMytuzPxUi9VMis6VDJeotfmV5bZCndDYUxu2bfhSx3HWt9NXA1137povZC7mAEtgQBb1iqCAHa5ufAvsjuM",
         "timestamp": "2026-09-02T04:39:41.088165+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "COCCN1C[C@@H](C(=O)Nc2cnn(C)c2C)CC1=O",
-        "boltz_score": -7.9406,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P15056",
-        "epoch": 20699,
-        "tx": "2Xd8uU5Dv56NCsoQgPLtvDzqT9ay9BjTXsfsexnBgAL193p2pH9vsWnBCopxBnMeyNxiAV7Q6c1bXaUJGxfNhzBs",
-        "timestamp": "2026-09-03T01:48:09.068283+00:00"
       }
     ],
     "CCND1_mRNA": [
