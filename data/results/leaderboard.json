@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-03T17:12:36.025882+00:00",
+  "generated_at": "2026-09-03T17:20:42.247848+00:00",
   "targets": {
     "TP53": [
       {
@@ -2729,6 +2729,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CC(=O)Nc1ncc(SCC(=O)O)s1",
+        "boltz_score": -7.7793,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P14618",
+        "epoch": 20699,
+        "tx": "4PfmL3SkvKhjvsfvzEqGcXAmxbppqqach1VurBEMPD6aw2x1M8U2Ln7DPW9zSE7fraEigCYXShEm5hqu9ZFAbXF7",
+        "timestamp": "2026-09-03T17:20:42.137973+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Nc1cccc2c1CN(c1ccc3[nH]c(Nc4cc5cc(-c6cc7cc(NC8CC8)ccc7[nH]6)ccc5[nH]4)cc3c1)C(=O)C2",
         "boltz_score": -7.7635,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2738,7 +2748,7 @@
         "timestamp": "2026-09-01T06:06:48.327560+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNc1ccc(-c2ccc(NC)cc2)cc1",
         "boltz_score": -7.6744,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2748,7 +2758,7 @@
         "timestamp": "2026-09-01T04:09:41.084263+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1ncnc2c1CN(C(=O)Nc1cc3cc(-c4ccc5[nH]c(-c6ccc(C(=O)NC7CC7)cc6)cc5c4)ccc3[nH]1)C(=O)C2",
         "boltz_score": -7.5648,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2756,16 +2766,6 @@
         "epoch": 20697,
         "tx": "uajRHsBNcfC2m4y56JWRnrAmTqPsXSe1xuFAyRmoK9w8jziQHtoi5r8FfB8qFZpre2adFVSRU3n232pwVfenhL4",
         "timestamp": "2026-09-01T10:01:44.829476+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1cc(C)n(C[C@@H]2CCCN2C2CC(=O)NC2=O)n1",
-        "boltz_score": -7.5351,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P14618",
-        "epoch": 20696,
-        "tx": "5KDuPr7vn3Kyk5qs3KZE7w24H6758B8uzKU51uJySAYPcooJMr55cKBGWcrm9cnqchNAd5itAdVPfW8UPyNuEeVD",
-        "timestamp": "2026-08-31T19:07:15.873882+00:00"
       }
     ],
     "GLUT1_mRNA": [
