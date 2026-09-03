@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-03T07:45:59.810566+00:00",
+  "generated_at": "2026-09-03T07:48:33.883390+00:00",
   "targets": {
     "TP53": [
       {
@@ -1709,6 +1709,16 @@
       },
       {
         "rank": 7,
+        "smiles": "Cc1ccc(C[C@@H](NCc2cnn(C)c2)C2CC2)cc1",
+        "boltz_score": -8.2198,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P24385",
+        "epoch": 20699,
+        "tx": "3EThGuFXb6K5GzsFhnSNsJsC95oKj1DQX2QnW939hWHSXzGHpHAsXD8wW9KGcNfWxnGrM7KTXAdy4eH2zcYq6Vjk",
+        "timestamp": "2026-09-03T07:48:33.862591+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "NS(=O)(=O)c1cc(-c2nc(-c3ccsc3)no2)co1",
         "boltz_score": -8.2184,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1718,7 +1728,7 @@
         "timestamp": "2026-09-01T11:06:48.815667+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CN(C)c1ccc(Br)cc1",
         "boltz_score": -8.1752,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1728,7 +1738,7 @@
         "timestamp": "2026-08-31T21:56:44.145885+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1cccc2c1CN(C(=O)NC1CC1)C(=O)C2",
         "boltz_score": -8.1703,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1736,16 +1746,6 @@
         "epoch": 20696,
         "tx": "5XQhKTxhP6xcjGVZfKJRaqNpFymqtcECS2kdBStmGtFUVfSgo8FfTtxueYrdRrCkuXMKZNNnhEY5RUVx7bXrL14H",
         "timestamp": "2026-08-31T23:44:55.444092+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "NC(=O)CN1CCC[C@@H]1c1ccccc1",
-        "boltz_score": -8.1652,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P24385",
-        "epoch": 20699,
-        "tx": "mjBqqZwzpMxzMbh3LwiQJstStgqC25N9ubgAFWpHKDR9ZkQvHp2mfdPNqzxXd2LF38XmcQzDtK1d2N16ZWgNPaP",
-        "timestamp": "2026-09-03T05:46:56.792082+00:00"
       }
     ],
     "SURVIVIN_mRNA": [
