@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-04T12:08:19.101993+00:00",
+  "generated_at": "2026-09-04T12:13:00.655895+00:00",
   "targets": {
     "TP53": [
       {
@@ -2525,6 +2525,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CC(C)[C@@H](Cn1ccnn1)NS(=O)(=O)c1cccnc1",
+        "boltz_score": -8.1053,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P07333",
+        "epoch": 20700,
+        "tx": "2AJhqx6F3LMWr2wCZ1H9fowrNbiax4q7nSYWRcDb9D4QcFNEaKnpiTf3Z8VCZkM8bA8p5xKps4KgbdsCT2oPYaEx",
+        "timestamp": "2026-09-04T12:13:00.631689+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Nc1cccc(C(=O)N2CCCCCC2)c1",
         "boltz_score": -7.8735,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2534,7 +2544,7 @@
         "timestamp": "2026-09-02T11:08:47.474801+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1cc2cc(-c3ccc4[nH]c(NC5CC5)cc4c3)ccc2[nH]1)C1CC1",
         "boltz_score": -7.8439,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2544,7 +2554,7 @@
         "timestamp": "2026-09-02T01:26:06.243814+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "C[C@H](CN(C)c1cncc(N)n1)N1CCOCC1",
         "boltz_score": -7.7817,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2552,16 +2562,6 @@
         "epoch": 20700,
         "tx": "4wdyQuaC4a6xbbc96tu4frD5KsGvdu3e4zumPGpTfnnXrViHkyWspwN77j5B5TJYF7cYat3b8rgCVjPKdgoctbW4",
         "timestamp": "2026-09-04T08:22:42.667289+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CC(=O)NCc1cccnc1N1CCCCCCC1",
-        "boltz_score": -7.7653,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P07333",
-        "epoch": 20699,
-        "tx": "bE5Jvw8WnU8vmWKTG9HXjp9NomyJSLPNYXwKWhexgAHVazmh5eD6pxXV4KG1UihoRVKMLbmoP4B1AeSrSVaFGQx",
-        "timestamp": "2026-09-03T22:43:39.740836+00:00"
       }
     ],
     "MMP9_mRNA": [
