@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-04",
-  "generated_at": "2026-09-04T00:31:28.371694+00:00",
+  "generated_at": "2026-09-04T00:34:55.362859+00:00",
   "entries": [
+    {
+      "date": "2026-09-04",
+      "target_id": "TGFb1_mRNA",
+      "uniprot_id": "P01137",
+      "best_smiles": "Cn1ncc2c(NCCO)nc(NC3CCCC3)nc21",
+      "best_score": -8.4381,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "uGqFyKxQN6go3wgZdi1vuTUAtFN78bcoFExrjNryBhxLjWuBruHfpstppgbiddip7hJUSSNosSPMrryoXkW468F",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-04",
       "target_id": "CDK4_mRNA",
