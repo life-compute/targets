@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-04T06:35:25.729417+00:00",
+  "generated_at": "2026-09-04T06:43:33.567685+00:00",
   "targets": {
     "TP53": [
       {
@@ -2669,6 +2669,16 @@
     "PKM2_mRNA": [
       {
         "rank": 1,
+        "smiles": "CCc1cc(C)nc(N2CCN[C@H](c3ccccc3)C2)n1",
+        "boltz_score": -7.9648,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P14618",
+        "epoch": 20700,
+        "tx": "3iAr8QmzU58btPEezt988cBjzsCMkaNkzRoyqXx8AiDmd5rCvFzEvY4DtLzzsbkdY2SMuWxdoZKi1d6NZBtnMSYs",
+        "timestamp": "2026-09-04T06:43:33.409256+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "O=C(CCn1cncn1)N1CCc2sccc2C1",
         "boltz_score": -7.9588,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2678,7 +2688,7 @@
         "timestamp": "2026-09-03T06:37:30.738552+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "COc1ncc(Cl)c(NCc2c(C)nn(C)c2C)n1",
         "boltz_score": -7.9328,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2688,7 +2698,7 @@
         "timestamp": "2026-09-01T11:58:17.931458+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CO[C@H](CNC(=O)Cn1[nH]nnc1=N)c1cccs1",
         "boltz_score": -7.9243,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2698,7 +2708,7 @@
         "timestamp": "2026-09-02T13:25:17.623127+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "CC(=O)Nc1nc(CN2CCC[C@@H]2CO)cs1",
         "boltz_score": -7.8937,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2708,7 +2718,7 @@
         "timestamp": "2026-09-02T09:32:22.266061+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "Cn1c(SCCCCF)nnc1[C@H]1CCCNC1",
         "boltz_score": -7.8554,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2718,7 +2728,7 @@
         "timestamp": "2026-09-03T19:13:28.199529+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "CC(C)(O)[C@@H]1CCCN1c1cc(C#N)ccn1",
         "boltz_score": -7.8407,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2728,7 +2738,7 @@
         "timestamp": "2026-09-02T19:16:03.586255+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "CCNC(=O)N[C@H]1CCN(Cc2ccc(C)cc2)C1=O",
         "boltz_score": -7.8101,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2738,7 +2748,7 @@
         "timestamp": "2026-09-03T08:35:42.062731+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CC(=O)Nc1ncc(SCC(=O)O)s1",
         "boltz_score": -7.7793,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2748,7 +2758,7 @@
         "timestamp": "2026-09-03T17:20:42.137973+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1cccc2c1CN(c1ccc3[nH]c(Nc4cc5cc(-c6cc7cc(NC8CC8)ccc7[nH]6)ccc5[nH]4)cc3c1)C(=O)C2",
         "boltz_score": -7.7635,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2756,16 +2766,6 @@
         "epoch": 20697,
         "tx": "5NRY1pK6dQjarJsCpSbfHbLmjpUQCqJeufcoySny28z78NV8y3jBRvjGVCsq7LzvwFrhzYihtLp9atWYsEtiQARL",
         "timestamp": "2026-09-01T06:06:48.327560+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "COc1ccc(C(=O)N2CCN(C3CCCC3)CC2)cc1",
-        "boltz_score": -7.6937,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P14618",
-        "epoch": 20700,
-        "tx": "3tvQqsZjrahSMYheneaAU9hYjSqwkrDm8ujkeX4PLf7HSrHWY8isP2vJ3sLjEFmupoJiBeRCkam3gnxTfHK1vsx3",
-        "timestamp": "2026-09-04T02:50:26.644393+00:00"
       }
     ],
     "GLUT1_mRNA": [
