@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T17:37:25.995881+00:00",
+  "generated_at": "2026-09-05T17:40:32.086683+00:00",
   "entries": [
     {
       "date": "2026-09-05",
@@ -216,6 +216,16 @@
     },
     {
       "date": "2026-09-05",
+      "target_id": "SURVIVIN_mRNA",
+      "uniprot_id": "O15392",
+      "best_smiles": "CC[C@@H](C)NC(=O)c1cn(-c2cccc(C)n2)cn1",
+      "best_score": -7.9848,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "58iS3wJr6t7JQ2cG7wLnnX5GQPQpZAWrw6PPvURu4juTP3USKo18YBR1VdEPxmiAqNmgcGJrdGLnrUNGVcTDMk5t",
+      "total_hits": 5
+    },
+    {
+      "date": "2026-09-05",
       "target_id": "BRCA2_mRNA",
       "uniprot_id": "P51587",
       "best_smiles": "Nc1ncnc2c1CN(c1ccc3[nH]c(NC(=O)c4ccc(-c5cc6cc(NC7CC7)ccc6[nH]5)cc4)cc3c1)C(=O)C2",
@@ -223,16 +233,6 @@
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "3HHW8siRLoQJbngy9UC7fcdYoyrK648CF8Y8QKUd3ZHJpqi5gppyLZzWQ4ZcGiNZCzWoPXBmadb1XkHB8rJoMyfp",
       "total_hits": 5
-    },
-    {
-      "date": "2026-09-05",
-      "target_id": "SURVIVIN_mRNA",
-      "uniprot_id": "O15392",
-      "best_smiles": "Cc1sc(NC(=O)[C@@H](C)Br)c(C#N)c1C",
-      "best_score": -7.8448,
-      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "55XFFXEyzazcaquQuuDhQM8Q5QhArbyhA6Bd7MyBytvWN1MenaDNz5fTnYVbTsxWY9bkDGYXF8wfPfhJSEis9r2m",
-      "total_hits": 4
     },
     {
       "date": "2026-09-05",
