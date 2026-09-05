@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T00:18:08.994100+00:00",
+  "generated_at": "2026-09-05T00:21:20.635760+00:00",
   "entries": [
+    {
+      "date": "2026-09-05",
+      "target_id": "GLUT1_mRNA",
+      "uniprot_id": "P11166",
+      "best_smiles": "O=C(Nc1ccc(-c2ccc(NC3CC3)cc2)cc1)C1CC1",
+      "best_score": -7.0275,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5NMTGmTEkcrp9FAp28FQCN19iT4pKc7nCky38nvZbomvseV6jF3mELFEj41uBDSj1svRktp5hUKtPixRdj8ospNW",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-05",
       "target_id": "ESR1",
