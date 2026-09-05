@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-05T01:40:05.937928+00:00",
+  "generated_at": "2026-09-05T01:44:26.961270+00:00",
   "targets": {
     "TP53": [
       {
@@ -2219,6 +2219,16 @@
       },
       {
         "rank": 7,
+        "smiles": "Nc1ncnc2c1CN(c1cc3cc(C(=O)NC(=O)c4cc5cc(NC6CC6)ccc5[nH]4)ccc3[nH]1)C(=O)C2",
+        "boltz_score": -8.3767,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P05231",
+        "epoch": 20701,
+        "tx": "2oB1c4k9BfwhM3A9vxE5HgnzPqXQaRRncYVUba569Kdn8DAzqrvAgwyGECbtmMsNaNhWYn57DJK1hNUKrm3cGJiK",
+        "timestamp": "2026-09-05T01:44:26.782677+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CNc1ccc(NC(=O)c2ccc(Nc3ccc(Br)cc3)cc2)cc1",
         "boltz_score": -8.3435,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2228,7 +2238,7 @@
         "timestamp": "2026-08-31T20:22:22.445766+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "Cc1ccc([C@H]2[C@H](N)C(=O)N2Cc2ccccc2)o1",
         "boltz_score": -8.3235,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2238,7 +2248,7 @@
         "timestamp": "2026-09-04T04:16:42.933191+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1ccc(OCc2nc(-c3ccco3)no2)nc1",
         "boltz_score": -8.3227,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2246,16 +2256,6 @@
         "epoch": 20699,
         "tx": "3TQBAMr7ANpE5g73fxZvUixdET1xj7yrg2PvZwg8CbxhqcPCvds6kRgKsiZ6dDvqVCE8c7ymYL5w1qhK3oJpb6qL",
         "timestamp": "2026-09-03T08:05:05.337543+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(NC1CC1)c1cc2cc(Nc3ccc4[nH]c(-c5ccc6[nH]c(NC7CC7)cc6c5)cc4c3)ccc2[nH]1",
-        "boltz_score": -8.3175,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P05231",
-        "epoch": 20697,
-        "tx": "52sffst6egJ7tkd1x6xd9UiGB1gvnQrHt4vs4T6vi8njysHEthkHanrAcHCWENgYFkpGyJFt5yRQcuVGmynjkaz3",
-        "timestamp": "2026-09-01T11:23:06.777466+00:00"
       }
     ],
     "TNF_mRNA": [
