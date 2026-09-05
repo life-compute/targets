@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T00:38:49.576770+00:00",
+  "generated_at": "2026-09-05T00:41:44.824580+00:00",
   "entries": [
+    {
+      "date": "2026-09-05",
+      "target_id": "RAD51_mRNA",
+      "uniprot_id": "Q06609",
+      "best_smiles": "Cn1ccc(CN2CCN(Cc3ccccc3)CC2)cc1=O",
+      "best_score": -8.4695,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2qgUNBjcJnKsoEsRaFoLPuT4MLRanQNrPc66yfs5R8rJt5kdjGRbzgWHzYJ1M9W6M5gDSzkAsZfAxabQvBtfo6XL",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-05",
       "target_id": "PARP1_mRNA",
