@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-06T19:55:00.362751+00:00",
+  "generated_at": "2026-09-06T20:00:24.076699+00:00",
   "targets": {
     "TP53": [
       {
@@ -1709,6 +1709,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CC(C)O[C@@H](C)c1nnc2n1-c1ccc(F)cc1CC2",
+        "boltz_score": -8.4198,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P24385",
+        "epoch": 20702,
+        "tx": "2vsNyEZH8zZzryS6FitmHxacwP9fJeaMJ6nj5n2CUaATr6U18jbf6QUCeEug8dJ9yASdrXzbQbSLRx3iBX3nc9bm",
+        "timestamp": "2026-09-06T20:00:24.048248+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CNc1ccc(NCCNC(=O)c2cc3cc(NC(=O)c4cc5cc(NC6CC(=O)NC6=O)ccc5[nH]4)ccc3[nH]2)cc1",
         "boltz_score": -8.3536,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1718,7 +1728,7 @@
         "timestamp": "2026-09-01T01:34:06.981898+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "Cn1cc(C(=O)NCc2nc(-c3cccn3C)no2)nn1",
         "boltz_score": -8.3418,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1728,7 +1738,7 @@
         "timestamp": "2026-09-03T20:22:48.114965+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "N#CCc1cc(F)ncc1C(F)(F)F",
         "boltz_score": -8.3155,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1736,16 +1746,6 @@
         "epoch": 20700,
         "tx": "5fsRfdhnjQ23NaFH8X8WkEa7gP9rzJ89m1TUqvtS28n19t4tmi532tXeQarh25tmeS9nG56wuKpQctQqAFHdrTeN",
         "timestamp": "2026-09-04T11:44:00.868369+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "C[C@@H](Cn1cccn1)NC(=O)NCCc1ccccn1",
-        "boltz_score": -8.3079,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P24385",
-        "epoch": 20699,
-        "tx": "4oQHNgHtFmLzn3vgPyC6jhvYkCojHeyggKSz9qvtbdqn8Tu12Sm7TeWokmr5f6Dy7ZttrAAsA2F9RUJNyP6z9A6o",
-        "timestamp": "2026-09-03T16:31:44.310856+00:00"
       }
     ],
     "SURVIVIN_mRNA": [
