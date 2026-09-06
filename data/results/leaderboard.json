@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-06T13:32:19.233571+00:00",
+  "generated_at": "2026-09-06T13:37:38.211614+00:00",
   "targets": {
     "TP53": [
       {
@@ -1505,6 +1505,16 @@
       },
       {
         "rank": 7,
+        "smiles": "NNC(=O)CNC(=O)c1cccc(Cl)c1",
+        "boltz_score": -7.8524,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P04626",
+        "epoch": 20702,
+        "tx": "3MPzNf383y3kk69NLdVkdhbJhvU6j5YovkU8spUAr1rwxquuqSgJioLpU3HMrgJanZxVHN8VmV4Tf7meTynRfNRG",
+        "timestamp": "2026-09-06T13:37:38.083385+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Cc1ccccc1CS(=O)(=O)NCCc1ccccc1",
         "boltz_score": -7.7792,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1514,7 +1524,7 @@
         "timestamp": "2026-09-01T18:43:34.993926+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "COc1cc(C(=O)O)nc2ccc([N+](=O)[O-])cc12",
         "boltz_score": -7.7272,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1524,7 +1534,7 @@
         "timestamp": "2026-09-03T09:25:19.074918+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Nc1cccc2c1CN(C(=O)NCCNC1CC(=O)NC1=O)C(=O)C2",
         "boltz_score": -7.6853,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1532,16 +1542,6 @@
         "epoch": 20697,
         "tx": "4c11fthAiDERJ6XEAQShVVu5poqY8iAqZzPVaCEHJJk3qV8kFQEPAyxxyk7788EgELkjwVtfa7N8wJEx5bR4oHby",
         "timestamp": "2026-09-01T03:08:07.420114+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1cc(NC(=O)NC[C@@H](O)c2ccccc2F)no1",
-        "boltz_score": -7.6739,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P04626",
-        "epoch": 20700,
-        "tx": "5W7AYSzPvykKeAH88TQiXPqyhq2icQA3mCueuNoyuH2HaPNdDsoqce4m7sbN34mKD7W5fFdEUfkLfz4RVh9vjBSP",
-        "timestamp": "2026-09-04T01:47:21.267595+00:00"
       }
     ],
     "BRAF_mRNA": [
