@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-06",
-  "generated_at": "2026-09-06T03:10:23.576177+00:00",
+  "generated_at": "2026-09-06T03:13:09.459222+00:00",
   "entries": [
+    {
+      "date": "2026-09-06",
+      "target_id": "KRAS_mRNA",
+      "uniprot_id": "P01116",
+      "best_smiles": "COC(=O)c1cc(Cl)cc2[nH]ccc12",
+      "best_score": -8.5634,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "VEZYAbB9tTNvuiKSLcCNCVmkYZkudt2wDGTnPQqvKMQxhq6YZ6gnDEZLiej8WpEKyeB7BDehtpedBemxfWTGxAf",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-06",
       "target_id": "GLUT1_mRNA",
