@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-07T15:05:53.671616+00:00",
+  "generated_at": "2026-09-07T15:08:45.731858+00:00",
   "targets": {
     "TP53": [
       {
@@ -3647,6 +3647,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CCC[C@H](Cn1cnc2cnccc2c1=O)N(C)C",
+        "boltz_score": -7.6664,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P13500",
+        "epoch": 20703,
+        "tx": "Q2SLkt37tVZeoFBhQB2WrLEb7sE7MKbPfx3ag7mZARSnRkv82xeNVo68pummdRpBsDQY28GW8oF46Sz5dtEu1F8",
+        "timestamp": "2026-09-07T15:08:45.493248+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "N#Cc1ccc(N2CCS(=O)CC2)c([N+](=O)[O-])c1",
         "boltz_score": -7.6588,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3656,7 +3666,7 @@
         "timestamp": "2026-09-01T15:39:06.896941+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1ccc(OC2CCCC2)cc1)c1ccc(=O)[nH]c1",
         "boltz_score": -7.6473,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3666,7 +3676,7 @@
         "timestamp": "2026-09-02T03:26:19.915931+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CC(=O)[C@H]1CCN(c2nccc(C(F)(F)F)n2)C1",
         "boltz_score": -7.6154,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3674,16 +3684,6 @@
         "epoch": 20701,
         "tx": "36B9en11ieoHmVYTf8V8aw9CkoLknintHntD6QkQL1gVrPu9k2v9fJ2kBXPh13JE78eHDoPfCQ2WYZ6tByWAhmNg",
         "timestamp": "2026-09-05T14:10:42.731562+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "C[C@@H]1C[C@@H](C)CN(C(=O)c2ccc([N+](=O)[O-])o2)C1",
-        "boltz_score": -7.5989,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P13500",
-        "epoch": 20703,
-        "tx": "4BFwuiYRcAjL6EZAoXWvz1LfZPRoTqvTh82LVLMze8vih8koH7CrsTZLnSHY22rqNJyKcGjmGhdRnz4jcZpcGoU8",
-        "timestamp": "2026-09-07T11:02:32.132419+00:00"
       }
     ],
     "CXCL12_mRNA": [
