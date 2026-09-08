@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-08",
-  "generated_at": "2026-09-08T00:11:46.407963+00:00",
+  "generated_at": "2026-09-08T00:15:26.818061+00:00",
   "entries": [
+    {
+      "date": "2026-09-08",
+      "target_id": "MYC_mRNA",
+      "uniprot_id": "P01106",
+      "best_smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
+      "best_score": -7.8278,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "sjwVFuF8sUY2g4k56ZVF9pXUvwSk9inrAxubpBQiRc9j1joxSgqef1Z96rKhWJz6t1UxQ16LATWDiiDCYMUhHmS",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-08",
       "target_id": "RAD51_mRNA",
