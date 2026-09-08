@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-08T09:05:09.055119+00:00",
+  "generated_at": "2026-09-08T09:10:29.864983+00:00",
   "targets": {
     "TP53": [
       {
@@ -1709,6 +1709,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(NCCC1=CCOCC1)c1cc2ccccc2[nH]1",
+        "boltz_score": -8.457,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P24385",
+        "epoch": 20704,
+        "tx": "4kYtrLHE9WvXqcwEGQMdFbxjR46b7C8zLmdfH3Uc5KdMrYYZsEvk9qeAVQEKbiVTL8Kg8PhK1rBqLBLJyrVeubvE",
+        "timestamp": "2026-09-08T09:10:29.718859+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CO[C@H]1COC[C@@H]1Nc1ncc(Cl)cc1F",
         "boltz_score": -8.4545,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1718,7 +1728,7 @@
         "timestamp": "2026-09-02T08:44:46.797232+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CC(C)O[C@@H](C)c1nnc2n1-c1ccc(F)cc1CC2",
         "boltz_score": -8.4198,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1728,7 +1738,7 @@
         "timestamp": "2026-09-06T20:00:24.048248+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CNc1ccc(NCCNC(=O)c2cc3cc(NC(=O)c4cc5cc(NC6CC(=O)NC6=O)ccc5[nH]4)ccc3[nH]2)cc1",
         "boltz_score": -8.3536,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1736,16 +1746,6 @@
         "epoch": 20697,
         "tx": "5g94rs6yCyvXMVo47y1L5QYNAmvnzB2kTPbtockL6WhDN75GuGDbPcMQgSCDHQDj9QRaRmEcyxLePTDQVE166dCc",
         "timestamp": "2026-09-01T01:34:06.981898+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cn1cc(C(=O)NCc2nc(-c3cccn3C)no2)nn1",
-        "boltz_score": -8.3418,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P24385",
-        "epoch": 20699,
-        "tx": "3Kb85vPJEMSt1juBEE2VQgiSVGu99PQHQjqnL4YAnZSSpNXcrb1wuYn1Jzm6XmAzpSm4KzNGSTk1pjUqpvct8muc",
-        "timestamp": "2026-09-03T20:22:48.114965+00:00"
       }
     ],
     "SURVIVIN_mRNA": [
