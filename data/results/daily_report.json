@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-09",
-  "generated_at": "2026-09-09T00:08:45.364925+00:00",
+  "generated_at": "2026-09-09T00:17:57.469850+00:00",
   "entries": [
+    {
+      "date": "2026-09-09",
+      "target_id": "CSF1R_mRNA",
+      "uniprot_id": "P07333",
+      "best_smiles": "CC(C)C(=O)N1CCC[C@@H](NS(=O)(=O)N(C)C)C1",
+      "best_score": -7.7347,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "dSTgE1q9sUZTVfvvbHas39zhWkA1wp18uVdVixTjEKVPHA63yAPgGvzHEh7W2uN5j9QbPQz7kAM4s2chEU3wV7D",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-09",
       "target_id": "TNF_mRNA",
