@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-10",
-  "generated_at": "2026-09-10T00:05:51.904229+00:00",
+  "generated_at": "2026-09-10T00:11:29.337714+00:00",
   "entries": [
+    {
+      "date": "2026-09-10",
+      "target_id": "CXCL12_mRNA",
+      "uniprot_id": "P48061",
+      "best_smiles": "CCCc1noc([C@H]2CCCN(C(=O)C3CCCC3)C2)n1",
+      "best_score": -7.8285,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "3AvisLR8SeX8jYF96jE9XaguvYixKLRYyBHzHJ3NnnEtQ4hAZmTb8oAZxmoUnwsQ9f6DjfWmHpGPy6rT1t57tw4j",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-10",
       "target_id": "CSF1R_mRNA",
