@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-10",
-  "generated_at": "2026-09-10T00:38:07.640424+00:00",
+  "generated_at": "2026-09-10T00:40:10.801829+00:00",
   "entries": [
+    {
+      "date": "2026-09-10",
+      "target_id": "TERT_mRNA",
+      "uniprot_id": "O14746",
+      "best_smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
+      "best_score": -8.037,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "31dLYijiAqQtS15empJe9Jo6XGdY6ZWkRpGhMkeXSooFWXdth69rP5ZpD4DpKtrqudDPxw9EMLM2J4yVHpeLzmyq",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-10",
       "target_id": "CXCL12_mRNA",
