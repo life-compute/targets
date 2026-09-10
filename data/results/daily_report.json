@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-10",
-  "generated_at": "2026-09-10T01:02:42.831146+00:00",
+  "generated_at": "2026-09-10T01:05:56.251386+00:00",
   "entries": [
+    {
+      "date": "2026-09-10",
+      "target_id": "KRAS_mRNA",
+      "uniprot_id": "P01116",
+      "best_smiles": "Cc1noc(C)c1C(=O)NC[C@@H](O)c1ccc(F)cc1F",
+      "best_score": -8.2751,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5eRFGqARxCyxEqfY1onBtk4juzRNxTMYrpLyCcKUbTR1S4fy6NaH5vS3RM47wMrxyze7ki1Dk7m3VLAjjoKKax6h",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-10",
       "target_id": "TERT_mRNA",
