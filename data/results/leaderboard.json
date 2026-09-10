@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-10T23:07:35.377511+00:00",
+  "generated_at": "2026-09-10T23:10:58.315105+00:00",
   "targets": {
     "TP53": [
       {
@@ -1811,6 +1811,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(Nc1nc2ccccc2s1)NN1CCCC1",
+        "boltz_score": -8.3833,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "O15392",
+        "epoch": 20706,
+        "tx": "2AwtFEQo9eJ7HFxct9XGnrHi7zPUQkWg7X6PXvJDg1BLwgKgfv4owy9yWtNg4JdZxe8kNpsjotzXFQXptujEakQ8",
+        "timestamp": "2026-09-10T23:10:58.271634+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Cc1occc1C(=O)NC[C@H]1OCCc2cn(C)nc21",
         "boltz_score": -8.3399,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1820,7 +1830,7 @@
         "timestamp": "2026-09-03T15:37:03.298546+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "Clc1nc2cccnc2nc1Cl",
         "boltz_score": -8.333,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1830,7 +1840,7 @@
         "timestamp": "2026-09-08T09:14:07.488518+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CNC(=O)[C@H]1C(S)=NC(N)=C(C#N)[C@H]1c1ccccc1",
         "boltz_score": -8.3329,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1838,16 +1848,6 @@
         "epoch": 20703,
         "tx": "4uC5JCeypVCjNgZ1zCeZMF9Z3RSsxJEkTx5k78kJSoLMEKCx1Uxg9GhdbtfFroj9bpT3b7YvZ3nDJJdeGpsAFdWa",
         "timestamp": "2026-09-07T06:24:58.677203+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CCn1nc(C)c(CN2Cc3nc(C)nc(O)c3C2)n1",
-        "boltz_score": -8.3,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "O15392",
-        "epoch": 20703,
-        "tx": "2wWob7AqKwiW4PRvXG4Nz1nkzyaSKX9cn6Wmp627bUu59R4wkCDhCqXwphDqByrVjPi9hVCownbxSBG9nho3PTCQ",
-        "timestamp": "2026-09-07T14:39:06.904457+00:00"
       }
     ],
     "PDL1_mRNA": [
