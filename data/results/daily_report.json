@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-11",
-  "generated_at": "2026-09-11T00:51:59.278543+00:00",
+  "generated_at": "2026-09-11T00:56:44.358643+00:00",
   "entries": [
+    {
+      "date": "2026-09-11",
+      "target_id": "MDM2_mRNA",
+      "uniprot_id": "Q00987",
+      "best_smiles": "C[C@H](Oc1ccc(F)cc1)C(=O)Nc1ccon1",
+      "best_score": -8.5051,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5ycBA318jSWEgYAf7aPXHBEE8Hhc8QrZDqh9dADmp6jpRMAyqYo74WHqXDtatWQo8F71zLVWzCg78Um6uFqNmm69",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-11",
       "target_id": "PARP1_mRNA",
