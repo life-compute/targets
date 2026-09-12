@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-12T00:52:14.566218+00:00",
+  "generated_at": "2026-09-12T00:56:52.059743+00:00",
   "targets": {
     "TP53": [
       {
@@ -3443,6 +3443,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CN(Cc1cnn(C)c1)c1ncccc1F",
+        "boltz_score": -7.9695,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P51587",
+        "epoch": 20708,
+        "tx": "3NQmQxibr51wnz1nmm8y1dfmDWU5LEkz8nUiPmHvY4V7tuBkNzPfUgVgZb4dCQuqPB3mitzxpdxtJD3NNUxQW8Le",
+        "timestamp": "2026-09-12T00:56:52.019957+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CC(C)(C)c1ccc(C=C2C(=O)NC(=S)NC2=O)cc1",
         "boltz_score": -7.8773,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3452,7 +3462,7 @@
         "timestamp": "2026-09-07T05:39:54.380540+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "N#Cc1ccc(NC(=O)CN2CCSC2=O)cc1Cl",
         "boltz_score": -7.8612,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3462,7 +3472,7 @@
         "timestamp": "2026-09-05T22:58:12.794115+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CNC(=O)c1nc(-c2ccccc2N)oc1C",
         "boltz_score": -7.8604,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3470,16 +3480,6 @@
         "epoch": 20705,
         "tx": "u2rnsoiqj9HTPbk9sAsrV73eRac6kfxFvzpoE6WogeVK58UPRpwnf8dkbDKzFCj9Hy9zo8vnGg1WzEYVnvQ9CLe",
         "timestamp": "2026-09-09T05:05:38.873181+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CN(C)C(=O)c1ccc(N2Cc3c(N)ncnc3CC2=O)cc1",
-        "boltz_score": -7.8564,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P51587",
-        "epoch": 20697,
-        "tx": "4EFSYNgrXL9wSAkPWK98uPoH5sHAikxSeNRPnB1KmumJjwtMpdHkuo5xG9nN5EfBk5Fhz8ug8MsEvXRbXopjGnkU",
-        "timestamp": "2026-09-01T00:57:48.036232+00:00"
       }
     ],
     "ATM_mRNA": [
