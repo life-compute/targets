@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-12T15:00:04.784644+00:00",
+  "generated_at": "2026-09-12T15:02:18.564143+00:00",
   "targets": {
     "TP53": [
       {
@@ -120,6 +120,16 @@
       {
         "rank": 1,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
+        "boltz_score": -10.676,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01116",
+        "epoch": 20708,
+        "tx": "5Esx5uyULMCUjewY9jBLxyU1j3AxjEJLDb73K7qUbwJHmSAAyQgygLQbv4FA4q1idLjqLiSppLkKoVodRb6wmsU9",
+        "timestamp": "2026-09-12T15:02:18.516008+00:00"
+      },
+      {
+        "rank": 2,
+        "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P01116",
@@ -128,7 +138,7 @@
         "timestamp": "2026-08-14T16:45:56.739824+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -138,7 +148,7 @@
         "timestamp": "2026-08-14T17:41:07.584853+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -148,7 +158,7 @@
         "timestamp": "2026-08-14T18:36:14.308168+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -158,7 +168,7 @@
         "timestamp": "2026-08-14T19:31:18.706902+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -168,7 +178,7 @@
         "timestamp": "2026-08-14T20:25:14.436686+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -178,7 +188,7 @@
         "timestamp": "2026-08-14T21:20:55.539170+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -188,7 +198,7 @@
         "timestamp": "2026-08-14T22:16:25.313096+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -198,7 +208,7 @@
         "timestamp": "2026-08-14T23:11:53.135450+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -206,16 +216,6 @@
         "epoch": 20679,
         "tx": "4HYo7uQv73vmLKzxZ5FQPawKNZQVGJAqLRr4Te6KnmyLDDKoDi7hACTwV2J1gwMTqebEnSnbCq4SjpWHVfjouRgE",
         "timestamp": "2026-08-14T23:47:01.826283+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
-        "boltz_score": -1.813,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01116",
-        "epoch": 20680,
-        "tx": "4fMeJDXycPNfPtrEpaBcyzcPGNvkKF2qfhFQc6XEo47VoGMeV6hjvw3aRDav6iqQb8q8sFEjHuNc9NZKeE2ErVrZ",
-        "timestamp": "2026-08-15T00:42:49.874909+00:00"
       }
     ],
     "BCL2": [
