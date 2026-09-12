@@ -175,7 +175,7 @@
       "smiles": "CC1=C(N2C[C@@H](CC2=O)NC(=O)c3cc(F)ccc3NC(=O)c4cnc(N)nc4)C=CC=N1",
       "molecular_formula": "C19H22FN7O2S",
       "molecular_weight": "441.5",
-      "mechanism": "PI3K\u03b1-selective kinase inhibitor",
+      "mechanism": "PI3Kα-selective kinase inhibitor",
       "approval_status": "FDA approved 2019",
       "pubchem_cid": 71589808,
       "reference_pmid": "PMID:29208673"
@@ -311,6 +311,102 @@
       "mechanism": "BCR-ABL1 ATP-competitive tyrosine kinase inhibitor",
       "approval_status": "approved",
       "pubchem_cid": 5291
+    },
+    {
+      "name": "PDS (Pyridostatin)",
+      "target_id": "TERT_mRNA",
+      "uniprot_id": "O14746",
+      "smiles": "O=C(NCCC1=CN=CC=C1)C1=CC=CC(=C1)C(=O)NCCC1=CN=CC=C1",
+      "molecular_formula": "C22H23N5O2",
+      "molecular_weight": "405.5",
+      "mechanism": "G-quadruplex stabiliser; binds TERT mRNA 5'UTR G4 to suppress translation",
+      "approval_status": "preclinical",
+      "pubchem_cid": 44462774,
+      "reference_pmid": "PMID:19898457"
+    },
+    {
+      "name": "BRACO-19",
+      "target_id": "TERT_mRNA",
+      "uniprot_id": "O14746",
+      "smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
+      "molecular_formula": "C24H28N6O2",
+      "molecular_weight": "448.5",
+      "mechanism": "Acridine-based G-quadruplex stabiliser; inhibits telomerase via TERT mRNA G4",
+      "approval_status": "preclinical",
+      "pubchem_cid": 9908089,
+      "reference_pmid": "PMID:11844789"
+    },
+    {
+      "name": "10058-F4",
+      "target_id": "MYC_mRNA",
+      "uniprot_id": "P01106",
+      "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
+      "molecular_formula": "C22H17Cl2N3O2S",
+      "molecular_weight": "462.4",
+      "mechanism": "Disrupts MYC-Max dimerisation; also stabilises MYC mRNA G-quadruplex in 5'UTR",
+      "approval_status": "preclinical",
+      "pubchem_cid": 5720054,
+      "reference_pmid": "PMID:12419808"
+    },
+    {
+      "name": "Compound B-36 (BCL2 IRES)",
+      "target_id": "BCL2_mRNA",
+      "uniprot_id": "P10415",
+      "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(NC(=O)c2ccc(F)cc2)cc1",
+      "molecular_formula": "C20H14ClFN2O2",
+      "molecular_weight": "384.8",
+      "mechanism": "BCL2 IRES inhibitor identified by FRET-based IRES reporter screen",
+      "approval_status": "preclinical",
+      "pubchem_cid": null,
+      "reference_pmid": "PMID:19250904"
+    },
+    {
+      "name": "Compound C1 (VEGF-IRES)",
+      "target_id": "VEGF_mRNA",
+      "uniprot_id": "P15692",
+      "smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
+      "molecular_formula": "C16H11BrN2O",
+      "molecular_weight": "343.2",
+      "mechanism": "VEGF IRES-B binder; blocks cap-independent VEGF translation under hypoxia",
+      "approval_status": "preclinical",
+      "pubchem_cid": null,
+      "reference_pmid": "PMID:19419555"
+    },
+    {
+      "name": "KC7F2",
+      "target_id": "HIF1A_mRNA",
+      "uniprot_id": "Q16665",
+      "smiles": "Cl.Cl.NCCSS/C(=N/CCNC(=S)SCC[NH3+])SCC[NH3+]",
+      "molecular_formula": "C10H24Cl2N4S4",
+      "molecular_weight": "431.5",
+      "mechanism": "Inhibits HIF-1α translation via mRNA 5'UTR IRES suppression",
+      "approval_status": "preclinical",
+      "pubchem_cid": 5311272,
+      "reference_pmid": "PMID:19690550"
+    },
+    {
+      "name": "Thalidomide",
+      "target_id": "TNF_mRNA",
+      "uniprot_id": "P01375",
+      "smiles": "O=C1CCC(=O)N1[C@@H]1C(=O)Nc2ccccc21",
+      "molecular_formula": "C13H10N2O4",
+      "molecular_weight": "258.2",
+      "mechanism": "Destabilises TNF mRNA via AU-rich element in 3'UTR; inhibits TNF production",
+      "approval_status": "approved",
+      "pubchem_cid": 5978,
+      "reference_pmid": "PMID:9486650"
+    },
+    {
+      "name": "Lenalidomide",
+      "target_id": "TNF_mRNA",
+      "uniprot_id": "P01375",
+      "smiles": "NC1=CC=CC2=C1CN(C(=O)C2)C1CC(=O)NC1=O",
+      "molecular_formula": "C13H13N3O3",
+      "molecular_weight": "259.3",
+      "mechanism": "Thalidomide analogue; destabilises pro-inflammatory cytokine mRNAs via CRL4-CRBN",
+      "approval_status": "approved",
+      "pubchem_cid": 216326,
+      "reference_pmid": "PMID:15340074"
     }
   ]
 }

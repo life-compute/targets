@@ -1118,5 +1118,764 @@
       381,
       382
     ]
+  },
+  {
+    "id": "MYC_mRNA",
+    "uniprot_id": "P01106",
+    "protein_name": "Myc proto-oncogene protein (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES / CDS start stem-loop",
+    "rna_sequence": "AUGCCCAGCGAGGAGAGCUUCACCCCCACCGCCCAGCUCCCGCAACAGCGGCGGCAGCAGCC",
+    "disease_context": "MYC is overexpressed or amplified in ~70% of all cancers. Small molecules targeting the MYC mRNA IRES or 5'-CDS stem-loop block ribosome loading, reducing MYC protein without targeting the undruggable MYC protein surface directly.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "mRNA IRES elements are highly structured but poorly crystallised; few validated small-molecule binders exist. Scoring relies on computational RNA docking (affinity proxy). Hard tier reflects frontier science status.",
+    "known_binders": [
+      "APTO-253",
+      "10058-F4 (indirect via G-quadruplex)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "KRAS_mRNA",
+    "uniprot_id": "P01116",
+    "protein_name": "GTPase KRas (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "CDS 5'-stem-loop (codons 1-20)",
+    "rna_sequence": "AUGACUGAAUAUAAACUUGUCGUGACUUGUCAUGGCAUUAGCUGGAGAUGGCUUGGAGCUG",
+    "disease_context": "KRAS is the most commonly mutated oncogene in pancreatic, lung, and colon cancers. Targeting KRAS mRNA blocks expression upstream of the protein, circumventing the challenging nucleotide-binding pocket.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "KRAS mRNA lacks a well-characterised IRES; the 5'-CDS forms a labile stem-loop. RNA-targeted small molecules for KRAS are at early research stage.",
+    "known_binders": [
+      "Compound 1a (G-quadruplex stabiliser, preclinical)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "BCL2_mRNA",
+    "uniprot_id": "P10415",
+    "protein_name": "Apoptosis regulator Bcl-2 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES (nt 1-60)",
+    "rna_sequence": "AUGAGUGAGCGCUCGAGCUGUUUGGGGGCAGGCCGGGAGCUGGGAGGGAGGGGGCGGGAGG",
+    "disease_context": "BCL2 mRNA contains a well-characterised IRES that allows cap-independent translation under stress. Blocking BCL2 IRES with small molecules reduces the anti-apoptotic protein load in lymphoma and CLL cells.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "BCL2 IRES is one of the best-studied cancer mRNA IRESes; several compounds have been tested in vitro. Moderate structural data available.",
+    "known_binders": [
+      "Venetoclax (protein target, not mRNA)",
+      "Compound B-36 (IRES binder, preclinical)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "EGFR_mRNA",
+    "uniprot_id": "P00533",
+    "protein_name": "Epidermal growth factor receptor (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "CDS 5'-end stem-loop (codons 1-20)",
+    "rna_sequence": "AUGCGAACCCCACCCCCGCCCGGCCCGGCCCUGGGCUCCCCGGCGCAGCGAGGCGCCAGGCG",
+    "disease_context": "EGFR is overexpressed or mutated in non-small-cell lung cancer, head and neck cancer, and glioblastoma. Blocking EGFR mRNA translation at the 5'-CDS provides a route around kinase-domain resistance mutations.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "EGFR mRNA 5'-UTR is GC-rich with complex folding; identifying a selective small-molecule binding pocket requires computational RNA structure prediction.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "HER2_mRNA",
+    "uniprot_id": "P04626",
+    "protein_name": "Receptor tyrosine-protein kinase erbB-2 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES",
+    "rna_sequence": "AUGAGGCUCCCGCUCCCGGCCCUCUCCCCGGCCCCGGCGCCCGGCUCGGCCCGGGGAGUCCC",
+    "disease_context": "HER2 is amplified in 20-30% of breast cancers and gastric cancers. mRNA-level silencing bypasses trastuzumab resistance caused by downstream PI3K/AKT mutations.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "HER2 mRNA 5'-UTR IRES has been partially characterised; no approved mRNA-targeted compounds exist. High novelty, hard tier.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "BRAF_mRNA",
+    "uniprot_id": "P15056",
+    "protein_name": "Serine/threonine-protein kinase B-raf (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "CDS 5'-stem-loop (codons 1-20)",
+    "rna_sequence": "AUGAGCGGCGGCGGCGGCGGCGACAGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGG",
+    "disease_context": "BRAF V600E mutation drives ~50% of melanomas and ~10% of colorectal cancers. Targeting BRAF mRNA prevents V600E protein production independent of the mutation status of the kinase domain.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel mRNA silencing modality; minimal structural data on BRAF mRNA.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "MDM2_mRNA",
+    "uniprot_id": "Q00987",
+    "protein_name": "E3 ubiquitin-protein ligase Mdm2 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES",
+    "rna_sequence": "AUGUCGCUCAGCUCGAGUUCGAGUUCGAGUUCGAGUUCGAGUUAGAGUUCGAGUUCGAGUCA",
+    "disease_context": "MDM2 negatively regulates p53 by promoting its ubiquitination. Blocking MDM2 mRNA translation restores p53 tumour suppressor activity in cancers with wild-type p53 but MDM2 amplification.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "MDM2 mRNA contains an IRES that is upregulated after DNA damage; selective IRES inhibitors are a frontier area.",
+    "known_binders": [
+      "Nutlin-3a (protein target)",
+      "RG7388 (protein target)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "CDK4_mRNA",
+    "uniprot_id": "P11802",
+    "protein_name": "Cyclin-dependent kinase 4 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR regulatory stem-loop",
+    "rna_sequence": "AUGAUGCAGACCCUGCUCCUGGGCGGCGCAGUCCUGGCUGGCGGCGGCGGCGGCGGCGGCGG",
+    "disease_context": "CDK4 drives G1/S cell-cycle entry; it is amplified or overactivated in breast, liposarcoma, and glioblastoma. mRNA-level blockade complements CDK4/6 kinase inhibitors by preventing de novo protein synthesis.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "No characterised mRNA-binding compounds; highly novel.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "CCND1_mRNA",
+    "uniprot_id": "P24385",
+    "protein_name": "G1/S-specific cyclin-D1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR AU-rich element / CDS 5'-stem-loop",
+    "rna_sequence": "AUGAAGAGUGGGCUGCAGAGGACGACAGGAUGCAGAAGGAGAUCGAGCAGCUCAGCAGCAGG",
+    "disease_context": "Cyclin D1 (CCND1) is overexpressed in breast, head/neck, oesophageal, and mantle cell lymphoma. Its mRNA 3'UTR AU-rich element is a validated target for mRNA stability modulation by small molecules.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "AU-rich elements are single-stranded and conformationally flexible; small-molecule binding requires structure-specific ligands.",
+    "known_binders": [
+      "Palbociclib (protein CDK4/6 inhibitor, not mRNA)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "SURVIVIN_mRNA",
+    "uniprot_id": "O15392",
+    "protein_name": "Baculoviral IAP repeat-containing protein 5 / Survivin (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES",
+    "rna_sequence": "AUGGGUCCCCCGGAGGGCCGGGGAGCCAGGUGCCCCCGCAGCCCCGAGCGGCGCCCGCGCCC",
+    "disease_context": "Survivin is expressed in virtually all cancer types but absent in normal adult tissues. It inhibits apoptosis and regulates mitosis. Its mRNA IRES is active during mitosis, making it a cell-cycle-specific RNA target.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Survivin mRNA IRES is among the better-studied cancer IRESes. Several compounds have been screened in IRES reporter assays; none approved.",
+    "known_binders": [
+      "YM155 (transcription inhibitor, not direct mRNA binder)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "PDL1_mRNA",
+    "uniprot_id": "Q9NZQ7",
+    "protein_name": "Programmed cell death 1 ligand 1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR stability element",
+    "rna_sequence": "AUGAGGAUAUUCUGCUGUGCUAUGCCAGCCAGCGUGCAGCCAGCAGCGGCGGCGGCGGCGGC",
+    "disease_context": "PD-L1 (CD274) expressed on tumour cells suppresses cytotoxic T-cell responses. Small molecules targeting PD-L1 mRNA stability elements in the 3'UTR could reduce tumour immune evasion without antibody-class therapeutics.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "3'UTR elements are single-stranded; selectivity over other immune checkpoint mRNAs is challenging.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "VEGF_mRNA",
+    "uniprot_id": "P15692",
+    "protein_name": "Vascular endothelial growth factor A (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES (two IRES elements, A and B)",
+    "rna_sequence": "AUGAACUGCUGUCUCUGCCCUGGUGACAGGGAAGAAAGCAGAAAUCCCAGAAACCGCAUGGA",
+    "disease_context": "VEGF-A mRNA contains two IRESes (IRES-A and IRES-B) that drive cap-independent translation under hypoxia\u2014a hallmark of solid tumours. IRES-targeting compounds could suppress tumour angiogenesis selectively under hypoxic conditions where conventional anti-VEGF antibodies are less effective.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "VEGF IRES is among the best-characterised cancer mRNA IRESes; moderate structural data.",
+    "known_binders": [
+      "Compound C1 (VEGF-IRES binder, published 2009, preclinical)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "HIF1A_mRNA",
+    "uniprot_id": "Q16665",
+    "protein_name": "Hypoxia-inducible factor 1-alpha (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES",
+    "rna_sequence": "AUGCAUGUAGCUAGACUUACUUCAGCCGAUGGCCCGCGCCGGCGGCGGCGGCGGCGGCGGCG",
+    "disease_context": "HIF-1\u03b1 protein is stabilised under tumour hypoxia and drives transcription of pro-survival and pro-angiogenic genes. HIF1A mRNA harbours an IRES active under hypoxic conditions, providing a cancer-selective RNA target.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "HIF1A IRES has been characterised; some small-molecule screens published.",
+    "known_binders": [
+      "Digoxin (indirect HIF-1\u03b1 suppressor)",
+      "KC7F2 (HIF-1\u03b1 translation inhibitor, preclinical)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "IL6_mRNA",
+    "uniprot_id": "P05231",
+    "protein_name": "Interleukin-6 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR AU-rich element (ARE)",
+    "rna_sequence": "AUGACUGAGCAUCAGCCCGAGCCCACCGGGAACGAAAUUGAGAUGAGCCCAGAGGAGCCCAG",
+    "disease_context": "IL-6 promotes tumour growth, immune evasion, and cachexia. Its mRNA is post-transcriptionally regulated by AU-rich elements (AREs) in the 3'UTR. Small molecules stabilising the ARE or blocking ARE-binding proteins reduce IL-6 production in cancer and inflammation.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "AREs are unstructured; selectivity across cytokine mRNAs is the main challenge.",
+    "known_binders": [
+      "Thalidomide (indirect, destabilises TNF/IL-6 mRNA via CELF)"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "TNF_mRNA",
+    "uniprot_id": "P01375",
+    "protein_name": "Tumor necrosis factor (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR AU-rich element (ARE)",
+    "rna_sequence": "AUGAGCACAGAAAGCAUGAUCCGGCAGCGAGCUGCAGCUGCAGCUGCAGCUACAGCUGCAGC",
+    "disease_context": "TNF plays dual roles in cancer: anti-tumour at high concentrations but pro-tumour chronically. TNF mRNA ARE is a validated therapeutic target; thalidomide-class drugs destabilise TNF mRNA. Novel direct ARE binders are sought for improved selectivity.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "TNF ARE is the founding model of mRNA destabilisation; several compound classes known.",
+    "known_binders": [
+      "Thalidomide",
+      "Lenalidomide",
+      "Pentoxifylline"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "TGFb1_mRNA",
+    "uniprot_id": "P01137",
+    "protein_name": "Transforming growth factor beta-1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR translational control element",
+    "rna_sequence": "AUGCCGCCCGCGCCGGCCCGGCGCCUGCCCCCGCCCGGGCCCGGCCCCGGCCCCCCGCCGCC",
+    "disease_context": "TGF-\u03b21 suppresses anti-tumour immune responses and promotes epithelial-mesenchymal transition. Its mRNA 5'UTR contains a translational control element (TCE) that governs cap-dependent translation; blocking the TCE reduces TGF-\u03b21 secretion by tumour-associated cells.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "TGFb1 mRNA TCE is structured but incompletely characterised at atomic resolution.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "CSF1R_mRNA",
+    "uniprot_id": "P07333",
+    "protein_name": "Macrophage colony-stimulating factor 1 receptor (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "CDS 5'-stem-loop",
+    "rna_sequence": "AUGAGCAGCUGCCCCGGACCCGGUGCCCCGGACCCCGGCCCGGCCCCGGCGCCGCUGCCCCC",
+    "disease_context": "CSF1R drives differentiation of tumour-associated macrophages (TAMs), which suppress anti-tumour immunity. Blocking CSF1R mRNA reduces TAM recruitment without systemic immunosuppression.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel mRNA target; no published mRNA-binding compounds.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "CCL2_mRNA",
+    "uniprot_id": "P13500",
+    "protein_name": "C-C motif chemokine 2 / MCP-1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR ARE",
+    "rna_sequence": "AUGAAAGUGCCCCCAGUGCCCCCAGCCCCCCAGCCCCCCAGCCCCCAGCCCCCAGCCCCCAG",
+    "disease_context": "CCL2 recruits immunosuppressive monocytes and TAMs to the tumour microenvironment. Its mRNA 3'UTR ARE governs stability; small-molecule destabilisers could reduce CCL2-mediated immune suppression.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "ARE targeting; selectivity among chemokine mRNAs required.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "CXCL12_mRNA",
+    "uniprot_id": "P48061",
+    "protein_name": "C-X-C motif chemokine 12 / SDF-1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "3'UTR stability element",
+    "rna_sequence": "AUGAACGCCAAGGUCGUGGUGGUGCCCCUGGUGCCCGCUCCCGCUCCCGCUCCCGCUCCGCU",
+    "disease_context": "CXCL12/SDF-1 guides cancer cell migration to metastatic niches via CXCR4. Blocking CXCL12 mRNA production reduces metastatic seeding in breast, prostate, and haematological cancers.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel mRNA target for metastasis; no characterised RNA binders.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "MMP9_mRNA",
+    "uniprot_id": "P14780",
+    "protein_name": "Matrix metalloproteinase-9 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR / CDS junction stem-loop",
+    "rna_sequence": "AUGAGCCUCUGGGCAGCCCGCCCUCCCCCGCCCCCAGGGCCCCCGGCCCCCAGCCCCCGCCC",
+    "disease_context": "MMP9 degrades extracellular matrix to enable tumour invasion and metastasis. Blocking MMP9 mRNA at the 5'-CDS junction reduces secreted MMP9 activity in aggressive cancers.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel RNA target modality for MMP9; highly innovative.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "LDHA_mRNA",
+    "uniprot_id": "P00338",
+    "protein_name": "L-lactate dehydrogenase A chain (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR HIF-responsive element / IRES",
+    "rna_sequence": "AUGUCUCCCAGCCCCCGCCCACCCGCCCCCGCCCCCUGCGGCCCCCGCCCCCGCGCCCCCGC",
+    "disease_context": "LDHA drives the Warburg effect by converting pyruvate to lactate, supporting aerobic glycolysis in cancer. LDHA mRNA is upregulated by HIF-1\u03b1. mRNA-level silencing reduces the metabolic advantage of cancer cells without affecting normal tissue LDHB.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Metabolic mRNA target; isoform selectivity (LDHA vs LDHB) is key challenge.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "PKM2_mRNA",
+    "uniprot_id": "P14618",
+    "protein_name": "Pyruvate kinase PKM, isoform M2 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "Exon 10 inclusion regulatory element (alternative splicing target)",
+    "rna_sequence": "AUGAUCACCAUUGGCAGCCUGCCAGCCCCAAGCCAGCCCCCAGCCCCCAGCCCCAGCCCCCA",
+    "disease_context": "PKM2 (vs PKM1) is selectively expressed in cancer cells and supports biosynthesis over ATP generation. Small molecules targeting the PKM2-specific exon 10 splicing regulatory element could switch PKM2 to PKM1, reversing the Warburg effect.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Splicing regulatory elements are poorly drugged; highly innovative modality.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "GLUT1_mRNA",
+    "uniprot_id": "P11166",
+    "protein_name": "Solute carrier family 2, facilitated glucose transporter member 1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR HIF-1\u03b1-responsive stem-loop",
+    "rna_sequence": "AUGCCGGCUCUGCUCGCCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGG",
+    "disease_context": "GLUT1 (SLC2A1) is the primary glucose transporter upregulated in cancer cells via HIF-1\u03b1. Blocking GLUT1 mRNA translation selectively in hypoxic tumour cells starves cancer of its preferred energy source.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "HIF-responsive mRNA elements are partially characterised; isoform selectivity required.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "HK2_mRNA",
+    "uniprot_id": "P52789",
+    "protein_name": "Hexokinase-2 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR regulatory stem-loop",
+    "rna_sequence": "AUGCUUAAGAUGCUGAGCCUGCUGGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGG",
+    "disease_context": "HK2 is the cancer-specific hexokinase that phosphorylates glucose as the first committed step of glycolysis. HK2 is absent in most normal adult tissues but highly expressed in cancer. mRNA targeting provides tumour selectivity.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Cancer-selective expression makes HK2 mRNA an attractive target; no known RNA binders.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "FASN_mRNA",
+    "uniprot_id": "P49327",
+    "protein_name": "Fatty acid synthase (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR IRES / CDS stem-loop",
+    "rna_sequence": "AUGCUCAAAGCCUACAGCUGGCCGGCCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGG",
+    "disease_context": "FASN drives de novo lipogenesis in cancer cells for membrane biosynthesis and energy storage. FASN is overexpressed in breast, prostate, and colorectal cancers. mRNA silencing reduces fatty acid synthesis selectively in lipogenic tumours.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "FASN mRNA lacks well-characterised RNA structures; highly novel target.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "TERT_mRNA",
+    "uniprot_id": "O14746",
+    "protein_name": "Telomerase reverse transcriptase (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR G-quadruplex",
+    "rna_sequence": "AUGCCGCGCGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGC",
+    "disease_context": "TERT is the catalytic subunit of telomerase, reactivated in >90% of cancers to confer immortality. TERT mRNA contains a G-quadruplex structure in the 5'UTR that suppresses translation; G-quadruplex stabilisers reduce TERT protein levels selectively in cancer cells.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "TERT mRNA G-quadruplex is well-characterised (NMR structure available). Several G-quadruplex ligands have been tested in vitro. One of the more tractable mRNA RNA targets in this set.",
+    "known_binders": [
+      "BRACO-19",
+      "PDS (Pyridostatin)",
+      "PhenDC3"
+    ],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "PARP1_mRNA",
+    "uniprot_id": "P09874",
+    "protein_name": "Poly [ADP-ribose] polymerase 1 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR stem-loop",
+    "rna_sequence": "AUGGCGGAGCCGGAGGCGGAGCAGCCGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCA",
+    "disease_context": "PARP1 performs DNA single-strand break repair essential for cancer cell survival after genotoxic stress. Blocking PARP1 mRNA translation is an alternative modality to PARP inhibitors that avoids the resistance mechanism of PARP trapping reversal.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel mRNA modality for PARP1; existing PARP inhibitors target the protein.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "RAD51_mRNA",
+    "uniprot_id": "Q06609",
+    "protein_name": "DNA repair protein RAD51 (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR / CDS 5'-stem-loop",
+    "rna_sequence": "AUGCAGGCCUCUGCAGGCUGGAAAGAGCCCGCAGAGAAAGCGAAGAAGGCGAAGGCCGCCGC",
+    "disease_context": "RAD51 mediates homologous recombination repair, allowing cancer cells to survive DNA-damaging chemotherapy. Blocking RAD51 mRNA translation sensitises BRCA-proficient tumours to PARP inhibitors and platinum drugs (synthetic lethality extension).",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "High therapeutic rationale; no validated mRNA binders published.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "BRCA2_mRNA",
+    "uniprot_id": "P51587",
+    "protein_name": "Breast cancer type 2 susceptibility protein (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR regulatory element",
+    "rna_sequence": "AUGAAAGGUGCAAGUAUGAGCAGCAGUAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAG",
+    "disease_context": "BRCA2 mediates homologous recombination; its loss creates PARP-inhibitor sensitivity. In tumours with wild-type BRCA2, blocking BRCA2 mRNA translation creates de novo synthetic lethality, extending PARP inhibitor utility to a broader patient population.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Synthetic lethality via mRNA; no prior art in RNA-targeted BRCA2 modulation.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "ATM_mRNA",
+    "uniprot_id": "Q13315",
+    "protein_name": "Serine-protein kinase ATM (mRNA target)",
+    "target_type": "mRNA",
+    "mrna_region": "5'UTR stem-loop",
+    "rna_sequence": "AUGCGGCCCGCGCCGGCCCGGCGCCGGCGCCCGGCGCCCGGCGCCCGGCGCCCGGCGCCCGG",
+    "disease_context": "ATM orchestrates the DNA damage response checkpoint. Blocking ATM mRNA translation abrogates the G2/M checkpoint, forcing cancer cells into premature mitosis after DNA damage\u2014a radio/chemo-sensitisation strategy independent of kinase-domain ATM inhibitors.",
+    "difficulty_tier": 3,
+    "difficulty_rationale": "Novel mRNA-level checkpoint abrogation; no RNA-binding compounds known for ATM.",
+    "known_binders": [],
+    "known_drugs": [],
+    "scoring_metric": "binding_affinity_kcal_mol",
+    "target_score_threshold": -7.0,
+    "pdb_id": null,
+    "active_site_residues": []
+  },
+  {
+    "id": "TP53_CRISPR",
+    "uniprot_id": "P04637",
+    "gene_name": "TP53",
+    "protein_name": "TP53 gRNA target (restore tumor suppressor via CRISPR editing)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3000,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Hotspot codons 175, 248, 249, 273 \u2014 restore WT function or knock out gain-of-function allele",
+    "cancer_indication": "colorectal, lung, breast, ovarian",
+    "known_drugs": [
+      {
+        "name": "APR-246 (eprenetapopt)",
+        "mechanism": "Small molecule that reactivates mutant p53 (not CRISPR)",
+        "approved_year": null
+      }
+    ]
+  },
+  {
+    "id": "KRAS_CRISPR",
+    "uniprot_id": "P01116",
+    "gene_name": "KRAS",
+    "protein_name": "KRAS gRNA target (knockout G12C/D/V oncogenic allele)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3001,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Codon 12 mutations G12C/G12D/G12V \u2014 allele-specific knockout or base editing",
+    "cancer_indication": "pancreatic, colorectal, lung",
+    "known_drugs": [
+      {
+        "name": "Sotorasib",
+        "mechanism": "KRASG12C covalent inhibitor",
+        "approved_year": 2021
+      },
+      {
+        "name": "Adagrasib",
+        "mechanism": "KRASG12C covalent inhibitor",
+        "approved_year": 2022
+      }
+    ]
+  },
+  {
+    "id": "BCL2_CRISPR",
+    "uniprot_id": "P10415",
+    "gene_name": "BCL2",
+    "protein_name": "BCL2 gRNA target (knockout anti-apoptotic driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3002,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "BH3 domain \u2014 restore apoptotic sensitivity in BCL2-overexpressing tumours",
+    "cancer_indication": "B-cell lymphoma, CLL",
+    "known_drugs": [
+      {
+        "name": "Venetoclax",
+        "mechanism": "BCL2 BH3-mimetic inhibitor",
+        "approved_year": 2016
+      }
+    ]
+  },
+  {
+    "id": "MYC_CRISPR",
+    "uniprot_id": "P01106",
+    "gene_name": "MYC",
+    "protein_name": "MYC gRNA target (knockout oncogene transcription driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3003,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "MYC transactivation domain (Mb1/Mb2) \u2014 direct knockout or enhancer disruption",
+    "cancer_indication": "Burkitt lymphoma, TNBC, neuroblastoma",
+    "known_drugs": []
+  },
+  {
+    "id": "EGFR_CRISPR",
+    "uniprot_id": "P00533",
+    "gene_name": "EGFR",
+    "protein_name": "EGFR gRNA target (knockout lung cancer driver mutations)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3004,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Exon 19 Del746-750 / exon 21 L858R \u2014 allele-specific editing to sensitise or eliminate resistance",
+    "cancer_indication": "non-small-cell lung cancer (NSCLC)",
+    "known_drugs": [
+      {
+        "name": "Osimertinib",
+        "mechanism": "Third-generation EGFR TKI",
+        "approved_year": 2015
+      },
+      {
+        "name": "Erlotinib",
+        "mechanism": "First-generation EGFR TKI",
+        "approved_year": 2004
+      }
+    ]
+  },
+  {
+    "id": "HER2_CRISPR",
+    "uniprot_id": "P04626",
+    "gene_name": "HER2",
+    "protein_name": "HER2 gRNA target (knockout breast/gastric cancer driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3005,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Exon 20 insertion hotspot / kinase domain \u2014 knockout or splice-site disruption",
+    "cancer_indication": "breast, gastric",
+    "known_drugs": [
+      {
+        "name": "Trastuzumab",
+        "mechanism": "HER2-targeted monoclonal antibody",
+        "approved_year": 1998
+      },
+      {
+        "name": "Tucatinib",
+        "mechanism": "HER2-selective TKI",
+        "approved_year": 2020
+      }
+    ]
+  },
+  {
+    "id": "BRCA1_CRISPR",
+    "uniprot_id": "P38398",
+    "gene_name": "BRCA1",
+    "protein_name": "BRCA1 gRNA target (restore DNA repair function)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3006,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "RING domain + exon 11 truncating mutations \u2014 correction via HDR or splice restoration",
+    "cancer_indication": "breast, ovarian",
+    "known_drugs": [
+      {
+        "name": "Olaparib",
+        "mechanism": "PARP inhibitor \u2014 synthetic lethal with BRCA1/2 loss",
+        "approved_year": 2014
+      }
+    ]
+  },
+  {
+    "id": "PDL1_CRISPR",
+    "uniprot_id": "Q9NZQ7",
+    "gene_name": "PDL1",
+    "protein_name": "PDL1 gRNA target (knockout immune checkpoint in tumour cells)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3007,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "IgV domain exon 2-3 \u2014 tumour-cell PDL1 knockout to restore T-cell cytotoxicity",
+    "cancer_indication": "NSCLC, melanoma, urothelial",
+    "known_drugs": [
+      {
+        "name": "Pembrolizumab",
+        "mechanism": "Anti-PD-1 antibody (blocks PD-1/PDL1 axis)",
+        "approved_year": 2014
+      },
+      {
+        "name": "Atezolizumab",
+        "mechanism": "Anti-PDL1 antibody",
+        "approved_year": 2016
+      }
+    ]
+  },
+  {
+    "id": "TERT_CRISPR",
+    "uniprot_id": "O14746",
+    "gene_name": "TERT",
+    "protein_name": "TERT gRNA target (knockout cancer immortality driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3008,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "Promoter C228T/C250T hotspots + TEN domain \u2014 promoter editing or kinase domain disruption",
+    "cancer_indication": "glioblastoma, bladder, thyroid",
+    "known_drugs": [
+      {
+        "name": "Imetelstat",
+        "mechanism": "Telomerase RNA template antagonist",
+        "approved_year": 2024
+      }
+    ]
+  },
+  {
+    "id": "CDK4_CRISPR",
+    "uniprot_id": "P11802",
+    "gene_name": "CDK4",
+    "protein_name": "CDK4 gRNA target (knockout cell cycle driver)",
+    "target_type": "CRISPR",
+    "on_chain_id": 3009,
+    "difficulty_tier": 3,
+    "target_score_threshold": -7.0,
+    "scoring_metric": "grna_efficacy_score",
+    "crispr_notes": "R24C/H hotspot + kinase domain \u2014 knockout to restore RB pathway control",
+    "cancer_indication": "liposarcoma, melanoma, glioblastoma",
+    "known_drugs": [
+      {
+        "name": "Palbociclib",
+        "mechanism": "CDK4/6 inhibitor",
+        "approved_year": 2015
+      },
+      {
+        "name": "Ribociclib",
+        "mechanism": "CDK4/6 inhibitor",
+        "approved_year": 2017
+      }
+    ]
   }
 ]
