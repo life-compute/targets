@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-12",
-  "generated_at": "2026-09-12T00:42:08.965634+00:00",
+  "generated_at": "2026-09-12T00:44:20.145010+00:00",
   "entries": [
     {
       "date": "2026-09-12",
@@ -32,6 +32,16 @@
       "best_score": -8.3449,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "LDJTHkrDfTLJ3nq2Be8KgqWLkBT7CpEN8bCVRAiZPy1MG9GrtctZjdXHw3TFNXvN3v4StRoi4s1RgNVkiM8C7Ws",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-09-12",
+      "target_id": "TERT_mRNA",
+      "uniprot_id": "O14746",
+      "best_smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
+      "best_score": -8.037,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5T9K73KAc2u6NaaRER7hTGHTpo1WuYja9ebuRXJ3ThbPGUPJVUF9kmXA7aAAEmgaj8WQdPe8RURkdaa47H3udEYC",
       "total_hits": 1
     },
     {
