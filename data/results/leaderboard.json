@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-13T19:30:16.665682+00:00",
+  "generated_at": "2026-09-13T19:33:08.533407+00:00",
   "targets": {
     "TP53": [
       {
@@ -598,12 +598,12 @@
       {
         "rank": 8,
         "smiles": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)[C@@H](CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(F)(F)F",
-        "boltz_score": -3.456,
+        "boltz_score": -12.909,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P03372",
-        "epoch": 20679,
-        "tx": "2A3HrPBpFPWNxqaaMrAEzYYHNTcr15WZiviPCNJ9CpgdyimTFuCbfJt5g9RhEnQ6fh6Q719bgsgJyDArpjAQ9eoH",
-        "timestamp": "2026-08-14T17:25:42.623986+00:00"
+        "epoch": 20709,
+        "tx": "4GLSzX9aTphK6tRtgqyuFrpQq4hNzCwyZkNYX93jSxLCkiT2YqP9d14KYcVwaqwoz46v16XTERpvvGWSznrMXBdm",
+        "timestamp": "2026-09-13T19:33:08.351993+00:00"
       },
       {
         "rank": 9,
@@ -612,8 +612,8 @@
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P03372",
         "epoch": 20679,
-        "tx": "4HMc1SZVY1LNyzqGGW4VEtns7N5y3bZaQ92N3wR3H5BpVEhAf1GiW5SAJgnwzrFeLAWReHuuaXXgyj3PD1ZoTYWi",
-        "timestamp": "2026-08-14T18:20:43.740030+00:00"
+        "tx": "2A3HrPBpFPWNxqaaMrAEzYYHNTcr15WZiviPCNJ9CpgdyimTFuCbfJt5g9RhEnQ6fh6Q719bgsgJyDArpjAQ9eoH",
+        "timestamp": "2026-08-14T17:25:42.623986+00:00"
       },
       {
         "rank": 10,
@@ -622,8 +622,8 @@
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P03372",
         "epoch": 20679,
-        "tx": "2WD1qDs8i7KcRCGDN12uuP1KXixEmY5iVHbb59krUP2fRQzymRTq16mW4fpUUNNSDwWqVu8DbD4AjjHQJiwZBbYe",
-        "timestamp": "2026-08-14T19:15:47.982391+00:00"
+        "tx": "4HMc1SZVY1LNyzqGGW4VEtns7N5y3bZaQ92N3wR3H5BpVEhAf1GiW5SAJgnwzrFeLAWReHuuaXXgyj3PD1ZoTYWi",
+        "timestamp": "2026-08-14T18:20:43.740030+00:00"
       }
     ],
     "HDAC2": [
