@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-13T15:58:58.603401+00:00",
+  "generated_at": "2026-09-13T16:01:34.242962+00:00",
   "targets": {
     "TP53": [
       {
@@ -894,6 +894,16 @@
       {
         "rank": 7,
         "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+        "boltz_score": -10.711,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q13547",
+        "epoch": 20709,
+        "tx": "2ysBTkZm2jmzN5fAMeBVLZtCkDsWCRvgZr1PhaiePun9ukCh26nt1gtU5L5ciM6SahwXL1LtvX4EHkydeykWqmPe",
+        "timestamp": "2026-09-13T16:01:34.194077+00:00"
+      },
+      {
+        "rank": 8,
+        "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
         "boltz_score": -4.499,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "Q13547",
@@ -902,7 +912,7 @@
         "timestamp": "2026-08-16T18:54:55.996703+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
         "boltz_score": -4.499,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -912,7 +922,7 @@
         "timestamp": "2026-08-17T13:16:06.565120+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
         "boltz_score": -4.499,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -920,16 +930,6 @@
         "epoch": 20682,
         "tx": "2mMyqE2XjyqwgEiUnU5XbdpBc5iy6XSSSHaweMi3v7yKb9xf3LruxR9VZQiZZrwzzjcGJu7n8ZvUPD6MvsxB8NqR",
         "timestamp": "2026-08-17T16:33:54.412861+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
-        "boltz_score": -4.499,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q13547",
-        "epoch": 20682,
-        "tx": "3KDQsmj3zGJ6pMKpjJdgSFUu1bgmSsSMuBRnXxuuvyYtSdtbJeFmZVuJonhcxBUURUDoMSMTFspH9oA5HWhuokKy",
-        "timestamp": "2026-08-17T17:31:51.976141+00:00"
       }
     ],
     "MYC_mRNA": [
