@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-13T13:06:00.168888+00:00",
+  "generated_at": "2026-09-13T13:08:28.410625+00:00",
   "targets": {
     "TP53": [
       {
@@ -180,6 +180,16 @@
       {
         "rank": 7,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
+        "boltz_score": -10.676,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01116",
+        "epoch": 20709,
+        "tx": "5FsvW4byf6xEe6FbLmBWELJZk9T9PtrKf1cTtB3BT2zTAmEXo6eCY16nHpMXrCwWdfHAUsQ9dao4YSmNDjuJMUEN",
+        "timestamp": "2026-09-13T13:08:28.218191+00:00"
+      },
+      {
+        "rank": 8,
+        "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
         "uniprot_id": "P01116",
@@ -188,7 +198,7 @@
         "timestamp": "2026-08-14T16:45:56.739824+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -198,7 +208,7 @@
         "timestamp": "2026-08-14T17:41:07.584853+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
         "boltz_score": -1.813,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -206,16 +216,6 @@
         "epoch": 20679,
         "tx": "2w9cYiDimuyTGLFmTKQkau47WMw47RHkZPe5fZBFebWxEK7yQpe9eZvWJEUYE9qNH6Q8Fb7ib9c8Q9ScYeupHxf8",
         "timestamp": "2026-08-14T18:36:14.308168+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
-        "boltz_score": -1.813,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01116",
-        "epoch": 20679,
-        "tx": "2Xs6EzeUqcjEpUMzbWf5EoP2PtRprgsv2yZ42yZYQLtYADE1qDccq1HojqfyViLXgXPtiXvBBa1h6hTgpHpM2eVo",
-        "timestamp": "2026-08-14T19:31:18.706902+00:00"
       }
     ],
     "BCL2": [
