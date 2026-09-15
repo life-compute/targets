@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-15T13:19:48.275289+00:00",
+  "generated_at": "2026-09-15T13:24:55.466803+00:00",
   "targets": {
     "TP53": [
       {
@@ -1301,6 +1301,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CCC[C@@H](C)NC(=O)c1ccc(-n2ccnc2)nc1",
+        "boltz_score": -8.2559,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P10415",
+        "epoch": 20711,
+        "tx": "fyGzuVvWoNET5auRo6uKgt6Hp7xChrX7w8FhXQ4netqMjKQZx1bf9VRUvV6SDTmj4JbgnDNjHgEBYdgHYdNuQEm",
+        "timestamp": "2026-09-15T13:24:55.259361+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "NC(=O)c1cccc(NC(=O)CSC(F)(F)F)c1",
         "boltz_score": -8.2265,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1310,7 +1320,7 @@
         "timestamp": "2026-09-14T23:30:53.708334+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(NC(=O)c2ccc(F)cc2)cc1",
         "boltz_score": -8.2175,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1320,7 +1330,7 @@
         "timestamp": "2026-08-31T17:57:25.310242+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(NC(=O)c2ccc(F)cc2)cc1",
         "boltz_score": -8.2175,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1328,16 +1338,6 @@
         "epoch": 20696,
         "tx": "4Wu92RnNjoRcSMm8a8qDYePpocGVPmXH73u4aP76anJ8p4PEZTu1wjZRzuzKSJuTMot3HnCfseSYSfFajEbjYLwb",
         "timestamp": "2026-08-31T19:45:39.459764+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(NC(=O)c2ccc(F)cc2)cc1",
-        "boltz_score": -8.2175,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P10415",
-        "epoch": 20696,
-        "tx": "5exht7HMV4583BbuwqiAN7HV7oBKDTDEzpZzxL3kimSUVruHbcAbNWUijvxxBBHw34RirD2Rb68EPQNxwR8vWg6v",
-        "timestamp": "2026-08-31T21:33:33.345444+00:00"
       }
     ],
     "EGFR_mRNA": [
