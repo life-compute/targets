@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-16",
-  "generated_at": "2026-09-16T00:28:23.062794+00:00",
+  "generated_at": "2026-09-16T00:30:54.350763+00:00",
   "entries": [
+    {
+      "date": "2026-09-16",
+      "target_id": "MMP9_mRNA",
+      "uniprot_id": "P14780",
+      "best_smiles": "C=CC[C@H](CC)NC(=O)Nc1cn(C)nc1CC",
+      "best_score": -8.3051,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "3vumWq6EeiQ7fcuT5AthLaxpUeFsZssgyP9HeeBHQW5zcBdygRxGvF7fLfBATxT1URWiaf8oSzioB6rg9i4LaiDL",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-16",
       "target_id": "CXCL12_mRNA",
