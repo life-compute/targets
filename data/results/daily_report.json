@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-16",
-  "generated_at": "2026-09-16T00:05:13.706662+00:00",
+  "generated_at": "2026-09-16T00:12:07.660428+00:00",
   "entries": [
+    {
+      "date": "2026-09-16",
+      "target_id": "TNF_mRNA",
+      "uniprot_id": "P01375",
+      "best_smiles": "O=C1NCCc2ccc(I)cc21",
+      "best_score": -7.5522,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5T3M3UfuQnKLW8GFNfyPCxgBU2jg9KRByNmfq2hv3uQYkkZTB6baRQR78YmADJXvbEoqcn1jB7UfAtoMnkWHSZ6R",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-16",
       "target_id": "IL6_mRNA",
