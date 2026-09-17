@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-17T14:13:20.297246+00:00",
+  "generated_at": "2026-09-17T14:17:40.251095+00:00",
   "targets": {
     "TP53": [
       {
@@ -995,6 +995,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CCOc1ccc(CN(C)C[C@H]2CCOC2)cn1",
+        "boltz_score": -7.9127,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01106",
+        "epoch": 20713,
+        "tx": "5biMK7grt5QvKVEtrLZRHLuzqjpiZBee7ZuZVagTUbr2VdudYkPuE6DMG6B6DS2FyDMeqiW8YrpxZjkqwSoDFmT2",
+        "timestamp": "2026-09-17T14:17:40.033312+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -7.8278,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1004,7 +1014,7 @@
         "timestamp": "2026-08-31T17:50:00.903561+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -7.8278,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1014,7 +1024,7 @@
         "timestamp": "2026-08-31T19:38:52.598138+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
         "boltz_score": -7.8278,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1022,16 +1032,6 @@
         "epoch": 20696,
         "tx": "3CazWW9YU9VEgff95UHRR2LyP2Z72pLowN9ytZYs9CrzaeP9QPo5RyqLKJa327bPvMPTBGNeRQTPXkHo41EcDNLP",
         "timestamp": "2026-08-31T21:26:46.362503+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(/C=C/c1ccc(Cl)cc1)Nc1ccc(NC(=S)Nc2ccc(Cl)cc2)cc1",
-        "boltz_score": -7.8278,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01106",
-        "epoch": 20696,
-        "tx": "3hKLwkpjzUDFFt4XhVXVh27oRn9gFw8qmNcd453bfovmawZjDiJcEUc8ZSDPZTWWdtPtQYAzCJY1avThZtYatD69",
-        "timestamp": "2026-08-31T23:16:07.498274+00:00"
       }
     ],
     "VEGF_mRNA": [
