@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-17T21:04:15.583756+00:00",
+  "generated_at": "2026-09-17T21:06:57.345126+00:00",
   "targets": {
     "TP53": [
       {
@@ -2321,6 +2321,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(c1cccnc1S)N1CC[C@H]2OCCC[C@@H]2C1",
+        "boltz_score": -7.7448,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01375",
+        "epoch": 20713,
+        "tx": "2PW969Bd4xsEPVhcfLnxXSQu38tahpDvoUFjh68dAqaN82em17VUxNUKh7ixZQzQmzju1DFhZWTTsYkWGmyoeEca",
+        "timestamp": "2026-09-17T21:06:57.232623+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "NC1=CC=CC2=C1CN(C(=O)C2)C1CC(=O)NC1=O",
         "boltz_score": -7.6776,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2330,7 +2340,7 @@
         "timestamp": "2026-08-31T18:42:19.455555+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "NC1=CC=CC2=C1CN(C(=O)C2)C1CC(=O)NC1=O",
         "boltz_score": -7.6776,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2340,7 +2350,7 @@
         "timestamp": "2026-08-31T20:27:41.409509+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "NC1=CC=CC2=C1CN(C(=O)C2)C1CC(=O)NC1=O",
         "boltz_score": -7.6776,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2348,16 +2358,6 @@
         "epoch": 20696,
         "tx": "f1Kht7c13e4aeZ3C8efUKWBNwWDWNWQskDrLzvcMGPkZqa4Rt9TerRtNgYNGrtTHfHzSLRqC8oow8tS9TAviMnf",
         "timestamp": "2026-08-31T22:17:49.475800+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "NC1=CC=CC2=C1CN(C(=O)C2)C1CC(=O)NC1=O",
-        "boltz_score": -7.6776,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01375",
-        "epoch": 20697,
-        "tx": "4JZgE1oHT5J2MJgYpBxqiYJFx5LqHLjtR4h7C9iGoHWLmjyXbNtS7mLu4Vzni3Ga16XD6NKPNL4wKTrW9kU2uGh8",
-        "timestamp": "2026-09-01T00:04:50.688913+00:00"
       }
     ],
     "TGFb1_mRNA": [
