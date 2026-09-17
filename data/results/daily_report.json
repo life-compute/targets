@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-17",
-  "generated_at": "2026-09-17T00:06:20.292871+00:00",
+  "generated_at": "2026-09-17T00:09:28.247173+00:00",
   "entries": [
+    {
+      "date": "2026-09-17",
+      "target_id": "ATM_mRNA",
+      "uniprot_id": "Q13315",
+      "best_smiles": "Nc1nc(C2CCCC2)nc(N2C[C@H]3COC[C@H]3C2)n1",
+      "best_score": -8.3954,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4dDpwj7JqLrMCuFHcBtHD96VvAPC3291ZvwBrv6dJpyGzeFgiH1hHJBcSFCURYaFwaVk8kPywsqKxhgf4QFky8ev",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-17",
       "target_id": "RAD51_mRNA",
