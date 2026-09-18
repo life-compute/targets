@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-18T11:43:53.618242+00:00",
+  "generated_at": "2026-09-18T11:47:04.630643+00:00",
   "targets": {
     "TP53": [
       {
@@ -2933,6 +2933,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CCOC(=O)c1cc2[nH]c(=O)[nH]c(=O)n2c1",
+        "boltz_score": -7.8957,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P52789",
+        "epoch": 20714,
+        "tx": "3fMm5ctB7znPpa5EtZXkiNZ62cCYe2pMEsv4ozaS2ETp6KMwpiTchhit3Ri7u2NtbcExoM4S6bLJNPuLwjWwWafy",
+        "timestamp": "2026-09-18T11:47:04.403528+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Cc1ccc([C@H]2CCCN2C(=O)Cc2cnnn2C)cc1C",
         "boltz_score": -7.8873,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2942,7 +2952,7 @@
         "timestamp": "2026-09-06T00:39:49.764630+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNC(=O)CN(C)C(=O)c1cc2ccccc2cc1O",
         "boltz_score": -7.881,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2952,7 +2962,7 @@
         "timestamp": "2026-09-14T17:10:22.675964+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "C[C@@H]1CCCN(C(=O)Cn2cc([N+](=O)[O-])ccc2=O)C1",
         "boltz_score": -7.8781,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2960,16 +2970,6 @@
         "epoch": 20711,
         "tx": "31PLho2r84SaaU6bew3893kiGfbr3xmoKgxHLrLa3S1g9YJo8KN4hfBDfNFq6i5pWsaes7kxHgicEq2MxQbr3tqN",
         "timestamp": "2026-09-15T08:49:16.634113+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "C[C@H](c1cccnc1)N1C[C@H](C(=O)O)CC1=O",
-        "boltz_score": -7.8717,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P52789",
-        "epoch": 20708,
-        "tx": "APwEvmWouWbEXAFDEnPtRs4gZCEABsp4Vm1LDEyNBD69nDSqyPe6qG62hVN2rMXpaYU4fuzuAPoXYu9oPNYMWQG",
-        "timestamp": "2026-09-12T08:09:41.703989+00:00"
       }
     ],
     "FASN_mRNA": [
