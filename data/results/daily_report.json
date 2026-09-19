@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-19",
-  "generated_at": "2026-09-19T01:45:56.661181+00:00",
+  "generated_at": "2026-09-19T01:52:53.532378+00:00",
   "entries": [
     {
       "date": "2026-09-19",
@@ -122,6 +122,16 @@
       "best_score": -7.9682,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "5eVXne9G9xMwwQSQeJYVHALaLJVKoCQQ3vGvzjNFxvesTfvyXS59PgQsKKmaZD8EJBKRu3ALzpyiaBXGw3W26xft",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-09-19",
+      "target_id": "LDHA_mRNA",
+      "uniprot_id": "P00338",
+      "best_smiles": "CCn1cc(C(=O)N(C)[C@@H]2CCCC[C@@H](O)[C@@H]2O)cn1",
+      "best_score": -7.9249,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "kqGzWZfdzNqTssMXjTn6Mods3Wq7eLikzvnyGBVu3T4RWyL1PLm9cpbrbqQvE89CoLFjUKHU2HikPn7Ugo9tHL8",
       "total_hits": 1
     },
     {
