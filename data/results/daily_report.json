@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-19",
-  "generated_at": "2026-09-19T01:40:15.717149+00:00",
+  "generated_at": "2026-09-19T01:43:08.878753+00:00",
   "entries": [
+    {
+      "date": "2026-09-19",
+      "target_id": "MDM2",
+      "uniprot_id": "Q00987",
+      "best_smiles": "CC(C)(C)C[C@H]1[C@]([C@H]([C@@H](N1)C(=O)NC2=C(C=C(C=C2)C(=O)O)OC)C3=C(C(=CC=C3)Cl)F)(C#N)C4=C(C=C(C=C4)Cl)F",
+      "best_score": -12.662,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5rFG27v7QjRuJv1bGEti5etGn5MRCqYnGZiBmE1zu3DwUFa5Fwk5NMrQoprYuPnAvqXmWxiypTyHU7vCt5VJ2RZi",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-19",
       "target_id": "CDK4",
