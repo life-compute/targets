@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-19",
-  "generated_at": "2026-09-19T00:01:12.998211+00:00",
+  "generated_at": "2026-09-19T00:06:43.530143+00:00",
   "entries": [
+    {
+      "date": "2026-09-19",
+      "target_id": "FASN_mRNA",
+      "uniprot_id": "P49327",
+      "best_smiles": "COCc1cc(NC(=O)NCC(F)F)ncn1",
+      "best_score": -8.2427,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4G9N8UKZny6ZCGFCYMHb9uZExHVfWGK68WXKq7SeY8NrF8tmHUynoPsEQ5dWepS1ys6tRcuxiir82yKimEVyEUz8",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-19",
       "target_id": "HK2_mRNA",
