@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-21",
-  "generated_at": "2026-09-21T00:00:22.181179+00:00",
+  "generated_at": "2026-09-21T00:10:51.213843+00:00",
   "entries": [
+    {
+      "date": "2026-09-21",
+      "target_id": "MMP9_mRNA",
+      "uniprot_id": "P14780",
+      "best_smiles": "CC[S@@](C)(=O)=NC(=O)Cc1ccc2c(c1)NC(=O)C2",
+      "best_score": -7.8589,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2kNV9ivNvQLzGt6jMSCy13jsRWfakq8P6hipf29RoJauaWkZsA67zbfp6XHkTDp8hGtVZUeM5yXGoEHPJ2GSejRr",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-21",
       "target_id": "CSF1R_mRNA",
