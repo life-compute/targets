@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-21T03:47:41.485448+00:00",
+  "generated_at": "2026-09-21T03:51:22.651997+00:00",
   "targets": {
     "TP53": [
       {
@@ -4097,6 +4097,16 @@
     "SMAD4": [
       {
         "rank": 1,
+        "smiles": "Nc1cccc2c1CN(c1ccc3[nH]c(Nc4cc5cc(N6Cc7c(N)ncnc7CC6=O)ccc5[nH]4)cc3c1)C(=O)C2",
+        "boltz_score": -10.484,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q13485",
+        "epoch": 20717,
+        "tx": "5oWgFQJQBfPBaw3GT5afdUDo97oWJ6HyjLUw6NppwEmbExNq5K5Dxf6pbNxxCdMif7HJp7pSJ5DQAcof4cqTR3vY",
+        "timestamp": "2026-09-21T03:51:22.521154+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "COc1cccc2c1OC[C@@H](Nc1ccnc(C)n1)C2",
         "boltz_score": -8.334,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4106,7 +4116,7 @@
         "timestamp": "2026-09-19T07:25:26.031253+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "CC1(C)[C@H](NC(=O)[C@@H]2CCCc3nn[nH]c32)[C@@H]2CCO[C@H]21",
         "boltz_score": -8.164,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4116,7 +4126,7 @@
         "timestamp": "2026-09-16T19:04:54.384955+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CC(C)(O)CSc1nnc(N2CCCCC2)s1",
         "boltz_score": -8.141,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4126,7 +4136,7 @@
         "timestamp": "2026-09-13T11:39:51.155392+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "C=CC(=O)N(C)CC(=O)N(CC1CCCCC1)C1CC1",
         "boltz_score": -7.946,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4136,7 +4146,7 @@
         "timestamp": "2026-09-19T23:36:03.965167+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "Cc1ccc(C(=O)[C@H](Br)CC(=O)O)cc1",
         "boltz_score": -7.871,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4146,7 +4156,7 @@
         "timestamp": "2026-09-20T15:42:15.581635+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "N#Cc1ccnc(/C=C/c2cccc(C(=O)O)c2)n1",
         "boltz_score": -7.687,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4156,7 +4166,7 @@
         "timestamp": "2026-09-15T12:08:35.835477+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "O=[N+]([O-])c1cncc([N+](=O)[O-])c1Nc1cccc(O)c1",
         "boltz_score": -7.67,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4166,7 +4176,7 @@
         "timestamp": "2026-09-16T23:06:21.521683+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@H]1CN(c2nc(=N)[nH]c3c2CCCC3)[C@H](C)CO1",
         "boltz_score": -7.665,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4176,7 +4186,7 @@
         "timestamp": "2026-09-14T02:22:31.364161+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CCC[C@](C)(CO)NCCCNC(=O)OC(C)(C)C",
         "boltz_score": -7.644,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4184,16 +4194,6 @@
         "epoch": 20713,
         "tx": "3NRfCUA9CJ27wnJWoLXRbeGzkRauwMWnQPp6Ea4LVRta9YuEshwvZD7w8pJFnjmvpZ4i1N8XBRP4sSuGBVNzHeox",
         "timestamp": "2026-09-17T21:04:15.461429+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CCCOc1ccc(Cl)cc1C(=O)N1CC[C@H](O)C1",
-        "boltz_score": -7.622,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q13485",
-        "epoch": 20712,
-        "tx": "5WMT5Wvj9vnQwgjbX6NQLzRwjYWou4ZZ5gKG4t4598zjj4m4Gy5WewZAa8R9NRFgDCWFz5yrmZvH11HKxigK4XK2",
-        "timestamp": "2026-09-16T08:13:05.142317+00:00"
       }
     ],
     "HIF1A_mRNA": [
