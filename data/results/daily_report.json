@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-21",
-  "generated_at": "2026-09-21T01:30:25.364832+00:00",
+  "generated_at": "2026-09-21T01:33:11.825856+00:00",
   "entries": [
     {
       "date": "2026-09-21",
@@ -122,6 +122,16 @@
       "best_score": -7.8844,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "29VtbYutHoVopiZdy7DaZu3nvi6kEwRMAu73AimACqtGmkkFRhcpCF3Xd7bT3RWWKAKxsu2a9RFGVB9XFodJQxox",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-09-21",
+      "target_id": "SURVIVIN_mRNA",
+      "uniprot_id": "O15392",
+      "best_smiles": "CC[C@@H]1C[C@H]1C(=O)NCc1ccc(C(=O)O)nc1",
+      "best_score": -7.882,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2BSADPYxn17hZEum5GpoEjdVrpxCYMSQkqTJ67T37DcgFgExsSRk81ZK2D96voA1okxiJAjPBjavGPaosv8TajWX",
       "total_hits": 1
     },
     {
