@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-22",
-  "generated_at": "2026-09-22T03:40:39.957738+00:00",
+  "generated_at": "2026-09-22T03:43:07.694509+00:00",
   "entries": [
     {
       "date": "2026-09-22",
@@ -193,6 +193,16 @@
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "615jan4bN6SXzJpnKWmLHNgdcruXKJ5UsJbNLu1HPeKkUtZ2dHL6Xg4MsLrbMRnLFUFSA2wKpYu8jsFoA7Wcwf9S",
       "total_hits": 2
+    },
+    {
+      "date": "2026-09-22",
+      "target_id": "TP53",
+      "uniprot_id": "P04637",
+      "best_smiles": "CC(C)OC1=C(C=CC(=C1)OC)C2=N[C@H]([C@H](N2C(=O)N3CCNC(=O)C3)C4=CC=C(C=C4)Cl)C5=CC=C(C=C5)Cl",
+      "best_score": -8.103,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2JVV2zkSxHGY3ojo5Bf91QzXnSpcPybLRuR9Pnk9vt71ghmH3QNHth4SBtDu1vL8rTS97TfBe4mV6Cmyfvfpmi7T",
+      "total_hits": 1
     },
     {
       "date": "2026-09-22",
