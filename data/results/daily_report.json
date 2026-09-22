@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-22",
-  "generated_at": "2026-09-22T00:02:12.260879+00:00",
+  "generated_at": "2026-09-22T00:07:46.775807+00:00",
   "entries": [
+    {
+      "date": "2026-09-22",
+      "target_id": "MDM2_mRNA",
+      "uniprot_id": "Q00987",
+      "best_smiles": "COC[C@](C)(CNS(=O)(=O)c1ccccc1)OC",
+      "best_score": -7.9823,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4KgBxCfVwRUEYVonGguWWYA3yZamuAKuYjedVmXVYbX4KvFXZpJYoUTnFB2gCZGzadkPyoFcBoV8HHuZLQvKXwnA",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-22",
       "target_id": "BRAF_mRNA",
