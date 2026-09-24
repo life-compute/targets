@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-24T18:26:03.509213+00:00",
+  "generated_at": "2026-09-24T18:31:11.438645+00:00",
   "targets": {
     "TP53": [
       {
@@ -1955,6 +1955,16 @@
     "MDM2_mRNA": [
       {
         "rank": 1,
+        "smiles": "CCOC(=O)c1nc2ccc(F)cn2c1Br",
+        "boltz_score": -8.6829,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q00987",
+        "epoch": 20720,
+        "tx": "3eeYEQMU9YCFDKGM8tw2WkFduJ8icQptXdWeYjFsNiw2C6Dj2rJSmZwMPK53UW1iL9XhJDB2LVkbsHsnr62GoBvQ",
+        "timestamp": "2026-09-24T18:31:11.203915+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "Cc1nn(C)c(-c2nnc(S)n2C)c1Br",
         "boltz_score": -8.6271,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1964,7 +1974,7 @@
         "timestamp": "2026-09-11T21:36:03.814850+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "O=C(Nc1ccc(C2CC2)cc1)Nc1ccc2[nH]c(C3CC3)cc2c1",
         "boltz_score": -8.6185,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1974,7 +1984,7 @@
         "timestamp": "2026-09-02T18:18:27.547424+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CNCc1cc(Br)ccc1C",
         "boltz_score": -8.6011,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1984,7 +1994,7 @@
         "timestamp": "2026-09-15T19:39:54.542870+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "COC(=O)c1ccc(N2CCCCC2)cc1",
         "boltz_score": -8.5708,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1994,7 +2004,7 @@
         "timestamp": "2026-09-03T00:00:12.622628+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "Nc1ncnc2c1CN(C(=O)NC(=O)c1ccc(-c3ccc(N4Cc5c(N)ncnc5CC4=O)cc3)cc1)C(=O)C2",
         "boltz_score": -8.5576,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2004,7 +2014,7 @@
         "timestamp": "2026-09-22T08:14:08.015774+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "O=C(c1cc(Cl)ccn1)N1CCS[C@@H]2COCC[C@@H]21",
         "boltz_score": -8.5484,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2014,7 +2024,7 @@
         "timestamp": "2026-09-19T12:58:08.622114+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "CN(C)c1nc(Cl)c(Cl)nc1Cl",
         "boltz_score": -8.5454,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2024,7 +2034,7 @@
         "timestamp": "2026-09-02T16:25:04.199879+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CO[C@H](C)CNC(=O)Nc1ccc2nn(C(C)C)cc2c1",
         "boltz_score": -8.5289,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2034,7 +2044,7 @@
         "timestamp": "2026-09-03T01:52:44.689552+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "N#Cc1ccc(C(=O)NNC(=O)c2cnns2)cc1",
         "boltz_score": -8.5189,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2042,16 +2052,6 @@
         "epoch": 20708,
         "tx": "788VXEFNtCbhQLEjbCHv68LT98rJfnBHERssrgTEtUUu2BJKTBJZFGsz6rYggHcjTHGiT4QQjXDAYYfAYHzuNr3",
         "timestamp": "2026-09-12T05:13:17.236124+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(Nc1cc2cc(-c3cc4cc(C5CC5)ccc4[nH]3)ccc2[nH]1)C1CC1",
-        "boltz_score": -8.5181,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q00987",
-        "epoch": 20717,
-        "tx": "vE8pTCgVTN9Lpak4mAarCRqVa1Y4K9gDghb8YrRUVsXqheBjemwEE3Vd4WRERYruznJeGGEDQxNa4PeSmtmhPCN",
-        "timestamp": "2026-09-21T09:32:07.615307+00:00"
       }
     ],
     "CDK4_mRNA": [
