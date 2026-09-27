@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-27",
-  "generated_at": "2026-09-27T05:22:42.092043+00:00",
+  "generated_at": "2026-09-27T05:25:51.043637+00:00",
   "entries": [
     {
       "date": "2026-09-27",
@@ -248,11 +248,11 @@
       "date": "2026-09-27",
       "target_id": "FASN_mRNA",
       "uniprot_id": "P49327",
-      "best_smiles": "Nc1cccc2c1CN(C(=O)c1ccc(-c3cc4cc(Nc5cc6cc(C7CC7)ccc6[nH]5)ccc4[nH]3)cc1)C(=O)C2",
-      "best_score": -7.8569,
+      "best_smiles": "COCc1ncc(C(=O)N(CCO)c2ccccc2)s1",
+      "best_score": -7.9202,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "4ymwu9iAyrfPzWwr65jGvNza7m25jFyFZhNeRvWNCAiBTLpSHguBvPtvpNnB4iKVtytL5ur96wsCCGJqhchFgUxB",
-      "total_hits": 1
+      "tx": "3dt53kQSNieUrC3BJHaSWsy1r9HPCEAxxNq9Yj7bttw8FJLh11gHfmbSZaaHUZDvJBzYdkqEQ2HCRUcJ61jXgFFg",
+      "total_hits": 2
     },
     {
       "date": "2026-09-27",
