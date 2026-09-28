@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-28",
-  "generated_at": "2026-09-28T12:07:06.668180+00:00",
+  "generated_at": "2026-09-28T12:13:36.909516+00:00",
   "entries": [
     {
       "date": "2026-09-28",
@@ -338,11 +338,11 @@
       "date": "2026-09-28",
       "target_id": "HK2_mRNA",
       "uniprot_id": "P52789",
-      "best_smiles": "O=C(O)[C@@H]1CS[C@@]2(c3ccc(F)cc3)CCC(=O)N12",
-      "best_score": -7.8961,
+      "best_smiles": "COc1ccnc(N2CCN(c3cccnc3C#N)CC2)n1",
+      "best_score": -7.9129,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "42kdc4XorGoVMJULLg2fcjawFzXpeSLmiRcTNqGrE5cBCc7xf1FRynZGr9Fj9DueDwtj48U6ovwJGeTgTiaFXKce",
-      "total_hits": 4
+      "tx": "3jvdToMDfTE2WwiKB2fUrgddYBLQd8HxGtLXZeQ2Gf3MP6DaUZdGhRzrjGz8zmjrjbcSeeLgXpnWMCzfHNSJ8ivt",
+      "total_hits": 5
     },
     {
       "date": "2026-09-28",
