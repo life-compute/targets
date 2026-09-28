@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-28",
-  "generated_at": "2026-09-28T00:01:47.008458+00:00",
+  "generated_at": "2026-09-28T00:06:47.646505+00:00",
   "entries": [
+    {
+      "date": "2026-09-28",
+      "target_id": "PARP1_mRNA",
+      "uniprot_id": "P09874",
+      "best_smiles": "CNS(=O)(=O)[C@H](C)c1ccccn1",
+      "best_score": -8.193,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "3zKmmxcTYyrQf5mJZ14SD1NbXVSC8Ei2tofdpgTZSfM2T9Dcei5vshzeeRk9D2DRSPEnkGDuAPNuMDchFskowdFX",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-28",
       "target_id": "TERT_mRNA",
