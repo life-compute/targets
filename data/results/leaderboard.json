@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-29T17:20:34.599204+00:00",
+  "generated_at": "2026-09-29T17:24:00.567068+00:00",
   "targets": {
     "TP53": [
       {
@@ -3035,6 +3035,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CC(C)Oc1cc(C(=O)O)cc2occc12",
+        "boltz_score": -8.4132,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P49327",
+        "epoch": 20725,
+        "tx": "4Pmt7sLvMGENXnWNVuv8ckEpAGM9br2eVzv7H6KAeXH3jNVnn5tZptH243yF1Mg5VWeMh11q8anvfz7ZTDi25VyY",
+        "timestamp": "2026-09-29T17:24:00.055141+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "COc1ccc(-c2ccc(F)c(CO)c2)nn1",
         "boltz_score": -8.4071,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3044,7 +3054,7 @@
         "timestamp": "2026-09-05T06:31:13.052833+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "N[C@@H](c1ccc(F)cc1Br)C1CC1",
         "boltz_score": -8.4012,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3054,7 +3064,7 @@
         "timestamp": "2026-09-20T08:22:49.689016+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "C[C@H](C(=O)O)c1cnn(C)c1C(F)(F)F",
         "boltz_score": -8.3966,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3062,16 +3072,6 @@
         "epoch": 20722,
         "tx": "3yYo7aTiFhaj9panc3QamhPg8gJ9CTB7RNyZR2oa7qQQn4rJWCamFzdfdk9cs5vH9i1YxYSpWJsQiQGHx6PooNaA",
         "timestamp": "2026-09-26T06:52:05.450862+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1cc(N)nc(SCC(=O)N2CCCCC2)n1",
-        "boltz_score": -8.3876,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P49327",
-        "epoch": 20704,
-        "tx": "3njuMcyQqtHy2Ew1ieSw5MMD8LaxkCrDcQf6MShQA7xRWQRYza97fUnUsuhcGfe3pVWhmPYXMCMY4b1t1ddDcHzd",
-        "timestamp": "2026-09-08T18:41:38.618327+00:00"
       }
     ],
     "TERT_mRNA": [
