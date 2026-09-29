@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-29",
-  "generated_at": "2026-09-29T05:15:10.459210+00:00",
+  "generated_at": "2026-09-29T05:22:17.542723+00:00",
   "entries": [
     {
       "date": "2026-09-29",
@@ -126,6 +126,16 @@
     },
     {
       "date": "2026-09-29",
+      "target_id": "KRAS_mRNA",
+      "uniprot_id": "P01116",
+      "best_smiles": "Cc1nc2ccccc2n1/N=C/c1cccnc1",
+      "best_score": -8.3732,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5jgWGEGU64N6sApTB8fNC7GRpvLqGhh3yL3D5LDyQdvZJV78kgJmqVtdcrsSmNHiL1XxMDmTD2xBEw1dygNHVBZU",
+      "total_hits": 3
+    },
+    {
+      "date": "2026-09-29",
       "target_id": "PARP1_mRNA",
       "uniprot_id": "P09874",
       "best_smiles": "Cc1nc2ccccc2c(C)c1CC(=O)O",
@@ -192,16 +202,6 @@
       "best_score": -8.2175,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "59jSwJbJDN2GWocee3Dm7ZJYaFeDnZnb6WVW1tdLtDQ9MRghB51Tci7VnhqEpapCSgfvnLy2YpDQ78Kw9Wowipot",
-      "total_hits": 2
-    },
-    {
-      "date": "2026-09-29",
-      "target_id": "KRAS_mRNA",
-      "uniprot_id": "P01116",
-      "best_smiles": "CO[C@@H]1C[C@@H](c2ncc[nH]2)N(Cc2cccc3cc[nH]c23)C1",
-      "best_score": -8.1973,
-      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "54MHJJQGXrnYW6W7xJ6GRj3q6oqatHxMavZBLfBf3K9xCaWdx1hb4AFhSDLb7rYVCJbZRJGMV9jRtqq4M8g5UpSm",
       "total_hits": 2
     },
     {
