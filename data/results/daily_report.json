@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-30",
-  "generated_at": "2026-09-30T13:07:51.601726+00:00",
+  "generated_at": "2026-09-30T13:11:07.406713+00:00",
   "entries": [
     {
       "date": "2026-09-30",
@@ -296,6 +296,16 @@
     },
     {
       "date": "2026-09-30",
+      "target_id": "SURVIVIN_mRNA",
+      "uniprot_id": "O15392",
+      "best_smiles": "COc1c2c(cc3c1[C@@H]1NC(=O)C[N@@+]1(C)CC3)OCO2",
+      "best_score": -7.7603,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "33E8U8Z1pgurZ8Rt6AsLpp4SUt1sTUq66xXwjbNbGsaStamrkWh49euFygaDTPG6cgLjNQJ6yoyEGN82DgZB3wT",
+      "total_hits": 5
+    },
+    {
+      "date": "2026-09-30",
       "target_id": "HER2_mRNA",
       "uniprot_id": "P04626",
       "best_smiles": "COc1ccc(-n2cnc(Cl)c2C=O)cc1",
@@ -342,16 +352,6 @@
       "best_score": -7.6686,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "2SpXddEo1WgRzuBHj1aLioduqC8ga6jvCjA76LVgHE7n3S9qKrBSoXk9rh4mGJuPk3QnwS71sLnWxmrVjr2vXwCE",
-      "total_hits": 4
-    },
-    {
-      "date": "2026-09-30",
-      "target_id": "SURVIVIN_mRNA",
-      "uniprot_id": "O15392",
-      "best_smiles": "O=C(Nc1cn[nH]c1)N1CC2C[C@H]3CC1C[C@@H](C2)C3",
-      "best_score": -7.6435,
-      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "G9r73FiwVxnFBTWVjpdSY7uuem22wcCGavcKo8eQrUoa8YHKbgRA1xENWEQqsYgrne21FmEzro5jz888KvQUtzp",
       "total_hits": 4
     },
     {
