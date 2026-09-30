@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-09-30T15:26:38.495756+00:00",
+  "generated_at": "2026-09-30T15:30:35.041169+00:00",
   "targets": {
     "TP53": [
       {
@@ -4157,6 +4157,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(OCC[C@@H]1CCCO1)[C@@H]1C[C@H]1c1ccco1",
+        "boltz_score": -7.873,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q13485",
+        "epoch": 20726,
+        "tx": "kofqAkRNnSM6fua48wUHTCniVWz4XH9gwAoP5FuYt9pgFWBzvNmhUAmaiNFEh8yjUm7J4CEJTXwE6csoWJyVUx2",
+        "timestamp": "2026-09-30T15:30:34.873185+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Cc1ccc(C(=O)[C@H](Br)CC(=O)O)cc1",
         "boltz_score": -7.871,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4166,7 +4176,7 @@
         "timestamp": "2026-09-20T15:42:15.581635+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(Nc1nc2ccccc2[nH]1)c1ccccc1O",
         "boltz_score": -7.785,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4176,7 +4186,7 @@
         "timestamp": "2026-09-21T18:33:09.509890+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1cccc(-c2noc(Cn3ccc(C)cc3=O)n2)c1",
         "boltz_score": -7.728,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4184,16 +4194,6 @@
         "epoch": 20720,
         "tx": "4bbb3MrE4wazLphQBdCgJJvjPFf3dvegymU4Kc87awLFrktdH383MTWUy8qQxb3n982NdJ1mKEHR9bMzJzeAhCN9",
         "timestamp": "2026-09-24T02:33:09.436484+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "N#Cc1ccnc(/C=C/c2cccc(C(=O)O)c2)n1",
-        "boltz_score": -7.687,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q13485",
-        "epoch": 20711,
-        "tx": "3xonYJLdfXxajnRjTQCFx5BicMrVwQznV8exz3AVe7ytBdefUE3RpjQ52897j5C4XowosnWVGeM4ErWDoKQvta6P",
-        "timestamp": "2026-09-15T12:08:35.835477+00:00"
       }
     ],
     "HIF1A_mRNA": [
