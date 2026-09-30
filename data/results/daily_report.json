@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-30",
-  "generated_at": "2026-09-30T00:22:34.038306+00:00",
+  "generated_at": "2026-09-30T00:27:49.091490+00:00",
   "entries": [
+    {
+      "date": "2026-09-30",
+      "target_id": "MDM2_mRNA",
+      "uniprot_id": "Q00987",
+      "best_smiles": "COCOc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+      "best_score": -8.4352,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2yn9JjtcF6MesZokyJ8H3ZLm7PoGGeGkKrMbUqcQ3EzBBdUwkWDemKxxZ6FyDVeocSWAX8Cv7reRBDt36fcKA2C6",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-30",
       "target_id": "EGFR_mRNA",
