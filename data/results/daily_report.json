@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-09-30",
-  "generated_at": "2026-09-30T00:12:00.014265+00:00",
+  "generated_at": "2026-09-30T00:14:53.240193+00:00",
   "entries": [
+    {
+      "date": "2026-09-30",
+      "target_id": "EGFR_mRNA",
+      "uniprot_id": "P00533",
+      "best_smiles": "CCn1cc(C=O)c2cccc(C(=O)OC)c21",
+      "best_score": -8.3281,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2GEgqNTEXeokAqedNSiEjVtieHFhmVyQF4B8yWJ1d7sZuniZ5astLk39ikWGTZ2LRhD82x3NJJ6KyhH8Nm6m5AbA",
+      "total_hits": 1
+    },
     {
       "date": "2026-09-30",
       "target_id": "KRAS_mRNA",
