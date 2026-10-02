@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-02",
-  "generated_at": "2026-10-02T01:08:09.691661+00:00",
+  "generated_at": "2026-10-02T01:16:30.938443+00:00",
   "entries": [
     {
       "date": "2026-10-02",
@@ -82,6 +82,16 @@
       "best_score": -7.8614,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "5JYcLx1ihFnxLJaKwGmzMwCSXkz1pjevrQUFaQQWmT4Sxg8FghCPHT3xhLpkfNV5tfVYF54ePqqmtgDYgcnLaucK",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-10-02",
+      "target_id": "CXCL12_mRNA",
+      "uniprot_id": "P48061",
+      "best_smiles": "CCOC(=O)c1cnc(-c2ccncc2)nc1C(F)(F)F",
+      "best_score": -7.838,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "67cG9v6zcRqeMRiKyr3ifZq4bYgFb1XhnPZMs1GBzjJVPiXyTWyCMW8GbCJkeMhX71QAv1Na8jyu12yRatgy9QZn",
       "total_hits": 1
     },
     {
