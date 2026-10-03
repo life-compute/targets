@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-03",
-  "generated_at": "2026-10-03T01:51:30.618416+00:00",
+  "generated_at": "2026-10-03T01:53:42.028530+00:00",
   "entries": [
     {
       "date": "2026-10-03",
@@ -272,6 +272,16 @@
       "best_score": -7.192,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "3GGFYxEdf1wjW8xndZ1ErNiAmoJv5CcJ7a51dazawywDWWRBb3ATT5LL55hDi1rWJQv1Ny1UtVnBKC8WZUJbyjJA",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-10-03",
+      "target_id": "VEGF_mRNA",
+      "uniprot_id": "P15692",
+      "best_smiles": "O=C(Nc1ccc(Br)cc1)c1cnc2ccccc2c1",
+      "best_score": -6.9962,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "UYCNTrei4dsLWLyVdhSGxZrFBZDRLVqmrFZJvGugh84ySFSSHBy79x5XS1JPrAJsqgFNcw5xixwpL15PBFMumPz",
       "total_hits": 1
     }
   ]
