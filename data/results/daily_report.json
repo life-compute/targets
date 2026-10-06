@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-06",
-  "generated_at": "2026-10-06T01:14:27.150608+00:00",
+  "generated_at": "2026-10-06T01:18:07.356311+00:00",
   "entries": [
     {
       "date": "2026-10-06",
@@ -42,6 +42,16 @@
       "best_score": -8.3577,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "5P7Kt2pCqdsHaBh5MLz8zShtnnK8Jms2nK5wEvDVG4iZcft1ArgXXudKdn5bcnNBS92yQWaG5Xd7bTPy9ytqKvgG",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-10-06",
+      "target_id": "BRAF_mRNA",
+      "uniprot_id": "P15056",
+      "best_smiles": "CC(C)[C@@H](NC(=O)[C@@H](C)c1cc2ccccc2o1)C(N)=O",
+      "best_score": -8.2662,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5R8LGU2SWj14AxYieQbm6UsQayq7EAgL3ULpMx2ohSc4MxntYVogVdEVyg8Pyd5BZgS8ttY7v2isMF25JC7M2Rhj",
       "total_hits": 1
     },
     {
