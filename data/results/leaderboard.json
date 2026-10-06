@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-06T10:42:48.987252+00:00",
+  "generated_at": "2026-10-06T10:48:11.978516+00:00",
   "targets": {
     "TP53": [
       {
@@ -3851,6 +3851,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(Nc1nc2cnccc2[nH]1)[C@H]1CCc2n[nH]cc2C1",
+        "boltz_score": -8.0349,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P00338",
+        "epoch": 20732,
+        "tx": "YzxrpzyS6DrEs88B3mujHGvjfPfpCWeQfCPJ6K5tENYCKiaBknrpDVnAqUiZG5K7ey27trTwKM2T5cKoHtirL6g",
+        "timestamp": "2026-10-06T10:48:11.804421+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Nc1nc(O)c2[nH]cc(CCc3ccc(C(=O)O)cc3)c2n1",
         "boltz_score": -8.0333,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3860,7 +3870,7 @@
         "timestamp": "2026-10-03T19:24:24.800711+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "Cc1cc(Oc2cccc(-c3nnco3)c2)nc(C)n1",
         "boltz_score": -8.0332,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3870,7 +3880,7 @@
         "timestamp": "2026-09-17T05:36:42.959959+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1ccc(C)c(NCc2nnc(C3CC3)n2C)c1",
         "boltz_score": -7.9989,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3878,16 +3888,6 @@
         "epoch": 20729,
         "tx": "4guha5oCM4AYp3tkpMPBz56c2oSBeKjenCdUD9NjaNeM1F5BLWfmnnLxE6QwztU4bRbNGeH8PcfYpuWTEsdbqveF",
         "timestamp": "2026-10-03T10:59:30.229355+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1nc2ccccn2c1C(=O)NC1CCCC1",
-        "boltz_score": -7.9747,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P00338",
-        "epoch": 20715,
-        "tx": "4yuMkoqTrQkoF5kfpcfNgS9UfDkJGKKVVED19X7zmBumB7FTfdYDspXagcFHqfzN1iUaV9eo3zC7G11aoTWA4ab3",
-        "timestamp": "2026-09-19T13:56:13.231298+00:00"
       }
     ],
     "PDL1": [
