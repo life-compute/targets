@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-08T02:17:19.016030+00:00",
+  "generated_at": "2026-10-08T02:20:21.427684+00:00",
   "targets": {
     "TP53": [
       {
@@ -4279,6 +4279,16 @@
       },
       {
         "rank": 9,
+        "smiles": "CC1=CC[C@@H]2C(=O)N(c3cccc(C(=O)O)c3)C(=O)[C@H]2C1",
+        "boltz_score": -8.3371,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q16665",
+        "epoch": 20734,
+        "tx": "2N1TmsCcVDiLxEL7K5nDtB1CN79jsU8faGQmm97z5EZ7VfX2UBJw892gt1GnFffGWk4AWRbDV7H3W6yPr1ZwFpFv",
+        "timestamp": "2026-10-08T02:20:21.130262+00:00"
+      },
+      {
+        "rank": 10,
         "smiles": "O=C1Cc2cc(Cl)ccc2N1C(=O)Nc1ccccn1",
         "boltz_score": -8.3217,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4286,16 +4296,6 @@
         "epoch": 20716,
         "tx": "33R8GSVSXJAbcNQA4iB3RRSoyXATWBRhzATX2G8dM66oN8QZEP9MdiVLBnLpvsTfPm6G1qvccx4KF3mCmugGrBWU",
         "timestamp": "2026-09-20T05:36:25.060880+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cc1ccccc1NC(=O)C(=O)NCc1ccc(F)cc1",
-        "boltz_score": -8.2892,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q16665",
-        "epoch": 20720,
-        "tx": "5btreXxKeMdoHK1gwwKSKWyw71UXA9WXSGv99e8ansbW2H6FnBXGZ6NAzmygbLsPueim3b23zqtLtxBH8jTicHVb",
-        "timestamp": "2026-09-24T04:34:18.120654+00:00"
       }
     ]
   }
