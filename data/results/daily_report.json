@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-09",
-  "generated_at": "2026-10-09T17:28:03.764100+00:00",
+  "generated_at": "2026-10-09T17:33:36.798249+00:00",
   "entries": [
     {
       "date": "2026-10-09",
@@ -178,11 +178,11 @@
       "date": "2026-10-09",
       "target_id": "BCL2_mRNA",
       "uniprot_id": "P10415",
-      "best_smiles": "N#CCc1ccc(Oc2ccc([N+](=O)[O-])cn2)cc1",
-      "best_score": -8.3701,
+      "best_smiles": "Fc1ccc([C@H](N[C@@H]2CCOC2)C(F)(F)F)cc1",
+      "best_score": -8.3981,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "SDsGVV8M7iD6UFLQhYm8eyGV4QcE7BdbyWrfqShAoDvb3spS32UxkUFRVk6KUAN9L3Xh1pVRCRjy9hpNP1KoHsj",
-      "total_hits": 7
+      "tx": "2Q1vEkweozs8C1Myd4jC9efGhYmVyoZYQRnReWmPKDfmkdV1LyNmAP49JyTMh2RkysEtdXgZqFYXsofZGC1uFgSy",
+      "total_hits": 8
     },
     {
       "date": "2026-10-09",
