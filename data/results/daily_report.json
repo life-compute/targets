@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-10",
-  "generated_at": "2026-10-10T00:19:30.617261+00:00",
+  "generated_at": "2026-10-10T00:22:42.898220+00:00",
   "entries": [
+    {
+      "date": "2026-10-10",
+      "target_id": "CDK4_mRNA",
+      "uniprot_id": "P11802",
+      "best_smiles": "O=C(c1cncc(F)c1)N1CCC[C@@H](OCCO)C1",
+      "best_score": -8.2816,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4p17envZA9HwXXfXoSLf7ws1PkQ31KifVDKu7TRLHeZ998vxcYgQDjWNTA8UXqXFhdQ772YqPx7Rpc31CQCGFavT",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-10",
       "target_id": "BCL2_mRNA",
