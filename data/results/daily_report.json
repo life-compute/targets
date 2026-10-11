@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-11",
-  "generated_at": "2026-10-11T00:01:39.073268+00:00",
+  "generated_at": "2026-10-11T00:08:08.268231+00:00",
   "entries": [
+    {
+      "date": "2026-10-11",
+      "target_id": "TGFb1_mRNA",
+      "uniprot_id": "P01137",
+      "best_smiles": "Nc1ncc(-c2ccncc2)cc1CO",
+      "best_score": -7.5305,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "BVNsaDFYDbZ3my31ngSbR3tiMd2w7coj9fYFKZypp7hcdGpMZC3F9wDxRm7JxuHGQBo2J8tznyz4nbnxDyszpq7",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-11",
       "target_id": "SMAD4",
