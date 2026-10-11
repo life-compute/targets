@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-11T17:52:39.848593+00:00",
+  "generated_at": "2026-10-11T17:56:04.156428+00:00",
   "targets": {
     "TP53": [
       {
@@ -3341,6 +3341,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CCOC(=O)[C@@H]1CCCN(c2ccc(C)nn2)C1",
+        "boltz_score": -8.5213,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "Q06609",
+        "epoch": 20737,
+        "tx": "125P2WBkfyDs2T8BqyDgXSwUznsGwUrCDmg2PohDxZBQCx7HZY6isTSgozjM6dJaLPQbGoDLXWBYrrxxS6AnUCmb",
+        "timestamp": "2026-10-11T17:56:03.870222+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CC1CC(=O)C(C(=O)C(C)(F)F)C(=O)C1",
         "boltz_score": -8.491,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3350,7 +3360,7 @@
         "timestamp": "2026-09-29T09:18:08.336120+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@@H](Cn1ccnc1)NC[C@@H](C)c1ccccc1",
         "boltz_score": -8.4819,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3360,7 +3370,7 @@
         "timestamp": "2026-09-25T14:33:00.267733+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1noc(C)c1C(=O)N1CCCN(C)CC1",
         "boltz_score": -8.4768,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3368,16 +3378,6 @@
         "epoch": 20716,
         "tx": "4qB6rLTAVYb8uyPU4a2u6DmM4BsigHNTUefsE1ZUax9NGdUqYoSrpjHBBpNCj7egGxRpCVScRNCsAV4sziHKce7b",
         "timestamp": "2026-09-20T00:31:52.397051+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "Cn1ccc(CN2CCN(Cc3ccccc3)CC2)cc1=O",
-        "boltz_score": -8.4695,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "Q06609",
-        "epoch": 20701,
-        "tx": "2qgUNBjcJnKsoEsRaFoLPuT4MLRanQNrPc66yfs5R8rJt5kdjGRbzgWHzYJ1M9W6M5gDSzkAsZfAxabQvBtfo6XL",
-        "timestamp": "2026-09-05T00:41:44.795433+00:00"
       }
     ],
     "BRCA2_mRNA": [
