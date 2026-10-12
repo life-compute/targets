@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-12",
-  "generated_at": "2026-10-12T01:05:12.558665+00:00",
+  "generated_at": "2026-10-12T01:07:51.900591+00:00",
   "entries": [
+    {
+      "date": "2026-10-12",
+      "target_id": "IDH1",
+      "uniprot_id": "O75874",
+      "best_smiles": "C1CC1C2=C(C=NC=C2)N3CCN(C3=O)C4=CC(=NC(=N4)C(F)(F)F)Cl",
+      "best_score": -9.437,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "5AmhU8uou5P2GdmSvzG5YWC3Jp4AseGYiCsUmBWSPQJdnDzd6tCb58y2oPANjvAxGPfoZFLEMwqkehjhqdur6vvv",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-12",
       "target_id": "MDM2_mRNA",
