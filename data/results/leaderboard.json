@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-14T19:57:17.245681+00:00",
+  "generated_at": "2026-10-14T20:01:57.932093+00:00",
   "targets": {
     "TP53": [
       {
@@ -3239,6 +3239,16 @@
       },
       {
         "rank": 7,
+        "smiles": "Cn1c(Cl)cnc1COc1ccccc1C#N",
+        "boltz_score": -8.4708,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P09874",
+        "epoch": 20740,
+        "tx": "3TmMW5SMzFopipiiDogp7PyNkfpRKZ89szTchtQ5ZPmKkkVkWpkat6TP2t7H62zXwiAtbKsQ9gzfXG93JCBSJvkY",
+        "timestamp": "2026-10-14T20:01:57.340234+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CCOC(=O)/C(C#N)=C1/C(=O)Nc2ccccc21",
         "boltz_score": -8.4497,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3248,7 +3258,7 @@
         "timestamp": "2026-09-11T15:29:16.892087+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "O=C(NC/C(O)=N/c1ncn[nH]1)c1cccc(F)c1",
         "boltz_score": -8.4329,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3258,7 +3268,7 @@
         "timestamp": "2026-09-22T01:29:15.468102+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "Cc1ccc([C@H]2CC(=O)NC3=C2C(=O)CCC3)cc1",
         "boltz_score": -8.4301,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3266,16 +3276,6 @@
         "epoch": 20716,
         "tx": "3xdKMYqzs1j9PSSGbzwK51MVK6fouD91LEDmg65iHpJmYdnTBCQp8NurbALPgEZSyAPMQGDzFoxv2cSDcWAuCTgy",
         "timestamp": "2026-09-20T16:37:39.565053+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CCOc1cc(Br)c(O)c(C(=O)O)c1",
-        "boltz_score": -8.4266,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P09874",
-        "epoch": 20733,
-        "tx": "2yvzfbsjxPWNTSpjqrEoQEEi5VTsr5RGvBqAtCkEDwituRtAZqYrY4vdWPRBHgMVYJUuSs4XdSVweSQbawv8R9aU",
-        "timestamp": "2026-10-07T21:04:31.623952+00:00"
       }
     ],
     "RAD51_mRNA": [
