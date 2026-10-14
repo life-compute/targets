@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-14",
-  "generated_at": "2026-10-14T00:15:41.435968+00:00",
+  "generated_at": "2026-10-14T00:26:32.323822+00:00",
   "entries": [
+    {
+      "date": "2026-10-14",
+      "target_id": "PKM2_mRNA",
+      "uniprot_id": "P14618",
+      "best_smiles": "CC(C)CCC(=O)N[C@H](C#N)c1ccccc1F",
+      "best_score": -8.1452,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "SUrfBcyYdzfC6Xd78nbanuG9JEqKKkpceP8xooizgjT51qrVteu6rchmkMj26QXGzLhQhakaMHRNx6WvNgZfqAo",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-14",
       "target_id": "CXCL12_mRNA",
