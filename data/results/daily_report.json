@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-17",
-  "generated_at": "2026-10-17T00:28:14.290516+00:00",
+  "generated_at": "2026-10-17T00:32:39.799244+00:00",
   "entries": [
+    {
+      "date": "2026-10-17",
+      "target_id": "MDM2_mRNA",
+      "uniprot_id": "Q00987",
+      "best_smiles": "CN(CCO)CCC[C@@H]1COc2ccccc2O1",
+      "best_score": -8.3853,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4u7YQLdVjqYW3xjwLXrARPRT96EQdDsyzCKcQqrCgzczpi9YaXARVkFsdzpNmweNZFgvNS9YtK2L1hTwZSaaSXXo",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-17",
       "target_id": "BCL2_mRNA",
