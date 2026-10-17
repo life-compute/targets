@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-17",
-  "generated_at": "2026-10-17T00:02:51.652243+00:00",
+  "generated_at": "2026-10-17T00:06:05.854672+00:00",
   "entries": [
+    {
+      "date": "2026-10-17",
+      "target_id": "ATM_mRNA",
+      "uniprot_id": "Q13315",
+      "best_smiles": "Cc1cnc(CNC(=O)N2CCCCCCC2)[nH]1",
+      "best_score": -7.7531,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "47J3SUrwLbbVqa1mNtBpGg4heEJrochoXUK9FVmL32ZGy1MsQ9EBCErf2Bkhum4LCjKiMS5mkuv75QBXbDiddiWx",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-17",
       "target_id": "BRCA2_mRNA",
