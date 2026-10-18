@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-18",
-  "generated_at": "2026-10-18T00:12:12.651920+00:00",
+  "generated_at": "2026-10-18T00:17:07.354133+00:00",
   "entries": [
+    {
+      "date": "2026-10-18",
+      "target_id": "CCND1_mRNA",
+      "uniprot_id": "P24385",
+      "best_smiles": "CN(C)c1ccc(F)cc1NC(=O)N[C@]1(C)CCNC1",
+      "best_score": -8.2552,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4UHFcnuJdrcbHQWxB3RXhyuXGr2JDnKH13xrLZLmC9pc7vPiHjgKoSruXLkKVvegjThyUfxUtZcnJdofmosR2d7y",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-18",
       "target_id": "MDM2_mRNA",
