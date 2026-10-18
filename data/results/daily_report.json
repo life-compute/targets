@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-18",
-  "generated_at": "2026-10-18T01:21:40.178311+00:00",
+  "generated_at": "2026-10-18T01:24:06.673996+00:00",
   "entries": [
     {
       "date": "2026-10-18",
@@ -22,6 +22,16 @@
       "best_score": -12.909,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "5DuZunfZKRiy7HJMSn1TijahCyQVdREmV9b5rZAYpUWauhMr5m21yuZ3JULKRGj5aeRqvsF2TbsM6TpA3LE38XpB",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-10-18",
+      "target_id": "HDAC1",
+      "uniprot_id": "Q13547",
+      "best_smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+      "best_score": -10.711,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "536nywJwUz6fXMJNisfti26B6NEiv51UoJU46xtF2HoofFrPdYcCKppCQM2SpUAf6K87TgZh39iKCA76Yh6Labri",
       "total_hits": 1
     },
     {
