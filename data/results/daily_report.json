@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-18",
-  "generated_at": "2026-10-18T00:17:07.354133+00:00",
+  "generated_at": "2026-10-18T00:22:49.414740+00:00",
   "entries": [
+    {
+      "date": "2026-10-18",
+      "target_id": "IDH1",
+      "uniprot_id": "O75874",
+      "best_smiles": "C1CC1C2=C(C=NC=C2)N3CCN(C3=O)C4=CC(=NC(=N4)C(F)(F)F)Cl",
+      "best_score": -9.437,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "21F7FuwRsyTgcSnVhdm37Y4TVTTrekw7gCLmhU98uiFCrNMUNhibQMCS155JU2e1ZF2D7Wup8mSFYcEdRW4Q48cL",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-18",
       "target_id": "CCND1_mRNA",
