@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-19",
-  "generated_at": "2026-10-19T00:10:40.588254+00:00",
+  "generated_at": "2026-10-19T00:12:48.742883+00:00",
   "entries": [
+    {
+      "date": "2026-10-19",
+      "target_id": "FASN_mRNA",
+      "uniprot_id": "P49327",
+      "best_smiles": "COC(=O)c1nc(Cl)ccc1OC",
+      "best_score": -8.1004,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4B25qci6upR6VSHoZhDcnzQXbJYPgHkti4CXShLNsFVyt9tymuF4mhU7oigjbXAn1YnBb6FDLF5bzRWdQw9zLmBF",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-19",
       "target_id": "GLUT1_mRNA",
