@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-19",
-  "generated_at": "2026-10-19T00:37:56.397513+00:00",
+  "generated_at": "2026-10-19T00:40:03.298780+00:00",
   "entries": [
+    {
+      "date": "2026-10-19",
+      "target_id": "EGFR_mRNA",
+      "uniprot_id": "P00533",
+      "best_smiles": "Cn1ncc2c1CCC[C@@H]2NC(=O)c1ccoc1",
+      "best_score": -8.5115,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "hhN3WTTEq8rNjGnyYbQRp2nXcBCpj18jNrAsEQ3CQLZQ8ArfocT732UnLVyoGgwvGkytFy1VnvrW7GfU2Ussjen",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-19",
       "target_id": "BCL2_mRNA",
