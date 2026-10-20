@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-20T20:45:41.173653+00:00",
+  "generated_at": "2026-10-20T20:47:45.865494+00:00",
   "targets": {
     "TP53": [
       {
@@ -1607,6 +1607,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=S(=O)(Cl)c1c[nH]c2c(F)c(F)c(F)c(F)c12",
+        "boltz_score": -8.4848,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P15056",
+        "epoch": 20746,
+        "tx": "3F5mudXLqR3WSEURCKFmYVRCKyoCPMTXEvJprUN97w1X8ksM4bQNPbeC1bYQBDggX9D743dAKQFhu6fHWGbvzYgW",
+        "timestamp": "2026-10-20T20:47:45.726127+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "O[C@H]1CCc2cc(Br)cc(F)c21",
         "boltz_score": -8.4815,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1616,7 +1626,7 @@
         "timestamp": "2026-09-30T21:13:20.730152+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "COc1ccc(C(C)=O)cc1CSc1nnc(N)s1",
         "boltz_score": -8.466,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1626,7 +1636,7 @@
         "timestamp": "2026-10-20T03:27:03.786425+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(Nc1ccc2[nH]c(C3CC3)cc2c1)c1ccc(-c2ccc(NC3CC3)cc2)cc1",
         "boltz_score": -8.3942,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -1634,16 +1644,6 @@
         "epoch": 20717,
         "tx": "5b7q41pCYszq8bTP22UuzuCAf1w1oTSYqwZR6TR4BGHWQ4X4g2q1vuMNZ2HQa4pUmxqsa7wJQK9sgtqryxo3pYSD",
         "timestamp": "2026-09-21T22:00:10.330219+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "N#CCSc1ccc2nnc(-c3ccncc3)n2n1",
-        "boltz_score": -8.394,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P15056",
-        "epoch": 20732,
-        "tx": "TeLrg5CRmpVEMcGzLC6N2FekTAFymGkXvhioM9TjNHUJUkNi6cawwq9rWrge1VPKvF8CPq7Nje5C5L3hLU2PNcA",
-        "timestamp": "2026-10-06T03:23:27.664334+00:00"
       }
     ],
     "CCND1_mRNA": [
