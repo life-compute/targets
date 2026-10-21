@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-21T10:26:34.979395+00:00",
+  "generated_at": "2026-10-21T10:35:52.529568+00:00",
   "targets": {
     "TP53": [
       {
@@ -2219,6 +2219,16 @@
       },
       {
         "rank": 7,
+        "smiles": "O=C(O)c1cc(/N=N/c2nnc[nH]2)ccc1O",
+        "boltz_score": -8.5235,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P05231",
+        "epoch": 20747,
+        "tx": "toSR1HAH71WkTuCrMQWwoupsq4cgphEtyn236uHvQJ9uFZwsTZV3LrVExnT5jwbPZ3dg211FwfpFJQaMCGMX2uD",
+        "timestamp": "2026-10-21T10:35:52.381557+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "CCc1noc(C)c1C(=O)Nc1ccc(-c2nnn[nH]2)cc1",
         "boltz_score": -8.5191,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2228,7 +2238,7 @@
         "timestamp": "2026-10-15T18:20:18.348969+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CCCc1nnnn1CC(=O)Nc1ccc(C)c(F)c1",
         "boltz_score": -8.5151,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2238,7 +2248,7 @@
         "timestamp": "2026-10-10T02:47:38.004342+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(Nc1cccc(Cl)c1F)c1cn[nH]n1",
         "boltz_score": -8.5144,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2246,16 +2256,6 @@
         "epoch": 20730,
         "tx": "34aGAnhRkUGJp5iccyh3X4aQX2HKtjkR2ZS9SyenwsftPdWueg4PRiQrrmQivd22PMfybmZE4LnLwQkgA198MN5N",
         "timestamp": "2026-10-04T20:07:08.955893+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "O=C(Nc1cccc(CN2CCOC2=O)c1)c1cnccn1",
-        "boltz_score": -8.5089,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P05231",
-        "epoch": 20747,
-        "tx": "2ggrJgQLrUs9KvdTaeiY7jBFkAvNozyUDs5MakUYZqn3tjXBEuLqip6TCZMxapmqqGNwNUNNpZkQQ5rCoouL6EQA",
-        "timestamp": "2026-10-21T02:10:41.979707+00:00"
       }
     ],
     "TNF_mRNA": [
