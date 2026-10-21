@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-21",
-  "generated_at": "2026-10-21T00:04:35.362471+00:00",
+  "generated_at": "2026-10-21T00:07:04.862630+00:00",
   "entries": [
+    {
+      "date": "2026-10-21",
+      "target_id": "BRAF_mRNA",
+      "uniprot_id": "P15056",
+      "best_smiles": "CCCCOC(=O)C1=CC(=O)CC(C)(C)O1",
+      "best_score": -7.7331,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "M3dj9bgDTcawbXFKixqh1j3Lu9vykdsSjDByhfsbEDVtvKJ9htT1bCcbGf2QrbR8EFKSs6g8FuhJatjM7EvuE1e",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-21",
       "target_id": "HER2_mRNA",
