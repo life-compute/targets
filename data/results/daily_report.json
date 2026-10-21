@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-21",
-  "generated_at": "2026-10-21T11:39:19.220180+00:00",
+  "generated_at": "2026-10-21T11:41:31.271434+00:00",
   "entries": [
     {
       "date": "2026-10-21",
@@ -166,6 +166,16 @@
     },
     {
       "date": "2026-10-21",
+      "target_id": "EGFR_mRNA",
+      "uniprot_id": "P00533",
+      "best_smiles": "O=C1C(Cl)=C(NCC(F)(F)F)C(=O)c2ccccc21",
+      "best_score": -8.426,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "44pPcYKdh3u7C7s9TK1hFLMuczjdJcykPptRUyUbkFrbwNCTHiMNbnynKdC8RSss54tT8AjFxUXH9n4DeZPnKmTU",
+      "total_hits": 7
+    },
+    {
+      "date": "2026-10-21",
       "target_id": "BRCA2_mRNA",
       "uniprot_id": "P51587",
       "best_smiles": "CCn1ncnc1[C@H](C)NC(=O)c1cccc(O)c1C",
@@ -202,16 +212,6 @@
       "best_score": -8.3223,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "3fJVWvoRbzQNUpK5ndbdgn4oQ4qMxP9mHXwb6CYA8FHWKGxcWS9BvEizp5hrqP2AVAbYBxAF52acs7oo3B98ceZe",
-      "total_hits": 6
-    },
-    {
-      "date": "2026-10-21",
-      "target_id": "EGFR_mRNA",
-      "uniprot_id": "P00533",
-      "best_smiles": "C[C@@H](Cc1ccccc1Cl)C(=O)NC[C@](C)(O)C(=O)O",
-      "best_score": -8.2786,
-      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-      "tx": "5i6Rbe1krhzbNzofosqSwSRRbiW1xpQQFWuFerGfKdb9vqRWr424xPn8WoyJb68s57sXGFSxCUQPcdpBXVKKNaMq",
       "total_hits": 6
     },
     {
