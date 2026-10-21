@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-21T04:28:04.878694+00:00",
+  "generated_at": "2026-10-21T04:30:42.046628+00:00",
   "targets": {
     "TP53": [
       {
@@ -3995,6 +3995,16 @@
     "MYC": [
       {
         "rank": 1,
+        "smiles": "Cc1cc(Br)cc(C(=O)Nc2nncn2C)c1",
+        "boltz_score": -7.519,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01106",
+        "epoch": 20747,
+        "tx": "4JDYjJJXzCMuBfZVJp18vRfPq58GzTGEreZYh2d8DeZanULXMDC6QpqnEfGXzRDq3CCKUKvLnGfEKDY25e82tTyD",
+        "timestamp": "2026-10-21T04:30:41.904414+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "N#C[C@@H]1C[C@H](C(=O)c2ccccc2)N2N=CC=C[C@@H]12",
         "boltz_score": -7.375,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4004,7 +4014,7 @@
         "timestamp": "2026-10-20T15:07:02.159563+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4014,7 +4024,7 @@
         "timestamp": "2026-09-12T16:04:19.205131+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4024,7 +4034,7 @@
         "timestamp": "2026-09-12T19:45:08.684873+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4034,7 +4044,7 @@
         "timestamp": "2026-09-12T23:24:03.867868+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4044,7 +4054,7 @@
         "timestamp": "2026-09-13T03:02:53.027398+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4054,7 +4064,7 @@
         "timestamp": "2026-09-13T06:42:03.523325+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4064,7 +4074,7 @@
         "timestamp": "2026-09-13T10:26:40.345443+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4074,7 +4084,7 @@
         "timestamp": "2026-09-13T14:08:24.318250+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
         "boltz_score": -7.263,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -4082,16 +4092,6 @@
         "epoch": 20709,
         "tx": "216AUUnftFvGnYs4Tzar1wBWLnhTpHymdBAmewSDzAAeJ6Dy5Kdu2BJvNDvB3GJydg4jP4Qp3k6UxvFFmLzDXb2x",
         "timestamp": "2026-09-13T17:52:13.209421+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CC1=CC(=CC(=C1)NC2=NC3=CC=CC=C3N=C2NC4=CC=CC=C4)C",
-        "boltz_score": -7.263,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01106",
-        "epoch": 20709,
-        "tx": "5722KyB1Y1nWfTWJGHMUU92WtWcgZLtr2q6mBeA8RPHcyejwb3wLGcgKw1HrnDz49YgKXvC3Ljojx3x3FD9uUgEc",
-        "timestamp": "2026-09-13T21:31:00.258620+00:00"
       }
     ],
     "SMAD4": [
