@@ -208605,6 +208605,17 @@
       "tx": "5LWveKJ4ebdCqVp6GPWWXRRbEcVerXJsLu5Urj8mipP35pSJYVvny9fKT57Q3cgv9V11jdgz3iXs65Thu8gPHLnp",
       "life_earned": 767975999,
       "timestamp": "2026-10-22T22:54:04.847397+00:00"
+    },
+    {
+      "smiles": "C[C@H]1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
+      "boltz_score": -10.676,
+      "target_id": "KRAS",
+      "uniprot_id": "P01116",
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "epoch": 20748,
+      "tx": "36XxbtWswVkgGry696k8LL6oi2ikfRNYP2TMQ35kgm17zuLhvMKUPfs1qtFL7yjPxAVjzUthozdUZvHeayxQyJRV",
+      "life_earned": 768083999,
+      "timestamp": "2026-10-22T22:56:25.560100+00:00"
     }
   ]
 }
