@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-22",
-  "generated_at": "2026-10-22T00:56:31.565927+00:00",
+  "generated_at": "2026-10-22T01:01:02.155580+00:00",
   "entries": [
+    {
+      "date": "2026-10-22",
+      "target_id": "BCL2_mRNA",
+      "uniprot_id": "P10415",
+      "best_smiles": "C/C(N)=C(/C#N)C(=O)COC(=O)c1c(F)cccc1Cl",
+      "best_score": -8.5148,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "qCVQLrygFFRGSbuEHChfbSCTCZsjnMEiVVJTQ9yX1qSnjRXSfrj2ffBKxp5KEzpG4waXi4Hzkk31msbjiT5s2LA",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-22",
       "target_id": "TGFb1_mRNA",
