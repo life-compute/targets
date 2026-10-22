@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-22T14:55:20.487256+00:00",
+  "generated_at": "2026-10-22T14:57:30.616837+00:00",
   "targets": {
     "TP53": [
       {
@@ -2261,6 +2261,16 @@
     "TNF_mRNA": [
       {
         "rank": 1,
+        "smiles": "N/C(N=O)=C1/C=CC(C(F)(F)F)=CN1",
+        "boltz_score": -8.6938,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P01375",
+        "epoch": 20748,
+        "tx": "4LXPJuBCtmUVmc88atSALFXSHapvS2LLUa6Kv5nUuvpm9KKm9shTVfZ5MKMvqCB5M5qhfNsvc2omCGUgwcW67vwx",
+        "timestamp": "2026-10-22T14:57:30.444217+00:00"
+      },
+      {
+        "rank": 2,
         "smiles": "COc1c(C(N)=O)ccc2ccccc12",
         "boltz_score": -8.667,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2270,7 +2280,7 @@
         "timestamp": "2026-10-08T21:21:59.896656+00:00"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "smiles": "CS(=O)(=O)Cc1nc(O)cc(C(=O)O)n1",
         "boltz_score": -8.6409,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2280,7 +2290,7 @@
         "timestamp": "2026-09-23T18:30:00.330540+00:00"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "smiles": "C[C@@H](NC(=O)Nc1ccc([N+](=O)[O-])cc1)C(=O)O",
         "boltz_score": -8.6389,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2290,7 +2300,7 @@
         "timestamp": "2026-10-20T22:57:20.340590+00:00"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "smiles": "C[C@H](CO)NCc1cccnc1Oc1ccc(F)c(F)c1",
         "boltz_score": -8.5488,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2300,7 +2310,7 @@
         "timestamp": "2026-10-12T22:38:50.430355+00:00"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "smiles": "Cc1ccc2nc(C)c(CN3CCN(C)CC3)c(O)c2c1",
         "boltz_score": -8.5443,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2310,7 +2320,7 @@
         "timestamp": "2026-10-11T17:00:44.403872+00:00"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "smiles": "Cc1c(F)ccc(I)c1F",
         "boltz_score": -8.5026,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2320,7 +2330,7 @@
         "timestamp": "2026-10-18T21:39:36.277431+00:00"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "smiles": "Nc1cccc2c1CN(C(=O)Nc1cc3cc(-c4ccc5[nH]c(NC6CC6)cc5c4)ccc3[nH]1)C(=O)C2",
         "boltz_score": -8.4737,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2330,7 +2340,7 @@
         "timestamp": "2026-10-07T15:56:56.794152+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@@H]1COC[C@H]1NC[C@@H](O)c1cc(Cl)cc(Cl)c1",
         "boltz_score": -8.4601,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2340,7 +2350,7 @@
         "timestamp": "2026-10-15T05:44:46.310538+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "O=C(O)CCC(Cl)([N+](=O)[O-])[N+](=O)[O-]",
         "boltz_score": -8.4415,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2348,16 +2358,6 @@
         "epoch": 20745,
         "tx": "3bUCUoRUMaeYFmxSfXJNDT7VhYVsHRVXDizAzrLdEbcdWqGXWk7DabzcPFH8o1fkGvZmtRYL9x5fYJivqMNFKJk",
         "timestamp": "2026-10-19T19:10:19.193090+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "COc1cc(F)ccc1-c1ncc2c(ncn2C)n1",
-        "boltz_score": -8.4161,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P01375",
-        "epoch": 20723,
-        "tx": "xJgmB1idv8KhkcjQvS8gFcwDsLNsx3MpopYc2PJJfXghUQvywGXLtiHeVjUyZu2cWzr2x1p39RewAoZeuvR8BG9",
-        "timestamp": "2026-09-27T21:08:45.635845+00:00"
       }
     ],
     "TGFb1_mRNA": [
