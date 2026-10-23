@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-23",
-  "generated_at": "2026-10-23T00:05:27.677133+00:00",
+  "generated_at": "2026-10-23T00:10:26.266051+00:00",
   "entries": [
+    {
+      "date": "2026-10-23",
+      "target_id": "KRAS_mRNA",
+      "uniprot_id": "P01116",
+      "best_smiles": "Nc1ccnc(N2CC[C@H]3[C@H](C2)OCc2cnnn23)n1",
+      "best_score": -8.5723,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "vyNoDaMS8U4WX99EgZHVL3firP1rhNViyptQQeh4BZWSaU9YNbAPSNZhEAG8N35eXvG3YDXiRvMZWv2Wj9dF6bj",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-23",
       "target_id": "BRCA2_mRNA",
