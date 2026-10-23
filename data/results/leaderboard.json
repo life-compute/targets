@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-23T06:10:26.814438+00:00",
+  "generated_at": "2026-10-23T06:16:21.432567+00:00",
   "targets": {
     "TP53": [
       {
@@ -2729,6 +2729,16 @@
       },
       {
         "rank": 7,
+        "smiles": "CNc1nc(OC)nc(-n2cnc(SC)n2)n1",
+        "boltz_score": -8.2021,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "P14618",
+        "epoch": 20749,
+        "tx": "2gm83tnkgEZZsPqox8HYyEVk856iAWtqFxXz9ePmDV6dPm8MsFhzi5NNeGQpZBNrzMGMkGQWEYGcoZWuuQzHGsAx",
+        "timestamp": "2026-10-23T06:16:21.031180+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "O=C1O[C@@H](C(=O)O)Cc2ccc(F)cc21",
         "boltz_score": -8.197,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2738,7 +2748,7 @@
         "timestamp": "2026-09-30T14:00:36.146957+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "C[C@@H](NC(=O)[C@@H]1CCC(=O)N1)c1csc2ccccc12",
         "boltz_score": -8.1908,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2748,7 +2758,7 @@
         "timestamp": "2026-10-02T11:59:28.297218+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "N#Cc1ccc(S(=O)(=O)NC[C@H]2CCCO2)cc1",
         "boltz_score": -8.1889,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -2756,16 +2766,6 @@
         "epoch": 20740,
         "tx": "56ZcWqGHmd5sDAAQiWb34qk39UeYqhd5HFUsCoezm3V8jRoDUTAs52FUHzAvAQSuiCE9A1vEJH15XMFY58MmzStC",
         "timestamp": "2026-10-14T17:32:00.155710+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "N=c1[nH]c2c(s1)c1[nH]c(=N)sc1c1[nH]c(=N)sc21",
-        "boltz_score": -8.1888,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "P14618",
-        "epoch": 20728,
-        "tx": "3E4XoqtgyihXNuyrs1tb5JvxZfxtSVXks9begJW8AJNoXAdEmF3WrHo45WBMbQArJsuCwiDpvEneL4c41kymFPAs",
-        "timestamp": "2026-10-02T05:40:08.806306+00:00"
       }
     ],
     "GLUT1_mRNA": [
