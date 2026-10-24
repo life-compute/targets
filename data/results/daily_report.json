@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-24",
-  "generated_at": "2026-10-24T03:45:51.113481+00:00",
+  "generated_at": "2026-10-24T03:49:05.357652+00:00",
   "entries": [
     {
       "date": "2026-10-24",
@@ -303,6 +303,16 @@
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "53FbWuQDAggc3mt85SKJc1JLPxmo1tRTiWUR3bZfThLQdm1bGLwgkGhQ488fTKSkarbBmzFbVeqVTFudy2Dg3FxY",
       "total_hits": 2
+    },
+    {
+      "date": "2026-10-24",
+      "target_id": "SMAD4",
+      "uniprot_id": "Q13485",
+      "best_smiles": "Cc1c[nH]nc1CN[C@H]1c2ccccc2CC12CCOCC2",
+      "best_score": -7.555,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "2XkRWkQGVSG73kRhMEE75iGWe8x5WPi6cbVn5HkfhqANa4Umpvb8BCyJRh2nKuKjrQHacj9wJFuZrNr334ZNEUAT",
+      "total_hits": 1
     },
     {
       "date": "2026-10-24",
