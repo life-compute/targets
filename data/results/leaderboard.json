@@ -12,7 +12,7 @@
     "tx": "Solana tx of the confirmed mint",
     "timestamp": "ISO-8601 UTC"
   },
-  "generated_at": "2026-10-27T09:27:23.935529+00:00",
+  "generated_at": "2026-10-27T09:29:32.888012+00:00",
   "targets": {
     "TP53": [
       {
@@ -3137,6 +3137,16 @@
       },
       {
         "rank": 7,
+        "smiles": "C[C@@H]1C[C@@H]1C(=O)N1CCC(c2nc3ccccc3[nH]2)CC1",
+        "boltz_score": -8.0491,
+        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+        "uniprot_id": "O14746",
+        "epoch": 20753,
+        "tx": "5oWQwH7TLD1JkjBNxeizzNCQKSyFbHoa6D3uqsfR4DNS4eKSuZqd7bwSF7KvXmbeKjcxVwLKJGzXWEkmorSBu4c8",
+        "timestamp": "2026-10-27T09:29:32.496309+00:00"
+      },
+      {
+        "rank": 8,
         "smiles": "Ic1cccc2cnoc12",
         "boltz_score": -8.0458,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3146,7 +3156,7 @@
         "timestamp": "2026-09-30T16:20:03.824854+00:00"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
         "boltz_score": -8.037,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3156,7 +3166,7 @@
         "timestamp": "2026-08-31T19:21:00.072433+00:00"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
         "boltz_score": -8.037,
         "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
@@ -3164,16 +3174,6 @@
         "epoch": 20696,
         "tx": "4C8vQXQ192XS2gdEUuBFBi7TiE6mAzFopgC9pq574qYpLg6au6rxa8xeBT7LWij3MJyvbKYDSMgJk5ML7CkdfKxz",
         "timestamp": "2026-08-31T21:07:03.911041+00:00"
-      },
-      {
-        "rank": 10,
-        "smiles": "CNc1ccc(NC(=O)c2cc3cc(NC(=O)NCCN(C)C)ccc3[nH]2)cc1",
-        "boltz_score": -8.037,
-        "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
-        "uniprot_id": "O14746",
-        "epoch": 20696,
-        "tx": "sAzWSjq9vDm6jPZeLAe4WANVKTxArNzFJQ8fJGtCwPgooL9qR7XjBUeymSSBgdPuLXpgGApvZd6uN1hV6xtddoV",
-        "timestamp": "2026-08-31T22:57:23.783108+00:00"
       }
     ],
     "PARP1_mRNA": [
