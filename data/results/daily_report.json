@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-28",
-  "generated_at": "2026-10-28T00:17:45.908664+00:00",
+  "generated_at": "2026-10-28T00:22:55.633307+00:00",
   "entries": [
+    {
+      "date": "2026-10-28",
+      "target_id": "CSF1R_mRNA",
+      "uniprot_id": "P07333",
+      "best_smiles": "COC(=O)c1cc(CSc2nc(C(C)C)n[nH]2)oc1C",
+      "best_score": -8.6108,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "42dTuXPESviXAYYBcSfZfnH9heRax2HJXxpdvQ2pPE44nP1MRXrT7YZBJUGBTbTynLcs4AkACpU9eiYxvuNMvH3t",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-28",
       "target_id": "TGFb1_mRNA",
