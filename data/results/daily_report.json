@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-29",
-  "generated_at": "2026-10-29T00:28:10.972967+00:00",
+  "generated_at": "2026-10-29T00:30:45.344251+00:00",
   "entries": [
+    {
+      "date": "2026-10-29",
+      "target_id": "MMP9_mRNA",
+      "uniprot_id": "P14780",
+      "best_smiles": "Cc1cccc(Cn2c(N)nc3c2c(=O)[nH]c(=O)n3C)c1",
+      "best_score": -8.3968,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4ygQJZ3tQkxKnjpqMADsdSTDqtxkrHmdY33cSn2Vq94Ki1r7nd7iQFvRU35ih73yXEPJJTcTBGnHm1736RjeFMJW",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-29",
       "target_id": "TGFb1_mRNA",
