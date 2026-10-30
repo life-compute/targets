@@ -12,7 +12,7 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-30",
-  "generated_at": "2026-10-30T01:21:05.531218+00:00",
+  "generated_at": "2026-10-30T01:23:43.764249+00:00",
   "entries": [
     {
       "date": "2026-10-30",
@@ -62,6 +62,16 @@
       "best_score": -8.103,
       "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
       "tx": "rGEbfhjbgfktFz4qqU9si8UmRDYZL55EFwttwAjBmVxRDBfdT5TK4jHm3HKzyhJUW3qaQwnSh3dx9EPk6VmAN3q",
+      "total_hits": 1
+    },
+    {
+      "date": "2026-10-30",
+      "target_id": "EGFR_mRNA",
+      "uniprot_id": "P00533",
+      "best_smiles": "C[C@H]1c2cccn2CCN1S(=O)(=O)Cc1ccccc1",
+      "best_score": -8.0896,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "a8bos2MZC4yq42anjJbiXa1dLrv5WDwNLK5EU7tPXExpZUc3ChCHWXkvsW89TGPJ6ochvpehZTt6emeKNtA8WPr",
       "total_hits": 1
     },
     {
