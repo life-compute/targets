@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-30",
-  "generated_at": "2026-10-30T01:00:01.257370+00:00",
+  "generated_at": "2026-10-30T01:02:31.627670+00:00",
   "entries": [
+    {
+      "date": "2026-10-30",
+      "target_id": "RAD51_mRNA",
+      "uniprot_id": "Q06609",
+      "best_smiles": "Cn1c(O[C@@H]2CCSC2)nc2ccccc2c1=O",
+      "best_score": -8.6411,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "41hEnCDbSQYzuFtmLUb6VygrudvtbpRgiMDy79DGBmLNUudRg3zcnSjXoAHSc5KzDyrCwctyoZ4wwkiqFSG5UbEr",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-30",
       "target_id": "PDL1_mRNA",
