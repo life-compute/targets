@@ -12,8 +12,18 @@
     "total_hits": "Total confirmed hits for this target on this date"
   },
   "report_date": "2026-10-31",
-  "generated_at": "2026-10-31T00:00:24.697938+00:00",
+  "generated_at": "2026-10-31T00:02:37.518196+00:00",
   "entries": [
+    {
+      "date": "2026-10-31",
+      "target_id": "IL6_mRNA",
+      "uniprot_id": "P05231",
+      "best_smiles": "Cc1cc(N2CC[C@H](C(=O)O)[C@H](O)C2)cc(C)n1",
+      "best_score": -7.956,
+      "miner_wallet": "/mnt/minos-drive/life-compute-miner/dev-keypair.json",
+      "tx": "4j2bss6yvdPL7iFTNnoKmqpFqLZ9KqmaMSbpo9mjYPdCtHZaX3gnVYzdzSSNotPf7dySDqxtjPLFiBsMGvFwSPAQ",
+      "total_hits": 1
+    },
     {
       "date": "2026-10-31",
       "target_id": "HIF1A_mRNA",
